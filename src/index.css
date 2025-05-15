@@ -107,4 +107,35 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* Interactive buttons */
+  .btn-hover-effect {
+    @apply relative overflow-hidden;
+  }
+  
+  .btn-hover-effect::before {
+    content: '';
+    @apply absolute inset-0 bg-white/20 -translate-x-full;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .btn-hover-effect:hover::before {
+    @apply translate-x-0;
+    animation: slide-effect 0.5s forwards;
+  }
+}
+
+@keyframes slide-effect {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes pulse-effect {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }

@@ -1,11 +1,17 @@
 
-import { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import { Calendar, Users, ImageIcon } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { Calendar, Users, ImageIcon, ChevronDown, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { useToast } from '@/hooks/use-toast';
 
 const Home = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
   const sectionsRef = useRef<(HTMLElement | null)[]>([]);
+  const [activeSection, setActiveSection] = useState(0);
+  const [subscribeEmail, setSubscribeEmail] = useState('');
+  const navigate = useNavigate();
+  const { toast } = useToast();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,7 +21,7 @@ const Home = () => {
       }
       
       // Fade-in animation for sections as they enter viewport
-      sectionsRef.current.forEach(section => {
+      sectionsRef.current.forEach((section, index) => {
         if (!section) return;
         
         const rect = section.getBoundingClientRect();
@@ -23,6 +29,7 @@ const Home = () => {
         
         if (isVisible) {
           section.classList.add('is-visible');
+          setActiveSection(index);
         }
       });
     };
@@ -34,6 +41,36 @@ const Home = () => {
     
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!subscribeEmail) {
+      toast({
+        title: "Email requis",
+        description: "Veuillez entrer votre adresse email pour vous abonner.",
+        variant: "destructive",
+      });
+      return;
+    }
+    
+    toast({
+      title: "Merci pour votre abonnement!",
+      description: "Vous recevrez désormais nos actualités.",
+    });
+    
+    setSubscribeEmail('');
+  };
+
+  const handleNavigate = (path: string) => {
+    navigate(path);
+  };
+
+  const scrollToNextSection = () => {
+    const nextSection = sectionsRef.current[activeSection + 1];
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className="overflow-hidden">
@@ -55,12 +92,28 @@ const Home = () => {
             Célébrer et promouvoir la mode gabonaise à travers l'élégance, la créativité et le savoir-faire local
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 animate-slide-up" style={{ animationDelay: '0.6s' }}>
-            <Link to="/about" className="btn-primary">
+            <Button 
+              className="btn-primary"
+              onClick={() => handleNavigate('/about')}
+            >
               Découvrir l'événement
-            </Link>
-            <Link to="/contact" className="btn-secondary">
+            </Button>
+            <Button 
+              className="btn-secondary"
+              onClick={() => handleNavigate('/contact')}
+            >
               S'inscrire
-            </Link>
+            </Button>
+          </div>
+          
+          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer">
+            <Button 
+              variant="ghost" 
+              className="text-white rounded-full p-2" 
+              onClick={scrollToNextSection}
+            >
+              <ChevronDown />
+            </Button>
           </div>
         </div>
       </section>
@@ -83,11 +136,15 @@ const Home = () => {
                 Notre mission est de valoriser la créativité nationale, d'encourager le soutien aux créateurs locaux, 
                 et d'éveiller la fierté culturelle à travers la mode.
               </p>
-              <Link to="/about" className="font-medium text-clofas-coral hover:underline">
-                En savoir plus &rarr;
-              </Link>
+              <Button 
+                className="font-medium text-clofas-coral hover:underline"
+                variant="link"
+                onClick={() => handleNavigate('/about')}
+              >
+                En savoir plus <ArrowRight className="h-4 w-4 ml-1" />
+              </Button>
             </div>
-            <div className="bg-clofas-gold/10 p-8 rounded-xl">
+            <div className="bg-clofas-gold/10 p-8 rounded-xl hover:shadow-lg transition-shadow duration-300">
               <blockquote className="text-xl font-playfair italic text-clofas-dark">
                 "CLOFAS 241 est né de la volonté de mettre en lumière les talents extraordinaires 
                 qui font vibrer la mode gabonaise, et d'encourager chaque citoyen à devenir ambassadeur 
@@ -113,7 +170,7 @@ const Home = () => {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow cursor-pointer" onClick={() => handleNavigate('/program')}>
               <div className="w-16 h-16 bg-clofas-coral/20 rounded-full flex items-center justify-center mb-6">
                 <Calendar className="w-8 h-8 text-clofas-coral" />
               </div>
@@ -124,7 +181,7 @@ const Home = () => {
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow cursor-pointer" onClick={() => handleNavigate('/program')}>
               <div className="w-16 h-16 bg-clofas-gold/20 rounded-full flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-clofas-gold" />
               </div>
@@ -135,7 +192,7 @@ const Home = () => {
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow cursor-pointer" onClick={() => handleNavigate('/program')}>
               <div className="w-16 h-16 bg-clofas-lavender/20 rounded-full flex items-center justify-center mb-6">
                 <ImageIcon className="w-8 h-8 text-clofas-lavender" />
               </div>
@@ -148,9 +205,12 @@ const Home = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Link to="/program" className="btn-primary">
+            <Button 
+              className="btn-primary"
+              onClick={() => handleNavigate('/program')}
+            >
               Voir le programme complet
-            </Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -168,7 +228,11 @@ const Home = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[1, 2, 3, 4].map((index) => (
-              <div key={index} className="group relative overflow-hidden rounded-xl">
+              <div 
+                key={index} 
+                className="group relative overflow-hidden rounded-xl cursor-pointer"
+                onClick={() => handleNavigate('/creators')}
+              >
                 <div className="aspect-w-1 aspect-h-1">
                   <img 
                     src={`https://i.ibb.co/G4XY3hdd/DSC-0207.jpg=${index}`} 
@@ -186,9 +250,12 @@ const Home = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Link to="/creators" className="btn-primary">
+            <Button 
+              className="btn-primary"
+              onClick={() => handleNavigate('/creators')}
+            >
               Voir tous les créateurs
-            </Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -207,13 +274,35 @@ const Home = () => {
             CLOFAS 241 vous invite à participer à cette célébration unique 
             de la mode gabonaise.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link to="/contact" className="btn-primary">
+          
+          <form onSubmit={handleSubscribe} className="max-w-md mx-auto mb-8">
+            <div className="flex gap-2">
+              <input 
+                type="email" 
+                placeholder="Votre adresse email" 
+                className="flex-grow px-4 py-3 rounded-md text-gray-800"
+                value={subscribeEmail}
+                onChange={(e) => setSubscribeEmail(e.target.value)}
+              />
+              <Button type="submit" className="btn-primary whitespace-nowrap">
+                S'abonner
+              </Button>
+            </div>
+          </form>
+          
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+            <Button 
+              className="btn-primary"
+              onClick={() => handleNavigate('/contact')}
+            >
               S'inscrire maintenant
-            </Link>
-            <Link to="/program" className="bg-white text-clofas-dark hover:bg-gray-100 py-3 px-6 rounded-md font-semibold transition-all duration-300">
+            </Button>
+            <Button 
+              className="bg-white text-clofas-dark hover:bg-gray-100"
+              onClick={() => handleNavigate('/program')}
+            >
               Consulter le programme
-            </Link>
+            </Button>
           </div>
         </div>
       </section>

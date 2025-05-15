@@ -1,6 +1,7 @@
 
 import { useEffect, useRef, useState } from 'react';
-import { Calendar, Users, ImageIcon } from 'lucide-react';
+import { Calendar, Users, ImageIcon, MapPin, Phone, Mail } from 'lucide-react';
+import { AnimatedButton } from '@/components/AnimatedButton';
 
 type FormData = {
   name: string;
@@ -50,22 +51,29 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, you would send the form data to a server here
-    console.log("Form submitted:", formData);
-    // Simulate API call
-    setTimeout(() => {
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-        interest: ''
-      });
-      // Reset status after 3 seconds
-      setTimeout(() => setSubmitStatus('idle'), 3000);
-    }, 1000);
+    // Format WhatsApp message with form data
+    const message = `Nouveau message CLOFAS 241:\nNom: ${formData.name}\nEmail: ${formData.email}\nTéléphone: ${formData.phone}\nSujet: ${formData.subject}\nIntérêt: ${formData.interest}\nMessage: ${formData.message}`;
+    // Open WhatsApp with the message
+    window.open(`https://wa.me/24177507950?text=${encodeURIComponent(message)}`, '_blank');
+    
+    // Reset form
+    setSubmitStatus('success');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: '',
+      interest: ''
+    });
+    // Reset status after 3 seconds
+    setTimeout(() => setSubmitStatus('idle'), 3000);
+  };
+
+  // Function to generate WhatsApp link with prefilled message
+  const generateWhatsAppLink = (eventName: string) => {
+    const message = `Bonjour, je souhaite m'inscrire à l'événement: ${eventName}`;
+    return `https://wa.me/24177507950?text=${encodeURIComponent(message)}`;
   };
 
   return (
@@ -103,23 +111,22 @@ const Contact = () => {
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-clofas-coral/10 rounded-full flex items-center justify-center mr-4 shrink-0">
-                    <svg className="w-6 h-6 text-clofas-coral" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
+                    <Phone className="w-6 h-6 text-clofas-coral" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Téléphone</h3>
                     <p className="text-gray-600">
-                      (+241) 077 123 456
+                      (+241) 66 66 89 00
+                    </p>
+                    <p className="text-gray-600">
+                      WhatsApp: (+241) 77 50 79 50
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-clofas-gold/10 rounded-full flex items-center justify-center mr-4 shrink-0">
-                    <svg className="w-6 h-6 text-clofas-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
+                    <Mail className="w-6 h-6 text-clofas-gold" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email</h3>
@@ -131,15 +138,12 @@ const Contact = () => {
                 
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-clofas-lavender/10 rounded-full flex items-center justify-center mr-4 shrink-0">
-                    <svg className="w-6 h-6 text-clofas-lavender" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
+                    <MapPin className="w-6 h-6 text-clofas-lavender" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">Adresse</h3>
+                    <h3 className="font-bold text-lg mb-1">Lieu de l'événement</h3>
                     <p className="text-gray-600">
-                      Rue de la Mode<br />
+                      Ministère de la Culture et des Arts<br />
                       BP 1234, Libreville<br />
                       Gabon
                     </p>
@@ -170,6 +174,7 @@ const Contact = () => {
               <h2 className="section-title">Formulaire de Contact</h2>
               <p className="text-lg mb-8">
                 Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.
+                Vous recevrez une réponse immédiate par WhatsApp.
               </p>
               
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -260,12 +265,14 @@ const Contact = () => {
                 </div>
                 
                 <div>
-                  <button 
+                  <AnimatedButton 
                     type="submit"
-                    className="btn-primary w-full flex justify-center items-center"
+                    className="w-full flex justify-center items-center"
+                    variant="whatsapp"
+                    animationType="scale"
                     disabled={submitStatus === 'success'}
                   >
-                    {submitStatus === 'idle' && 'Envoyer le message'}
+                    {submitStatus === 'idle' && 'Envoyer le message sur WhatsApp'}
                     {submitStatus === 'success' && (
                       <>
                         <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -274,7 +281,7 @@ const Contact = () => {
                         Message envoyé !
                       </>
                     )}
-                  </button>
+                  </AnimatedButton>
                 </div>
               </form>
             </div>
@@ -300,7 +307,7 @@ const Contact = () => {
               <h2 className="section-title">Inscrivez-vous aux Événements</h2>
               <p className="text-lg mb-6">
                 Assurez votre place aux différents événements de CLOFAS 241 en vous 
-                inscrivant à l'avance. Les places sont limitées, particulièrement pour 
+                inscrivant à l'avance via WhatsApp. Les places sont limitées, particulièrement pour 
                 les ateliers et le défilé de mode.
               </p>
               
@@ -313,12 +320,15 @@ const Contact = () => {
                     <h3 className="font-bold">Conférence de Presse</h3>
                   </div>
                   <p className="text-gray-600 text-sm mb-2">15 Juin 2025 | Entrée gratuite sur inscription</p>
-                  <a 
-                    href="#conference"
-                    className="text-sm font-medium text-clofas-coral hover:underline"
+                  <AnimatedButton 
+                    variant="whatsapp"
+                    animationType="scale"
+                    size="sm"
+                    className="text-sm"
+                    onClick={() => window.open(generateWhatsAppLink('Conférence de Presse'), '_blank')}
                   >
-                    S'inscrire &rarr;
-                  </a>
+                    S'inscrire par WhatsApp
+                  </AnimatedButton>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -329,12 +339,15 @@ const Contact = () => {
                     <h3 className="font-bold">Ateliers de Dessin</h3>
                   </div>
                   <p className="text-gray-600 text-sm mb-2">16-17 Juin 2025 | 25,000 FCFA par atelier</p>
-                  <a 
-                    href="#ateliers"
-                    className="text-sm font-medium text-clofas-coral hover:underline"
+                  <AnimatedButton 
+                    variant="whatsapp"
+                    animationType="scale"
+                    size="sm"
+                    className="text-sm"
+                    onClick={() => window.open(generateWhatsAppLink('Ateliers de Dessin'), '_blank')}
                   >
-                    S'inscrire &rarr;
-                  </a>
+                    S'inscrire par WhatsApp
+                  </AnimatedButton>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -345,19 +358,25 @@ const Contact = () => {
                     <h3 className="font-bold">Défilé de Mode</h3>
                   </div>
                   <p className="text-gray-600 text-sm mb-2">18 Juin 2025 | À partir de 50,000 FCFA</p>
-                  <a 
-                    href="#defile"
-                    className="text-sm font-medium text-clofas-coral hover:underline"
+                  <AnimatedButton 
+                    variant="whatsapp"
+                    animationType="scale"
+                    size="sm"
+                    className="text-sm" 
+                    onClick={() => window.open(generateWhatsAppLink('Défilé de Mode'), '_blank')}
                   >
-                    Réserver votre place &rarr;
-                  </a>
+                    Réserver par WhatsApp
+                  </AnimatedButton>
                 </div>
               </div>
               
               <div className="bg-clofas-dark text-white p-6 rounded-xl">
                 <p className="font-medium">
                   Pour toute demande concernant les inscriptions aux événements ou les 
-                  tarifs de groupe, contactez-nous directement par téléphone ou email.
+                  tarifs de groupe, contactez-nous directement par WhatsApp au 
+                  <a href="https://wa.me/24177507950" target="_blank" rel="noopener noreferrer" className="text-clofas-coral ml-1">
+                    +241 77 50 79 50
+                  </a>.
                 </p>
               </div>
             </div>
@@ -380,18 +399,19 @@ const Contact = () => {
             <div className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="font-bold text-lg mb-2">Où se déroulent les événements de CLOFAS 241 ?</h3>
               <p className="text-gray-600">
-                Les événements se déroulent dans différents lieux à Libreville. La conférence de presse 
-                a lieu à l'Hôtel Radisson Blu, les ateliers au Centre Culturel Français, et le défilé 
-                de mode au Palais des Congrès. Les adresses exactes vous seront communiquées après inscription.
+                Les événements se déroulent au Ministère de la Culture et des Arts à Libreville, Gabon. Les adresses 
+                exactes vous seront communiquées après inscription via WhatsApp.
               </p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="font-bold text-lg mb-2">Comment s'inscrire aux ateliers de dessin ?</h3>
               <p className="text-gray-600">
-                Vous pouvez vous inscrire en remplissant le formulaire de contact sur cette page en 
-                indiquant votre intérêt pour les ateliers, ou en nous contactant directement par email 
-                ou téléphone. Les places étant limitées, nous vous recommandons de vous inscrire au plus tôt.
+                Vous pouvez vous inscrire en utilisant les boutons WhatsApp sur cette page, en
+                indiquant votre intérêt pour les ateliers, ou en nous contactant directement au
+                <a href="https://wa.me/24177507950" target="_blank" rel="noopener noreferrer" className="text-clofas-coral ml-1">
+                  +241 77 50 79 50
+                </a>. Les places étant limitées, nous vous recommandons de vous inscrire au plus tôt.
               </p>
             </div>
             
@@ -409,7 +429,7 @@ const Contact = () => {
               <p className="text-gray-600">
                 Les créateurs intéressés à présenter leurs collections lors du défilé ou à exposer 
                 leurs créations doivent soumettre leur candidature avant le 31 janvier 2025. 
-                Contactez-nous pour recevoir le dossier de candidature complet.
+                Contactez-nous par WhatsApp pour recevoir le dossier de candidature complet.
               </p>
             </div>
             
@@ -462,14 +482,14 @@ const Contact = () => {
               </svg>
             </a>
             <a 
-              href="https://twitter.com/clofas241" 
+              href="https://wa.me/24177507950" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white hover:text-clofas-coral transition-colors"
-              aria-label="Twitter"
+              aria-label="WhatsApp"
             >
               <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
               </svg>
             </a>
             <a 

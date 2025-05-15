@@ -66,7 +66,7 @@ const Creators = () => {
           <div className="flex flex-col md:flex-row gap-6 md:gap-12 items-start">
             <div className="md:w-1/2">
               <span className="inline-block px-3 py-1 bg-clofas-coral/20 text-clofas-coral rounded-full text-sm font-medium mb-4">
-                Édition Actuelle 2024
+                Édition Passée 2024
               </span>
               <h2 className="section-title">2ᵉ Édition CLOFAS 241</h2>
               

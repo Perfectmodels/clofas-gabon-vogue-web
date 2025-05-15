@@ -1,5 +1,6 @@
 
 import { useEffect, useRef, useState } from 'react';
+import { Calendar, Users, ImageIcon } from 'lucide-react';
 
 type FormData = {
   name: string;
@@ -339,7 +340,7 @@ const Contact = () => {
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <div className="flex items-center mb-3">
                     <div className="w-10 h-10 bg-clofas-lavender/10 rounded-full flex items-center justify-center mr-3">
-                      <Image className="w-5 h-5 text-clofas-lavender" />
+                      <ImageIcon className="w-5 h-5 text-clofas-lavender" />
                     </div>
                     <h3 className="font-bold">Défilé de Mode</h3>
                   </div>

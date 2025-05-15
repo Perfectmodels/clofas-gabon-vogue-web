@@ -1,6 +1,7 @@
 
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { Calendar, Users, ImageIcon } from 'lucide-react';
 
 const Home = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
@@ -136,7 +137,7 @@ const Home = () => {
             
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="w-16 h-16 bg-clofas-lavender/20 rounded-full flex items-center justify-center mb-6">
-                <Image className="w-8 h-8 text-clofas-lavender" />
+                <ImageIcon className="w-8 h-8 text-clofas-lavender" />
               </div>
               <h3 className="font-playfair text-xl font-bold mb-4">Défilé de Mode</h3>
               <p className="text-gray-600">

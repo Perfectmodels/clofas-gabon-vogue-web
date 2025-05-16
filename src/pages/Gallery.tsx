@@ -5,10 +5,21 @@ import GalleryGrid from '@/components/GalleryGrid';
 import { Button } from '@/components/ui/button';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { ChevronDown, Grid, Grid3X3 } from 'lucide-react';
+import { ADDITIONAL_MANNEQUIN_IMAGES } from '@/data/gallery-mock';
 
 const Gallery = () => {
   const { images, loading } = useGalleryImages();
   const [view, setView] = useState<'grid' | 'masonry'>('grid');
+  const [showAll, setShowAll] = useState(false);
+  const [loadedImages, setLoadedImages] = useState(images);
+  
+  // Handle loading more images
+  const handleLoadMore = () => {
+    if (!showAll) {
+      setLoadedImages([...images, ...ADDITIONAL_MANNEQUIN_IMAGES]);
+      setShowAll(true);
+    }
+  };
   
   return (
     <div className="bg-white py-20">
@@ -35,15 +46,21 @@ const Gallery = () => {
         </div>
         
         <div className="mt-12">
-          <GalleryGrid images={images} loading={loading} layout={view} />
+          <GalleryGrid 
+            images={showAll ? loadedImages : images} 
+            loading={loading} 
+            layout={view} 
+          />
         </div>
         
         <div className="flex justify-center mt-10">
           <Button 
             variant="outline" 
             className="flex items-center gap-2 hover:bg-clofas-coral hover:text-white transition-colors"
+            onClick={handleLoadMore}
+            disabled={showAll}
           >
-            Charger plus <ChevronDown className="h-4 w-4" />
+            {showAll ? 'Tous les clichés affichés' : 'Charger plus'} {!showAll && <ChevronDown className="h-4 w-4" />}
           </Button>
         </div>
       </div>

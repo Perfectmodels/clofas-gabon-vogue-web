@@ -35,69 +35,43 @@ const Partners = () => {
   }, []);
 
   // Mock partner data
-  const partners: Partner[] = [
-    {
-      id: 1,
-      name: "Ministère de la Culture",
-      description: "Le Ministère de la Culture du Gabon soutient CLOFAS 241 dans sa mission de promotion de la mode locale.",
-      logo: "https://via.placeholder.com/200?text=Ministère",
-      tier: "institutional",
-      website: "https://culture.gouv.ga"
-    },
-    {
-      id: 2,
-      name: "Gabon Telecom",
-      description: "Principal opérateur de télécommunications au Gabon, partenaire platine de l'événement.",
-      logo: "https://via.placeholder.com/200?text=Telecom",
-      tier: "platinum",
-      website: "https://gabontelecom.ga"
-    },
-    {
-      id: 3,
-      name: "Banco Nacional",
-      description: "Banque nationale gabonaise, sponsor officiel de CLOFAS 241 depuis sa création.",
-      logo: "https://via.placeholder.com/200?text=Banco",
-      tier: "platinum",
-      website: "https://banco-nacional.ga"
-    },
-    {
-      id: 4,
-      name: "Air Gabon",
-      description: "Compagnie aérienne nationale, facilitant la venue des invités internationaux.",
-      logo: "https://via.placeholder.com/200?text=Air+Gabon",
-      tier: "gold",
-      website: "https://airgabon.ga"
-    },
-    {
-      id: 5,
-      name: "Fashion Institute Libreville",
-      description: "École de mode partenaire qui accueille les ateliers de dessin de CLOFAS 241.",
-      logo: "https://via.placeholder.com/200?text=Institute",
-      tier: "gold"
-    },
-    {
-      id: 6,
-      name: "Radio Nationale",
-      description: "Média officiel assurant la couverture de l'événement à travers le pays.",
-      logo: "https://via.placeholder.com/200?text=Radio",
-      tier: "silver",
-      website: "https://radio-nationale.ga"
-    },
-    {
-      id: 7,
-      name: "Hôtel Radisson Blu",
-      description: "Hébergement officiel des invités et lieu d'accueil de la conférence de presse.",
-      logo: "https://via.placeholder.com/200?text=Hotel",
-      tier: "silver"
-    },
-    {
-      id: 8,
-      name: "Gabonese Design Association",
-      description: "Association regroupant les designers gabonais, partenaire technique de l'événement.",
-      logo: "https://via.placeholder.com/200?text=GDA",
-      tier: "institutional"
-    },
-  ];
+ const partners: Partner[] = [
+  {
+    id: 1,
+    name: "Groupes Ceca Gadis",
+    description: "Groupe leader dans la distribution au Gabon, partenaire majeur de CLOFAS 241.",
+    logo: "https://via.placeholder.com/200?text=Ceca+Gadis",
+    tier: "platinum"
+  },
+  {
+    id: 2,
+    name: "Perfect Models Management",
+    description: "Agence de mannequins et organisation de référence au Gabon et en Afrique centrale.",
+    logo: "https://via.placeholder.com/200?text=Perfect+Models",
+    tier: "gold"
+  },
+  {
+    id: 3,
+    name: "Ecole de Mode Nzeng-Ayong",
+    description: "Centre de formation de référence pour la mode et le stylisme à Libreville.",
+    logo: "https://via.placeholder.com/200?text=Nzeng-Ayong",
+    tier: "gold"
+  },
+  {
+    id: 4,
+    name: "Hotel Le Cristal",
+    description: "Hôtel haut de gamme, hébergement officiel des invités de CLOFAS 241.",
+    logo: "https://via.placeholder.com/200?text=Le+Cristal",
+    tier: "silver"
+  },
+  {
+    id: 5,
+    name: "Ministère de la Culture et des Arts",
+    description: "Institution officielle soutenant le rayonnement culturel et artistique du Gabon.",
+    logo: "https://via.placeholder.com/200?text=Ministère+Culture+Arts",
+    tier: "institutional"
+  }
+];
 
   const platinumPartners = partners.filter(p => p.tier === 'platinum');
   const goldPartners = partners.filter(p => p.tier === 'gold');

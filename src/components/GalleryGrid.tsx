@@ -2,7 +2,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { GalleryImage } from '@/hooks/use-gallery-images';
-import { Dialog, DialogContent } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { Skeleton } from '@/components/ui/skeleton';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 
@@ -77,6 +77,9 @@ const GalleryGrid: React.FC<GalleryGridProps> = ({ images, loading, layout = 'gr
 
       <Dialog open={!!selectedImage} onOpenChange={(open) => !open && setSelectedImage(null)}>
         <DialogContent className="max-w-4xl w-full p-0 bg-black/90 border-0">
+          <DialogTitle className="sr-only">
+            {selectedImage?.title || 'Image de la galerie'}
+          </DialogTitle>
           <div className="relative">
             <img
               src={selectedImage?.image_url}

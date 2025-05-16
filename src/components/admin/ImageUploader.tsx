@@ -46,7 +46,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ category = 'event', onSuc
       await uploadGalleryImage(file, { 
         title: title || undefined,
         description: description || undefined,
-        category: category
+        category
       });
       
       toast.success('Image ajoutée à la galerie');

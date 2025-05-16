@@ -3,7 +3,7 @@ import { supabase } from '@/integrations/supabase/client';
 
 export const uploadGalleryImage = async (
   file: File,
-  metadata: { title?: string; description?: string; eventId?: string }
+  metadata: { title?: string; description?: string; eventId?: string; category?: string }
 ) => {
   try {
     // Generate a unique file path using the current timestamp
@@ -31,6 +31,7 @@ export const uploadGalleryImage = async (
         description: metadata.description || null,
         event_id: metadata.eventId || null,
         image_url: publicURL.publicUrl,
+        category: metadata.category || null,
       })
       .select()
       .single();

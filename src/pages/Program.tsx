@@ -26,9 +26,9 @@ const Program = () => {
   }, []);
 
   const eventDates = {
-    conference: { date: "15 Juin 2025", time: "9:00 - 13:00", location: "Hôtel Radisson Blu, Libreville" },
-    workshops: { date: "16-17 Juin 2025", time: "10:00 - 16:00", location: "Centre Culturel Français, Libreville" },
-    fashion: { date: "18 Juin 2025", time: "19:00 - 22:00", location: "Palais des Congrès, Libreville" }
+    conference: { date: "15 Juin 2025", time: "9:00 - 13:00", location: "Ecole de mode de Nzeng-Ayong, Libreville" },
+    workshops: { date: "16-17 Juin 2025", time: "10:00 - 16:00", location: "Ministère de la Culture et des Arts, Libreville" },
+    fashion: { date: "18 Juin 2025", time: "19:00 - 22:00", location: "Ministère de la Culture et des Arts, Libreville" }
   };
 
   return (

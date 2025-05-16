@@ -9,9 +9,10 @@ import { AspectRatio } from '@/components/ui/aspect-ratio';
 interface GalleryGridProps {
   images: GalleryImage[];
   loading: boolean;
+  layout?: 'grid' | 'masonry';
 }
 
-const GalleryGrid: React.FC<GalleryGridProps> = ({ images, loading }) => {
+const GalleryGrid: React.FC<GalleryGridProps> = ({ images, loading, layout = 'grid' }) => {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
   if (loading) {
@@ -41,9 +42,14 @@ const GalleryGrid: React.FC<GalleryGridProps> = ({ images, loading }) => {
     );
   }
 
+  // Choose layout class based on layout prop
+  const gridClass = layout === 'masonry' 
+    ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-max"
+    : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6";
+
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className={gridClass}>
         {images.map((image) => (
           <div
             key={image.id}

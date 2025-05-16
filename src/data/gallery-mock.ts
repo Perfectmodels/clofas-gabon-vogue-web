@@ -42,5 +42,26 @@ export const MOCK_GALLERY_IMAGES = [
     description: 'Préparation des mannequins avant le défilé',
     image_url: 'https://i.ibb.co/Z6PVBvjn/DSC-0125.jpg',
     created_at: '2024-12-15T18:45:00Z',
+  },
+  {
+    id: '7',
+    title: 'Défilé des créateurs',
+    description: 'Présentation des collections sur le podium',
+    image_url: 'https://i.ibb.co/wrzN8Zcb/DSC-0185.jpg',
+    created_at: '2024-12-15T19:30:00Z',
+  },
+  {
+    id: '8',
+    title: 'Échanges culturels',
+    description: 'Rencontres entre créateurs de différents pays',
+    image_url: 'https://i.ibb.co/Zz942nhy/DSC-0569.jpg',
+    created_at: '2024-12-16T14:00:00Z',
+  },
+  {
+    id: '9',
+    title: 'Masterclass de stylisme',
+    description: 'Formation professionnelle pour les participants',
+    image_url: 'https://i.ibb.co/Z6PVBvjn/DSC-0125.jpg',
+    created_at: '2024-12-14T09:00:00Z',
   }
 ];

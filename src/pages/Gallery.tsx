@@ -2,21 +2,14 @@
 import { useState } from 'react';
 import { useGalleryImages } from '@/hooks/use-gallery-images';
 import GalleryGrid from '@/components/GalleryGrid';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { ChevronDown, Grid, Grid3X3, Layout } from 'lucide-react';
+import { ChevronDown, Grid, Grid3X3 } from 'lucide-react';
 
 const Gallery = () => {
   const { images, loading } = useGalleryImages();
   const [view, setView] = useState<'grid' | 'masonry'>('grid');
-  const [category, setCategory] = useState('all');
   
-  // Filter images based on selected category
-  const filteredImages = category === 'all' 
-    ? images 
-    : images.filter(image => image.category === category);
-
   return (
     <div className="bg-white py-20">
       <div className="container mx-auto px-4">
@@ -28,37 +21,6 @@ const Gallery = () => {
             Découvrez les moments inoubliables des éditions passées de CLOFAS 241, 
             capturés en images.
           </p>
-          
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <Button 
-              variant="outline" 
-              onClick={() => setCategory('all')}
-              className={category === 'all' ? 'bg-clofas-coral text-white' : ''}
-            >
-              Tous
-            </Button>
-            <Button 
-              variant="outline" 
-              onClick={() => setCategory('fashion')}
-              className={category === 'fashion' ? 'bg-clofas-coral text-white' : ''}
-            >
-              Défilés
-            </Button>
-            <Button 
-              variant="outline" 
-              onClick={() => setCategory('workshop')}
-              className={category === 'workshop' ? 'bg-clofas-coral text-white' : ''}
-            >
-              Ateliers
-            </Button>
-            <Button 
-              variant="outline" 
-              onClick={() => setCategory('exhibition')}
-              className={category === 'exhibition' ? 'bg-clofas-coral text-white' : ''}
-            >
-              Expositions
-            </Button>
-          </div>
         </div>
         
         <div className="flex justify-end mb-6">
@@ -73,11 +35,14 @@ const Gallery = () => {
         </div>
         
         <div className="mt-12">
-          <GalleryGrid images={filteredImages} loading={loading} layout={view} />
+          <GalleryGrid images={images} loading={loading} layout={view} />
         </div>
         
         <div className="flex justify-center mt-10">
-          <Button variant="outline" className="flex items-center gap-2">
+          <Button 
+            variant="outline" 
+            className="flex items-center gap-2 hover:bg-clofas-coral hover:text-white transition-colors"
+          >
             Charger plus <ChevronDown className="h-4 w-4" />
           </Button>
         </div>

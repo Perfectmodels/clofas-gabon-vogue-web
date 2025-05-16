@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from '@/components/ui/sonner';
-import { MOCK_GALLERY_IMAGES } from '@/data/gallery-mock';
+import { MOCK_GALLERY_IMAGES, MANNEQUIN_IMAGES } from '@/data/gallery-mock';
 
 export type GalleryImage = {
   id: string;
@@ -12,10 +12,12 @@ export type GalleryImage = {
   event_id?: string | null;
   created_at: string;
   updated_at?: string;
+  category?: string;
 };
 
 export const useGalleryImages = () => {
   const [images, setImages] = useState<GalleryImage[]>([]);
+  const [mannequinImages, setMannequinImages] = useState<GalleryImage[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -32,16 +34,23 @@ export const useGalleryImages = () => {
         }
 
         if (data && data.length > 0) {
-          setImages(data);
+          // Split images by category if available in the database
+          const eventImages = data.filter(img => img.category !== 'mannequins');
+          const castingImages = data.filter(img => img.category === 'mannequins');
+          
+          setImages(eventImages);
+          setMannequinImages(castingImages);
         } else {
           // If no images in database, use mock data
           setImages(MOCK_GALLERY_IMAGES as GalleryImage[]);
+          setMannequinImages(MANNEQUIN_IMAGES as GalleryImage[]);
         }
       } catch (error) {
         console.error('Error fetching gallery images:', error);
         toast.error('Erreur lors du chargement des images');
         // Fallback to mock data on error
         setImages(MOCK_GALLERY_IMAGES as GalleryImage[]);
+        setMannequinImages(MANNEQUIN_IMAGES as GalleryImage[]);
       } finally {
         setLoading(false);
       }
@@ -50,5 +59,5 @@ export const useGalleryImages = () => {
     fetchGalleryImages();
   }, []);
 
-  return { images, loading };
+  return { images, mannequinImages, loading };
 };

@@ -35,8 +35,10 @@ export const useGalleryImages = () => {
 
         if (data && data.length > 0) {
           // Split images by category if available in the database
-          const eventImages = data.filter(img => img.category !== 'mannequins');
-          const castingImages = data.filter(img => img.category === 'mannequins');
+          // Adding explicit type casting to ensure TypeScript recognizes the category property
+          const typedData = data as GalleryImage[];
+          const eventImages = typedData.filter(img => img.category !== 'mannequins');
+          const castingImages = typedData.filter(img => img.category === 'mannequins');
           
           setImages(eventImages);
           setMannequinImages(castingImages);

@@ -33,7 +33,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 bg-clofas-dark text-white">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1605289355680-75fb41239154?q=80&w=1974')] bg-cover bg-center opacity-20"></div>
+          <div className="absolute inset-0 bg-[url('https://i.ibb.co/NdQkZnTt/DSC-0518.jpg')] bg-cover bg-center opacity-20"></div>
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="font-playfair text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
@@ -66,7 +66,7 @@ const About = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=1974" 
+                src="https://i.ibb.co/Y6hX3Yf/DSC-0414.jpg" 
                 alt="CLOFAS 241 Mission" 
                 className="rounded-xl shadow-xl"
               />
@@ -85,7 +85,7 @@ const About = () => {
             <div className="order-2 md:order-1">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961" 
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifRAwNB-vU6CpmHw1NN8uQsRRfz8jU7c887kpR3VYiVUeXtTSBNrP-GUBIwcAgN7UO-ZOLwwxpk_6z1zJj4rzulYjPJ0F1lpcd3Ebc87_RRGXbTZ1aRdu-nZ-GoDH-6sJd2Fc54Yuia6e7/s1600/beitch-faro.jpg" 
                   alt="Beitch Faro - Fondatrice" 
                   className="rounded-xl shadow-xl relative z-10"
                 />
@@ -101,8 +101,8 @@ const About = () => {
               </p>
               <blockquote className="border-l-4 border-clofas-coral pl-4 italic mb-6">
                 "CLOFAS 241 est né de la volonté de mettre en lumière les talents extraordinaires 
-                qui font vibrer la mode gabonaise, et d'encourager chaque citoyen à devenir ambassadeur 
-                de notre créativité nationale."
+                qui font vibrer la mode gabonaise et africaine, et d'encourager chaque citoyen à devenir ambassadeur 
+                de notre créativité locale."
               </blockquote>
               <p className="text-lg">
                 Sa passion pour la mode et son engagement pour le développement économique du Gabon 
@@ -149,13 +149,13 @@ const About = () => {
                   <div className="flex items-center justify-center w-5 h-5 rounded-full bg-clofas-coral border-4 border-white shadow"></div>
                 </div>
                 <div className="sm:absolute left-0 top-6 sm:ml-18 mb-3 sm:mb-0">
-                  <div className="font-bold text-clofas-coral">2023</div>
+                  <div className="font-bold text-clofas-coral">2024</div>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Expansion & Reconnaissance</h3>
                   <p className="text-gray-600">
                     CLOFAS 241 s'agrandit avec l'ajout des ateliers de dessin et le premier défilé 
-                    qui a connu un succès retentissant, attirant l'attention des médias internationaux.
+                    qui a connu un succès retentissant, attirant l'attention des médias nationaux.
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ const About = () => {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Partenariats Internationaux</h3>
                   <p className="text-gray-600">
-                    Établissement de partenariats stratégiques avec des écoles de mode et des 
+                    Établissement de partenariats stratégiques avec l'ecole de mode de Nzeng-Ayong et des 
                     designers internationaux, apportant une dimension globale à notre événement local.
                   </p>
                 </div>

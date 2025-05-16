@@ -72,11 +72,38 @@ const Creators = () => {
       "https://i.ibb.co/sv0k6HGB/DSC-0253.jpg"
     ]
   },
-  {
-    name: "Desmo",
-    country: "Togo",
-    images: []
-  },
+ {
+  name: "Desmo",
+  country: "Togo",
+  images: [
+    "https://i.ibb.co/Xxvkd5jH/DSC-0258.jpg",
+    "https://i.ibb.co/XfDmTt9H/DSC-0259.jpg",
+    "https://i.ibb.co/kgQvbQZ9/DSC-0261.jpg",
+    "https://i.ibb.co/rf2k6D62/DSC-0262.jpg",
+    "https://i.ibb.co/1Dx7skM/DSC-0263.jpg",
+    "https://i.ibb.co/bgJ1TfZt/DSC-0264.jpg",
+    "https://i.ibb.co/99F239mq/DSC-0265.jpg",
+    "https://i.ibb.co/F4c4Xtx1/DSC-0266.jpg",
+    "https://i.ibb.co/k21NFgGc/DSC-0267.jpg",
+    "https://i.ibb.co/F4xZwkyJ/DSC-0268.jpg",
+    "https://i.ibb.co/DfCYGx95/DSC-0269.jpg",
+    "https://i.ibb.co/jZGtVRtd/DSC-0271.jpg",
+    "https://i.ibb.co/mCcD1Gfq/DSC-0272.jpg",
+    "https://i.ibb.co/2zRKpF4/DSC-0273.jpg",
+    "https://i.ibb.co/MkVKxKMx/DSC-0274.jpg",
+    "https://i.ibb.co/fVP7cHx4/DSC-0275.jpg",
+    "https://i.ibb.co/8LJHcqWs/DSC-0277.jpg",
+    "https://i.ibb.co/zTKBxfCR/DSC-0278.jpg",
+    "https://i.ibb.co/nMnYTwgP/DSC-0279.jpg",
+    "https://i.ibb.co/8gPh51Gq/DSC-0280.jpg",
+    "https://i.ibb.co/7JpHWTdH/DSC-0281.jpg",
+    "https://i.ibb.co/YT0gkyDz/DSC-0282.jpg",
+    "https://i.ibb.co/5hRK8k2f/DSC-0283.jpg",
+    "https://i.ibb.co/bjdfMhrz/DSC-0284.jpg",
+    "https://i.ibb.co/35kzwJ3g/DSC-0285.jpg",
+    "https://i.ibb.co/B0JvpMX/DSC-0286.jpg"
+  ]
+},
   {
     name: "Jacques Simon",
     country: "Gabon",

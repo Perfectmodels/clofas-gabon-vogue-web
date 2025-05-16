@@ -81,7 +81,7 @@ const Home = () => {
           className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"
         ></div>
         <div
-          className="absolute top-0 left-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1605289355680-75fb41239154?q=80&w=1974')] bg-cover bg-center"
+          className="absolute top-0 left-0 w-full h-full bg-[url('https://scontent-mrs2-2.xx.fbcdn.net/v/t39.30808-6/473654244_122134739744550161_8002346007201145909_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=eVxHJzWWUmUQ7kNvwGYlQ_s&_nc_oc=AdlV8cRR6kiCXHZxnnA6ypaJhCKd86U7vwsAqn_fb1nWLUSArx0mzOxlX-zLbSNz16Q&_nc_zt=23&_nc_ht=scontent-mrs2-2.xx&_nc_gid=pZaneUDuvBv5PaExURS6Yg&oh=00_AfKXhJXKv7A6RlLvHn9FNvv6mS9kCkJni39YlNayK0xvGg&oe=682D0BAC')] bg-cover bg-center"
           ref={parallaxRef}
         ></div>
         <div className="relative z-20 text-center px-4 text-white">

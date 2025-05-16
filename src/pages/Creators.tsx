@@ -28,17 +28,66 @@ const Creators = () => {
   }, []);
 
   const creators2024 = [
-    { name: "Angèle Epouta", country: "Gabon" },
-    { name: "Atelier Issée By Lita", country: "Gabon" },
-    { name: "ChouChou Lazare", country: "Gabon" },
-    { name: "Desmo", country: "Togo" },
-    { name: "Edele A", country: "Gabon" },
-    { name: "Jacques Simon", country: "Gabon" },
-    { name: "K'Elle Collection", country: "Gabon" },
-    { name: "Koro DK Style", country: "Burkina Faso" },
-    { name: "Nous Fashion", country: "Gabon" },
-    { name: "OJ Fashion", country: "Gabon" },
-  ];
+  {
+    name: "Angèle Epouta",
+    country: "Gabon",
+    images: [
+      "https://i.ibb.co/r2Tf4cwQ/DSC-0219.jpg",
+      "https://i.ibb.co/dw0rSZw1/DSC-0220.jpg",
+      "https://i.ibb.co/sJbDXCBg/DSC-0221.jpg",
+      "https://i.ibb.co/HL5v320z/DSC-0222.jpg",
+      "https://i.ibb.co/9Fqdn91/DSC-0223.jpg",
+      "https://i.ibb.co/fYLRv4mg/DSC-0224.jpg",
+      "https://i.ibb.co/1Y66K5JK/DSC-0225.jpg",
+      "https://i.ibb.co/j9ZCTDtZ/DSC-0226.jpg",
+      "https://i.ibb.co/ZsyTx9f/DSC-0227.jpg",
+      "https://i.ibb.co/bjtrb2K8/DSC-0228.jpg",
+      "https://i.ibb.co/FbgVVyfD/DSC-0229.jpg",
+      "https://i.ibb.co/8n8VDjT0/DSC-0230.jpg",
+      "https://i.ibb.co/DB2H4Pd/DSC-0231.jpg",
+      "https://i.ibb.co/F1hB9pC/DSC-0232.jpg",
+      "https://i.ibb.co/5xstWV8v/DSC-0233.jpg",
+      "https://i.ibb.co/B2VywvGj/DSC-0234.jpg",
+      "https://i.ibb.co/DHMyQdR4/DSC-0235.jpg",
+      "https://i.ibb.co/3mZjJdvz/DSC-0236.jpg"
+    ]
+  },
+  {
+    name: "Atelier Issée By Lita",
+    country: "Gabon",
+    images: []
+  },
+  {
+    name: "Desmo",
+    country: "Togo",
+    images: []
+  },
+  {
+    name: "Jacques Simon",
+    country: "Gabon",
+    images: []
+  },
+  {
+    name: "Koro DK Style",
+    country: "Burkina Faso",
+    images: []
+  },
+  {
+    name: "Nous Fashion",
+    country: "Gabon",
+    images: []
+  },
+  {
+    name: "OJ Fashion",
+    country: "Gabon",
+    images: []
+  },
+  {
+    name: "Angelina Creations",
+    country: "Gabon",
+    images: []
+  }
+];
 
   return (
     <div>

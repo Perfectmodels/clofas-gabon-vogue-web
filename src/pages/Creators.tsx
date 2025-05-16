@@ -55,7 +55,22 @@ const Creators = () => {
   {
     name: "Atelier Issée By Lita",
     country: "Gabon",
-    images: []
+    images: [
+      "https://i.ibb.co/KzfHN85c/DSC-0238.jpg",
+      "https://i.ibb.co/xtWq4ppT/DSC-0239.jpg",
+      "https://i.ibb.co/RGyRSkWH/DSC-0240.jpg",
+      "https://i.ibb.co/v4NdwHcR/DSC-0241.jpg",
+      "https://i.ibb.co/TxpwGjfP/DSC-0242.jpg",
+      "https://i.ibb.co/kgGD0qth/DSC-0243.jpg",
+      "https://i.ibb.co/hRnxW2GK/DSC-0244.jpg",
+      "https://i.ibb.co/v6GxL1jZ/DSC-0245.jpg",
+      "https://i.ibb.co/MDd75HzW/DSC-0246.jpg",
+      "https://i.ibb.co/35Wdr3X2/DSC-0247.jpg",
+      "https://i.ibb.co/Jwt31rQy/DSC-0250.jpg",
+      "https://i.ibb.co/QjYRXwVt/DSC-0251.jpg",
+      "https://i.ibb.co/QRRJWTT/DSC-0252.jpg",
+      "https://i.ibb.co/sv0k6HGB/DSC-0253.jpg"
+    ]
   },
   {
     name: "Desmo",

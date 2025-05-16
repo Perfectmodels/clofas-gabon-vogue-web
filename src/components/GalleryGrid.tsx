@@ -42,21 +42,6 @@ const GalleryGrid: React.FC<GalleryGridProps> = ({ images, loading, layout = 'gr
     );
   }
 
-  // First check if all images belong to the same category
-  const allSameCategory = images.every(img => 
-    img.category === images[0].category
-  );
-
-  // Group images by category if they're mixed
-  let groupedImages = images;
-  if (!allSameCategory) {
-    // Sort to ensure all same-category images are together
-    groupedImages = [...images].sort((a, b) => {
-      if (a.category === b.category) return 0;
-      return (a.category || '') < (b.category || '') ? -1 : 1;
-    });
-  }
-
   // Choose layout class based on layout prop
   const gridClass = layout === 'masonry' 
     ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-max"
@@ -65,7 +50,7 @@ const GalleryGrid: React.FC<GalleryGridProps> = ({ images, loading, layout = 'gr
   return (
     <>
       <div className={gridClass}>
-        {groupedImages.map((image) => (
+        {images.map((image) => (
           <div
             key={image.id}
             className="overflow-hidden rounded-lg shadow-md transition-transform hover:scale-[1.02] cursor-pointer"

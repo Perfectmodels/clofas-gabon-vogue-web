@@ -7,7 +7,12 @@ import { Textarea } from "@/components/ui/textarea";
 import { uploadGalleryImage } from '@/services/gallery-service';
 import { toast } from '@/components/ui/sonner';
 
-const ImageUploader: React.FC = () => {
+interface ImageUploaderProps {
+  category?: 'event' | 'mannequins';
+  onSuccess?: () => void;
+}
+
+const ImageUploader: React.FC<ImageUploaderProps> = ({ category = 'event', onSuccess }) => {
   const [file, setFile] = useState<File | null>(null);
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
@@ -40,7 +45,8 @@ const ImageUploader: React.FC = () => {
       setUploading(true);
       await uploadGalleryImage(file, { 
         title: title || undefined,
-        description: description || undefined
+        description: description || undefined,
+        category: category
       });
       
       toast.success('Image ajoutée à la galerie');
@@ -52,6 +58,8 @@ const ImageUploader: React.FC = () => {
       // Reset file input
       const fileInput = document.getElementById('image-upload') as HTMLInputElement;
       if (fileInput) fileInput.value = '';
+      
+      if (onSuccess) onSuccess();
       
     } catch (error) {
       console.error('Upload error:', error);

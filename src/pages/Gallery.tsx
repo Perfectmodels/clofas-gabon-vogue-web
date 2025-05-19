@@ -24,15 +24,7 @@ const Gallery = () => {
       setShowAll(true);
     }
   };
-  
-  // Get the active images based on selected section
-  const getActiveImages = () => {
-    if (selectedSection === 'event') {
-      return images.filter(img => 
-        img.category !== 'échanges cultures' && 
-        img.category !== 'master classe stylistes' && 
-        img.category !== 'défilés des créateurs'
-      );
+
     } else {
       return showAll ? [...mannequinImages, ...additionalImages] : mannequinImages;
     }

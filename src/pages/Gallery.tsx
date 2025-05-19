@@ -25,6 +25,15 @@ const Gallery = () => {
     }
   };
 
+  // Function to get active images based on selected section
+  const getActiveImages = () => {
+    if (selectedSection === 'event') {
+      // Filter out certain categories from event images
+      return images.filter(img => 
+        img.category !== 'echanges culturels' && 
+        img.category !== 'defile des createurs' && 
+        img.category !== 'masterclass stylisme'
+      );
     } else {
       return showAll ? [...mannequinImages, ...additionalImages] : mannequinImages;
     }

@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Calendar, Users, ImageIcon, ChevronDown, ArrowRight } from 'lucide-react';
@@ -215,46 +214,64 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Creators */}
+      {/* Gallery Showcase - New section replacing Featured Creators */}
       <section 
         ref={(el) => (sectionsRef.current[2] = el)} 
         className="py-20 px-4 fade-in-section"
       >
         <div className="container mx-auto max-w-6xl">
-          <h2 className="section-title text-center mx-auto">Créateurs à l'Honneur</h2>
+          <h2 className="section-title text-center mx-auto">Galerie de Mode</h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-lg">
-            Découvrez quelques-uns des talents exceptionnels qui participent à CLOFAS 241
+            Découvrez les moments forts et les créations exclusives de nos événements précédents
           </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[1, 2, 3, 4].map((index) => (
-              <div 
-                key={index} 
-                className="group relative overflow-hidden rounded-xl cursor-pointer"
-                onClick={() => handleNavigate('/creators')}
-              >
-                <div className="aspect-w-1 aspect-h-1">
-                  <img 
-                    src={`https://i.ibb.co/G4XY3hdd/DSC-0207.jpg=${index}`} 
-                    alt={`Créateur ${index}`}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-80 transition-opacity group-hover:opacity-90"></div>
-                <div className="absolute bottom-0 left-0 p-6 text-white">
-                  <h3 className="font-playfair text-xl font-bold">Créateur {index}</h3>
-                  <p className="font-light opacity-80">Fashion Designer</p>
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="relative group overflow-hidden rounded-xl aspect-square">
+              <img 
+                src="https://images.unsplash.com/photo-1495385794356-15371f348c31?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3"
+                alt="Défilé de mode"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-70 group-hover:opacity-90 transition-opacity"></div>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="font-playfair text-xl font-bold">Défilés</h3>
+                <p className="font-light opacity-90">Les moments spectaculaires des podiums</p>
               </div>
-            ))}
+            </div>
+            
+            <div className="relative group overflow-hidden rounded-xl aspect-square">
+              <img 
+                src="https://images.unsplash.com/photo-1564635864477-260a722a89ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                alt="Stylistes au travail"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-70 group-hover:opacity-90 transition-opacity"></div>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="font-playfair text-xl font-bold">En Coulisses</h3>
+                <p className="font-light opacity-90">L'art et le savoir-faire des créateurs</p>
+              </div>
+            </div>
+            
+            <div className="relative group overflow-hidden rounded-xl aspect-square">
+              <img 
+                src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                alt="Création de mode"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-70 group-hover:opacity-90 transition-opacity"></div>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="font-playfair text-xl font-bold">Créations</h3>
+                <p className="font-light opacity-90">Les pièces uniques des collections</p>
+              </div>
+            </div>
           </div>
           
           <div className="text-center mt-12">
             <Button 
               className="btn-primary"
-              onClick={() => handleNavigate('/creators')}
+              onClick={() => handleNavigate('/gallery')}
             >
-              Voir tous les créateurs
+              Explorer la galerie
             </Button>
           </div>
         </div>

@@ -43,9 +43,12 @@ const Creators = () => {
                 creators={creators2024} 
                 onCreatorClick={handleCreatorClick} 
               />
-              
-              <CreatorsGallery />
             </div>
+          </div>
+          
+          {/* Creators Gallery - Now shown separately below the info section */}
+          <div className="mt-12">
+            <CreatorsGallery />
           </div>
         </div>
       </section>

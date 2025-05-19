@@ -1,8 +1,11 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { creators2024 } from './CreatorsData';
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 
 const CreatorsGallery = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  
   // Filtrer les créateurs qui ont des images valides
   const creatorsWithImages = creators2024.filter(creator => creator.images && creator.images.length > 0);
   
@@ -12,7 +15,11 @@ const CreatorsGallery = () => {
       {creatorsWithImages.length > 0 ? (
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {creatorsWithImages.slice(0, 6).map((creator, creatorIndex) => (
-            <div key={creatorIndex} className="group relative overflow-hidden rounded-lg aspect-square">
+            <div 
+              key={creatorIndex} 
+              className="group relative overflow-hidden rounded-lg aspect-square cursor-pointer"
+              onClick={() => setSelectedImage(creator.images[0])}
+            >
               <img 
                 src={creator.images[0]} 
                 alt={`Création de ${creator.name}`}
@@ -34,6 +41,19 @@ const CreatorsGallery = () => {
       ) : (
         <p className="text-gray-500 text-center py-10">Aucune image disponible pour le moment</p>
       )}
+
+      {/* Dialog pour afficher l'image en plein écran */}
+      <Dialog open={!!selectedImage} onOpenChange={(open) => !open && setSelectedImage(null)}>
+        <DialogContent className="max-w-4xl p-0 bg-black/90 border-0">
+          {selectedImage && (
+            <img
+              src={selectedImage}
+              alt="Image agrandie"
+              className="w-full h-auto max-h-[80vh] object-contain"
+            />
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };

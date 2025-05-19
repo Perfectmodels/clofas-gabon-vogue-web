@@ -31,6 +31,10 @@ const CreatorImageModals = ({
     setShowImageDialog(true);
   };
 
+  if (!selectedCreator && !selectedImage) {
+    return null;
+  }
+
   return (
     <>
       {/* Creator Images Modal */}
@@ -53,6 +57,10 @@ const CreatorImageModals = ({
                       src={image} 
                       alt={`${selectedCreator.name} création ${index + 1}`} 
                       className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                      onError={(e) => {
+                        e.currentTarget.src = '/placeholder.svg';
+                        e.currentTarget.classList.add('opacity-50');
+                      }}
                     />
                   </AspectRatio>
                 </div>
@@ -72,6 +80,10 @@ const CreatorImageModals = ({
                 src={selectedImage}
                 alt="Image en plein écran"
                 className="w-full h-auto max-h-[80vh] object-contain"
+                onError={(e) => {
+                  e.currentTarget.src = '/placeholder.svg';
+                  e.currentTarget.classList.add('opacity-50');
+                }}
               />
             )}
           </div>

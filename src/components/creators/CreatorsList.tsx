@@ -2,6 +2,7 @@
 import React from 'react';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Camera } from 'lucide-react';
+import { toast } from '@/components/ui/use-toast';
 
 type Creator = {
   name: string;
@@ -15,6 +16,18 @@ interface CreatorsListProps {
 }
 
 const CreatorsList = ({ creators, onCreatorClick }: CreatorsListProps) => {
+  const handleCreatorClick = (creator: Creator) => {
+    if (creator.images.length > 0) {
+      onCreatorClick(creator);
+    } else {
+      toast({
+        title: "Aucune image disponible",
+        description: `Pas de photos disponibles pour ${creator.name} pour le moment.`,
+        variant: "destructive"
+      });
+    }
+  };
+
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden">
       <Table>
@@ -30,7 +43,7 @@ const CreatorsList = ({ creators, onCreatorClick }: CreatorsListProps) => {
             <TableRow 
               key={index} 
               className={creator.images.length > 0 ? "cursor-pointer hover:bg-gray-100" : ""}
-              onClick={() => creator.images.length > 0 && onCreatorClick(creator)}
+              onClick={() => handleCreatorClick(creator)}
             >
               <TableCell className="font-medium">{creator.name}</TableCell>
               <TableCell>{creator.country}</TableCell>

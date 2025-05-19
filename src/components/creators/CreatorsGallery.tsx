@@ -3,7 +3,7 @@ import React from 'react';
 import { creators2024 } from './CreatorsData';
 
 const CreatorsGallery = () => {
-  // Filtrer les créateurs qui ont des images
+  // Filtrer les créateurs qui ont des images valides
   const creatorsWithImages = creators2024.filter(creator => creator.images && creator.images.length > 0);
   
   return (
@@ -17,6 +17,11 @@ const CreatorsGallery = () => {
                 src={creator.images[0]} 
                 alt={`Création de ${creator.name}`}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                onError={(e) => {
+                  // Remplacer par une image par défaut en cas d'erreur
+                  e.currentTarget.src = '/placeholder.svg';
+                  e.currentTarget.classList.add('opacity-50');
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-80 transition-opacity"></div>
               <div className="absolute bottom-0 left-0 p-3 text-white translate-y-full group-hover:translate-y-0 transition-transform duration-300">

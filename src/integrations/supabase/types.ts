@@ -116,6 +116,7 @@ export type Database = {
       }
       gallery_images: {
         Row: {
+          category: string | null
           created_at: string
           description: string | null
           event_id: string | null
@@ -125,6 +126,7 @@ export type Database = {
           updated_at: string
         }
         Insert: {
+          category?: string | null
           created_at?: string
           description?: string | null
           event_id?: string | null
@@ -134,6 +136,7 @@ export type Database = {
           updated_at?: string
         }
         Update: {
+          category?: string | null
           created_at?: string
           description?: string | null
           event_id?: string | null
@@ -309,7 +312,7 @@ export type Database = {
     }
     Functions: {
       is_admin: {
-        Args: { user_id?: string }
+        Args: Record<PropertyKey, never> | { user_id?: string }
         Returns: boolean
       }
     }

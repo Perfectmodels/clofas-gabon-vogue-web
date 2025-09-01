@@ -1,6 +1,757 @@
 
 // Mock data for gallery images
 export const MOCK_GALLERY_IMAGES = [
+  // Backstages
+  {
+    id: '700',
+    title: 'Backstage - Préparation 1',
+    description: 'Coulisses avant le défilé',
+    image_url: 'https://i.ibb.co/ymSj8dJW/DSC-0130.jpg',
+    created_at: '2025-08-05T08:00:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '701',
+    title: 'Backstage - Préparation 2',
+    description: 'Derniers réglages des tenues',
+    image_url: 'https://i.ibb.co/XZsTdhK8/DSC-0128.jpg',
+    created_at: '2025-08-05T08:05:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '702',
+    title: 'Backstage - Maquillage',
+    description: 'Séance maquillage des modèles',
+    image_url: 'https://i.ibb.co/m5GsD67R/DSC-0127.jpg',
+    created_at: '2025-08-05T08:10:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '703',
+    title: 'Backstage - Coiffure',
+    description: 'Préparation des coiffures',
+    image_url: 'https://i.ibb.co/s9fYnBy6/DSC-0123.jpg',
+    created_at: '2025-08-05T08:15:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '704',
+    title: 'Backstage - Essayage',
+    description: 'Essayage des tenues',
+    image_url: 'https://i.ibb.co/pjwMzc6Q/DSC-0108.jpg',
+    created_at: '2025-08-05T08:20:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '705',
+    title: 'Backstage - Détails',
+    description: 'Préparation des accessoires',
+    image_url: 'https://i.ibb.co/xqNDzRRn/DSC-0109.jpg',
+    created_at: '2025-08-05T08:25:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '706',
+    title: 'Backstage - Préparation 3',
+    description: 'Derniers conseils avant le défilé',
+    image_url: 'https://i.ibb.co/nNvrMBYZ/DSC-0106.jpg',
+    created_at: '2025-08-05T08:30:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '707',
+    title: 'Backstage - Détails de style',
+    description: 'Ajustements des tenues',
+    image_url: 'https://i.ibb.co/Z1S4nnxW/DSC-0105.jpg',
+    created_at: '2025-08-05T08:35:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '708',
+    title: 'Backstage - Ambiance',
+    description: 'Ambiance des coulisses',
+    image_url: 'https://i.ibb.co/PsrYtPsz/DSC-0103.jpg',
+    created_at: '2025-08-05T08:40:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '709',
+    title: 'Backstage - Préparation 4',
+    description: 'Dernières vérifications',
+    image_url: 'https://i.ibb.co/hFhGcjHn/DSC-0102.jpg',
+    created_at: '2025-08-05T08:45:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '710',
+    title: 'Backstage - Attente',
+    description: 'Les modèles en attente',
+    image_url: 'https://i.ibb.co/PdjGHbz/DSC-0101.jpg',
+    created_at: '2025-08-05T08:50:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '711',
+    title: 'Backstage - Détails techniques',
+    description: 'Préparation technique',
+    image_url: 'https://i.ibb.co/FLcwt8Wh/DSC-0099.jpg',
+    created_at: '2025-08-05T08:55:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '712',
+    title: 'Backstage - Groupe',
+    description: 'Équipe en action',
+    image_url: 'https://i.ibb.co/9kbqmDBz/DSC-0097.jpg',
+    created_at: '2025-08-05T09:00:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '713',
+    title: 'Backstage - Préparation 5',
+    description: 'Moment de concentration',
+    image_url: 'https://i.ibb.co/M5KDYVPp/DSC-0096.jpg',
+    created_at: '2025-08-05T09:05:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '714',
+    title: 'Backstage - Détails de style 2',
+    description: 'Ajustements des accessoires',
+    image_url: 'https://i.ibb.co/tpYfKk0J/DSC-0092.jpg',
+    created_at: '2025-08-05T09:10:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '715',
+    title: 'Backstage - Ambiance 2',
+    description: 'Ambiance des préparatifs',
+    image_url: 'https://i.ibb.co/7J8Sx5dJ/DSC-0090.jpg',
+    created_at: '2025-08-05T09:15:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '716',
+    title: 'Backstage - Détails techniques 2',
+    description: 'Préparation des tenues',
+    image_url: 'https://i.ibb.co/vv4VCh5h/DSC-0088.jpg',
+    created_at: '2025-08-05T09:20:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '717',
+    title: 'Backstage - Préparation 6',
+    description: 'Détails de dernière minute',
+    image_url: 'https://i.ibb.co/jkByH0JK/DSC-0087.jpg',
+    created_at: '2025-08-05T09:25:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '718',
+    title: 'Backstage - Ambiance 3',
+    description: 'Échanges entre modèles',
+    image_url: 'https://i.ibb.co/7xYV0xtR/DSC-0085.jpg',
+    created_at: '2025-08-05T09:30:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '719',
+    title: 'Backstage - Détails de style 3',
+    description: 'Finition des looks',
+    image_url: 'https://i.ibb.co/xSsCB1hB/DSC-0078.jpg',
+    created_at: '2025-08-05T09:35:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '720',
+    title: 'Backstage - Préparation 7',
+    description: 'Dernières instructions',
+    image_url: 'https://i.ibb.co/5Wk4tCtY/DSC-0071.jpg',
+    created_at: '2025-08-05T09:40:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '721',
+    title: 'Backstage - Ambiance 4',
+    description: 'Moments de détente',
+    image_url: 'https://i.ibb.co/RTX7CzhG/DSC-0060.jpg',
+    created_at: '2025-08-05T09:45:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '722',
+    title: 'Backstage - Détails de style 4',
+    description: 'Ajustements des tenues',
+    image_url: 'https://i.ibb.co/YBjXTBBM/DSC-0024.jpg',
+    created_at: '2025-08-05T09:50:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '723',
+    title: 'Backstage - Préparation 8',
+    description: 'Derniers préparatifs',
+    image_url: 'https://i.ibb.co/fY00x3KJ/DSC-0021.jpg',
+    created_at: '2025-08-05T09:55:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '724',
+    title: 'Backstage - Ambiance 5',
+    description: 'Échanges entre l\'équipe',
+    image_url: 'https://i.ibb.co/TDxNsH2h/DSC-0018.jpg',
+    created_at: '2025-08-05T10:00:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '725',
+    title: 'Backstage - Détails techniques 3',
+    description: 'Préparation des accessoires',
+    image_url: 'https://i.ibb.co/JR1pdDyw/DSC-0011.jpg',
+    created_at: '2025-08-05T10:05:00Z',
+    category: 'backstage'
+  },
+  {
+    id: '726',
+    title: 'Backstage - Préparation 9',
+    description: 'Moment de concentration',
+    image_url: 'https://i.ibb.co/QvNgs0Vy/DSC-0010.jpg',
+    created_at: '2025-08-05T10:10:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  {
+    id: '727',
+    title: 'Backstage - Final',
+    description: 'Derniers instants avant le défilé',
+    image_url: 'https://i.ibb.co/h1FVLd3J/DSC-0005.jpg',
+    created_at: '2025-08-05T10:15:00Z',
+    category: 'backstage',
+    featured: true
+  },
+  // Élèves de l'École de Mode
+  {
+    id: '600',
+    title: 'Élèves de l\'École de Mode - Groupe 1',
+    description: 'Travaux pratiques en atelier',
+    image_url: 'https://i.ibb.co/wZBnMR57/DSC-0211.jpg',
+    created_at: '2025-08-10T09:00:00Z',
+    category: 'ecole-mode',
+    featured: true
+  },
+  {
+    id: '601',
+    title: 'Élèves de l\'École de Mode - Groupe 2',
+    description: 'Séance de création collective',
+    image_url: 'https://i.ibb.co/4w14tRBh/DSC-0207.jpg',
+    created_at: '2025-08-10T09:10:00Z',
+    category: 'ecole-mode'
+  },
+  {
+    id: '602',
+    title: 'Élèves de l\'École de Mode - Atelier',
+    description: 'Apprentissage des techniques de coupe',
+    image_url: 'https://i.ibb.co/2Yf5Z7TY/DSC-0204.jpg',
+    created_at: '2025-08-10T09:20:00Z',
+    category: 'ecole-mode',
+    featured: true
+  },
+  {
+    id: '603',
+    title: 'Élèves de l\'École de Mode - Travail en équipe',
+    description: 'Réalisation de prototypes',
+    image_url: 'https://i.ibb.co/nsFQFx14/DSC-0201.jpg',
+    created_at: '2025-08-10T09:30:00Z',
+    category: 'ecole-mode'
+  },
+  {
+    id: '604',
+    title: 'Élèves de l\'École de Mode - Création',
+    description: 'Dessin et conception de modèles',
+    image_url: 'https://i.ibb.co/5gZj61YC/DSC-0197.jpg',
+    created_at: '2025-08-10T09:40:00Z',
+    category: 'ecole-mode',
+    featured: true
+  },
+  {
+    id: '605',
+    title: 'Élèves de l\'École de Mode - Atelier couture',
+    description: 'Travail sur les finitions',
+    image_url: 'https://i.ibb.co/nqKQrxjf/DSC-0194.jpg',
+    created_at: '2025-08-10T09:50:00Z',
+    category: 'ecole-mode'
+  },
+  {
+    id: '606',
+    title: 'Élèves de l\'École de Mode - Projet final',
+    description: 'Présentation des créations',
+    image_url: 'https://i.ibb.co/s9kN80fr/DSC-0192.jpg',
+    created_at: '2025-08-10T10:00:00Z',
+    category: 'ecole-mode',
+    featured: true
+  },
+  // Casting Première Édition CLOFAS
+  {
+    id: '500',
+    title: 'Casting CLOFAS - Modèle 1',
+    description: 'Séance photo du casting',
+    image_url: 'https://i.ibb.co/VY9FHMqM/PMM-0182.jpg',
+    created_at: '2025-08-15T10:00:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '501',
+    title: 'Casting CLOFAS - Modèle 2',
+    description: 'Portrait du modèle',
+    image_url: 'https://i.ibb.co/CpgPKjcK/PMM-0183.jpg',
+    created_at: '2025-08-15T10:05:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '502',
+    title: 'Casting CLOFAS - Modèle 3',
+    description: 'Présentation du modèle',
+    image_url: 'https://i.ibb.co/vvTGPwFJ/PMM-0181.jpg',
+    created_at: '2025-08-15T10:10:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '503',
+    title: 'Casting CLOFAS - Modèle 4',
+    description: 'Pose professionnelle',
+    image_url: 'https://i.ibb.co/5WNJWqrF/PMM-0178.jpg',
+    created_at: '2025-08-15T10:15:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '504',
+    title: 'Casting CLOFAS - Modèle 5',
+    description: 'Détails du style',
+    image_url: 'https://i.ibb.co/RkpXR88h/PMM-0174.jpg',
+    created_at: '2025-08-15T10:20:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '505',
+    title: 'Casting CLOFAS - Modèle 6',
+    description: 'Pose avant défilé',
+    image_url: 'https://i.ibb.co/4nsjvKmP/PMM-0170.jpg',
+    created_at: '2025-08-15T10:25:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '506',
+    title: 'Casting CLOFAS - Modèle 7',
+    description: 'Présentation complète',
+    image_url: 'https://i.ibb.co/WZ8YhRP/PMM-0169.jpg',
+    created_at: '2025-08-15T10:30:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '507',
+    title: 'Casting CLOFAS - Modèle 8',
+    description: 'Détails des tenues',
+    image_url: 'https://i.ibb.co/7J6fTwQq/PMM-0168.jpg',
+    created_at: '2025-08-15T10:35:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '508',
+    title: 'Casting CLOFAS - Modèle 9',
+    description: 'Préparation backstage',
+    image_url: 'https://i.ibb.co/d4MkKfMx/PMM-0154.jpg',
+    created_at: '2025-08-15T10:40:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '509',
+    title: 'Casting CLOFAS - Modèle 10',
+    description: 'Séance maquillage',
+    image_url: 'https://i.ibb.co/vvdN85XM/PMM-0152.jpg',
+    created_at: '2025-08-15T10:45:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '510',
+    title: 'Casting CLOFAS - Modèle 11',
+    description: 'Essais photos',
+    image_url: 'https://i.ibb.co/VWQBn7Bc/PMM-0151.jpg',
+    created_at: '2025-08-15T10:50:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '511',
+    title: 'Casting CLOFAS - Modèle 12',
+    description: 'Portrait artistique',
+    image_url: 'https://i.ibb.co/dsr0Djmz/PMM-0127.jpg',
+    created_at: '2025-08-15T10:55:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '512',
+    title: 'Casting CLOFAS - Modèle 13',
+    description: 'Séance en studio',
+    image_url: 'https://i.ibb.co/hFs7T2qT/PMM-0126.jpg',
+    created_at: '2025-08-15T11:00:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '513',
+    title: 'Casting CLOFAS - Modèle 14',
+    description: 'Pose professionnelle',
+    image_url: 'https://i.ibb.co/FLvV8Q8d/PMM-0101.jpg',
+    created_at: '2025-08-15T11:05:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '514',
+    title: 'Casting CLOFAS - Modèle 15',
+    description: 'Détails du style',
+    image_url: 'https://i.ibb.co/xK1bqxNh/PMM-0098.jpg',
+    created_at: '2025-08-15T11:10:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '515',
+    title: 'Casting CLOFAS - Modèle 16',
+    description: 'Présentation complète',
+    image_url: 'https://i.ibb.co/chXT5BfM/PMM-0096.jpg',
+    created_at: '2025-08-15T11:15:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '516',
+    title: 'Casting CLOFAS - Modèle 17',
+    description: 'Détails des accessoires',
+    image_url: 'https://i.ibb.co/ZRtwB0hB/PMM-0092.jpg',
+    created_at: '2025-08-15T11:20:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '517',
+    title: 'Casting CLOFAS - Modèle 18',
+    description: 'Pose avant défilé',
+    image_url: 'https://i.ibb.co/FkLvJTTj/PMM-0087.jpg',
+    created_at: '2025-08-15T11:25:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '518',
+    title: 'Casting CLOFAS - Modèle 19',
+    description: 'Séance photo professionnelle',
+    image_url: 'https://i.ibb.co/9kHw4bXG/PMM-0067.jpg',
+    created_at: '2025-08-15T11:30:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '519',
+    title: 'Casting CLOFAS - Modèle 20',
+    description: 'Portrait en noir et blanc',
+    image_url: 'https://i.ibb.co/rK9XTkVg/PMM-0061.jpg',
+    created_at: '2025-08-15T11:35:00Z',
+    category: 'casting-premiere-edition',
+    featured: true
+  },
+  {
+    id: '520',
+    title: 'Casting CLOFAS - Modèle 21',
+    description: 'Derniers préparatifs',
+    image_url: 'https://i.ibb.co/v6m7k5tz/PMM-0059.jpg',
+    created_at: '2025-08-15T11:40:00Z',
+    category: 'casting-premiere-edition'
+  },
+  {
+    id: '400',
+    title: 'Angèle Epouta - Modèle 1',
+    description: 'Présentation de la collection',
+    image_url: 'https://i.ibb.co/3mZjJdvz/DSC-0236.jpg',
+    created_at: '2025-09-01T13:00:00Z',
+    category: 'angele-epouta',
+    featured: true
+  },
+  {
+    id: '401',
+    title: 'Angèle Epouta - Modèle 2',
+    description: 'Détails de la collection',
+    image_url: 'https://i.ibb.co/B2VywvGj/DSC-0234.jpg',
+    created_at: '2025-09-01T13:05:00Z',
+    category: 'angele-epouta'
+  },
+  {
+    id: '402',
+    title: 'Angèle Epouta - Modèle 3',
+    description: 'Défilé de la collection',
+    image_url: 'https://i.ibb.co/F1hB9pC/DSC-0232.jpg',
+    created_at: '2025-09-01T13:10:00Z',
+    category: 'angele-epouta',
+    featured: true
+  },
+  {
+    id: '403',
+    title: 'Angèle Epouta - Modèle 4',
+    description: 'Présentation sur podium',
+    image_url: 'https://i.ibb.co/8n8VDjT0/DSC-0230.jpg',
+    created_at: '2025-09-01T13:15:00Z',
+    category: 'angele-epouta'
+  },
+  {
+    id: '404',
+    title: 'Angèle Epouta - Modèle 5',
+    description: 'Détails de fabrication',
+    image_url: 'https://i.ibb.co/ZsyTx9f/DSC-0227.jpg',
+    created_at: '2025-09-01T13:20:00Z',
+    category: 'angele-epouta'
+  },
+  {
+    id: '405',
+    title: 'Angèle Epouta - Modèle 6',
+    description: 'Vue de face',
+    image_url: 'https://i.ibb.co/1Y66K5JK/DSC-0225.jpg',
+    created_at: '2025-09-01T13:25:00Z',
+    category: 'angele-epouta',
+    featured: true
+  },
+  {
+    id: '406',
+    title: 'Angèle Epouta - Modèle 7',
+    description: 'Détails des finitions',
+    image_url: 'https://i.ibb.co/fYLRv4mg/DSC-0224.jpg',
+    created_at: '2025-09-01T13:30:00Z',
+    category: 'angele-epouta'
+  },
+  {
+    id: '407',
+    title: 'Angèle Epouta - Modèle 8',
+    description: 'Présentation complète',
+    image_url: 'https://i.ibb.co/dw0rSZw1/DSC-0220.jpg',
+    created_at: '2025-09-01T13:35:00Z',
+    category: 'angele-epouta',
+    featured: true
+  },
+  {
+    id: '300',
+    title: 'L\'Atelier Issé By Lita - Modèle 1',
+    description: 'Présentation de la collection',
+    image_url: 'https://i.ibb.co/sv0k6HGB/DSC-0253.jpg',
+    created_at: '2025-09-01T12:00:00Z',
+    category: 'atelier-isse-lita',
+    featured: true
+  },
+  {
+    id: '301',
+    title: 'L\'Atelier Issé By Lita - Modèle 2',
+    description: 'Détails de la collection',
+    image_url: 'https://i.ibb.co/Jwt31rQy/DSC-0250.jpg',
+    created_at: '2025-09-01T12:05:00Z',
+    category: 'atelier-isse-lita'
+  },
+  {
+    id: '302',
+    title: 'L\'Atelier Issé By Lita - Modèle 3',
+    description: 'Défilé de la collection',
+    image_url: 'https://i.ibb.co/MDd75HzW/DSC-0246.jpg',
+    created_at: '2025-09-01T12:10:00Z',
+    category: 'atelier-isse-lita',
+    featured: true
+  },
+  {
+    id: '303',
+    title: 'L\'Atelier Issé By Lita - Modèle 4',
+    description: 'Présentation sur podium',
+    image_url: 'https://i.ibb.co/v6GxL1jZ/DSC-0245.jpg',
+    created_at: '2025-09-01T12:15:00Z',
+    category: 'atelier-isse-lita'
+  },
+  {
+    id: '304',
+    title: 'L\'Atelier Issé By Lita - Modèle 5',
+    description: 'Détails de fabrication',
+    image_url: 'https://i.ibb.co/kgGD0qth/DSC-0243.jpg',
+    created_at: '2025-09-01T12:20:00Z',
+    category: 'atelier-isse-lita'
+  },
+  {
+    id: '305',
+    title: 'L\'Atelier Issé By Lita - Modèle 6',
+    description: 'Vue de face',
+    image_url: 'https://i.ibb.co/v4NdwHcR/DSC-0241.jpg',
+    created_at: '2025-09-01T12:25:00Z',
+    category: 'atelier-isse-lita',
+    featured: true
+  },
+  {
+    id: '306',
+    title: 'L\'Atelier Issé By Lita - Modèle 7',
+    description: 'Détails des finitions',
+    image_url: 'https://i.ibb.co/RGyRSkWH/DSC-0240.jpg',
+    created_at: '2025-09-01T12:30:00Z',
+    category: 'atelier-isse-lita'
+  },
+  {
+    id: '307',
+    title: 'L\'Atelier Issé By Lita - Modèle 8',
+    description: 'Présentation complète',
+    image_url: 'https://i.ibb.co/xtWq4ppT/DSC-0239.jpg',
+    created_at: '2025-09-01T12:35:00Z',
+    category: 'atelier-isse-lita',
+    featured: true
+  },
+  {
+    id: '200',
+    title: 'Collection Jacques Simon - Modèle 1',
+    description: 'Présentation de la collection Jacques Simon',
+    image_url: 'https://i.ibb.co/JF5GH1kY/DSC-0318.jpg',
+    created_at: '2025-09-01T11:00:00Z',
+    category: 'jacques-simon',
+    featured: true
+  },
+  {
+    id: '201',
+    title: 'Collection Jacques Simon - Modèle 2',
+    description: 'Détails de la collection',
+    image_url: 'https://i.ibb.co/bR1TDgkG/DSC-0316.jpg',
+    created_at: '2025-09-01T11:05:00Z',
+    category: 'jacques-simon'
+  },
+  {
+    id: '202',
+    title: 'Collection Jacques Simon - Modèle 3',
+    description: 'Défilé de la collection',
+    image_url: 'https://i.ibb.co/B5ZY82CW/DSC-0312.jpg',
+    created_at: '2025-09-01T11:10:00Z',
+    category: 'jacques-simon',
+    featured: true
+  },
+  {
+    id: '203',
+    title: 'Collection Jacques Simon - Modèle 4',
+    description: 'Présentation sur podium',
+    image_url: 'https://i.ibb.co/d0g2HmjV/DSC-0310.jpg',
+    created_at: '2025-09-01T11:15:00Z',
+    category: 'jacques-simon'
+  },
+  {
+    id: '204',
+    title: 'Collection Jacques Simon - Modèle 5',
+    description: 'Détails de fabrication',
+    image_url: 'https://i.ibb.co/k2Dqw3mj/DSC-0305.jpg',
+    created_at: '2025-09-01T11:20:00Z',
+    category: 'jacques-simon'
+  },
+  {
+    id: '205',
+    title: 'Collection Jacques Simon - Modèle 6',
+    description: 'Vue de face',
+    image_url: 'https://i.ibb.co/6c6c63Kw/DSC-0303.jpg',
+    created_at: '2025-09-01T11:25:00Z',
+    category: 'jacques-simon',
+    featured: true
+  },
+  {
+    id: '206',
+    title: 'Collection Jacques Simon - Modèle 7',
+    description: 'Détails des finitions',
+    image_url: 'https://i.ibb.co/WNBYncPJ/DSC-0301.jpg',
+    created_at: '2025-09-01T11:30:00Z',
+    category: 'jacques-simon'
+  },
+  {
+    id: '207',
+    title: 'Collection Jacques Simon - Modèle 8',
+    description: 'Présentation complète',
+    image_url: 'https://i.ibb.co/S7y2RSDK/DSC-0296.jpg',
+    created_at: '2025-09-01T11:35:00Z',
+    category: 'jacques-simon'
+  },
+  {
+    id: '208',
+    title: 'Collection Jacques Simon - Modèle 9',
+    description: 'Derniers réglages',
+    image_url: 'https://i.ibb.co/m5kgZ7Zh/DSC-0295.jpg',
+    created_at: '2025-09-01T11:40:00Z',
+    category: 'jacques-simon',
+    featured: true
+  },
+  {
+    id: '100',
+    title: 'Défilé CLOFAS - Collection Desmo',
+    description: 'Présentation de la collection Desmo par CLOFAS',
+    image_url: 'https://i.ibb.co/B0JvpMX/DSC-0286.jpg',
+    created_at: '2025-09-01T10:00:00Z',
+    category: 'desmo',
+    featured: true
+  },
+  {
+    id: '101',
+    title: 'Collection Desmo - Modèle 1',
+    description: 'Détails de la collection Desmo',
+    image_url: 'https://i.ibb.co/8gPh51Gq/DSC-0280.jpg',
+    created_at: '2025-09-01T10:05:00Z',
+    category: 'desmo'
+  },
+  {
+    id: '102',
+    title: 'Collection Desmo - Modèle 2',
+    description: 'Défilé de la collection Desmo',
+    image_url: 'https://i.ibb.co/nMnYTwgP/DSC-0279.jpg',
+    created_at: '2025-09-01T10:10:00Z',
+    category: 'desmo',
+    featured: true
+  },
+  {
+    id: '103',
+    title: 'Collection Desmo - Modèle 3',
+    description: 'Présentation sur podium',
+    image_url: 'https://i.ibb.co/2zRKpF4/DSC-0273.jpg',
+    created_at: '2025-09-01T10:15:00Z',
+    category: 'desmo'
+  },
+  {
+    id: '104',
+    title: 'Collection Desmo - Modèle 4',
+    description: 'Détails de fabrication',
+    image_url: 'https://i.ibb.co/F4xZwkyJ/DSC-0268.jpg',
+    created_at: '2025-09-01T10:20:00Z',
+    category: 'desmo'
+  },
+  {
+    id: '105',
+    title: 'Collection Desmo - Modèle 5',
+    description: 'Vue de face',
+    image_url: 'https://i.ibb.co/rf2k6D62/DSC-0262.jpg',
+    created_at: '2025-09-01T10:25:00Z',
+    category: 'desmo',
+    featured: true
+  },
+  {
+    id: '106',
+    title: 'Collection Desmo - Modèle 6',
+    description: 'Derniers préparatifs',
+    image_url: 'https://i.ibb.co/XfDmTt9H/DSC-0259.jpg',
+    created_at: '2025-09-01T10:30:00Z',
+    category: 'desmo'
+  },
   {
     id: '1',
     title: 'Défilé CLOFAS 2024',

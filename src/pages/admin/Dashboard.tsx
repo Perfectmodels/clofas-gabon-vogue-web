@@ -5,6 +5,7 @@ import { useDashboardStatsFirebase } from '@/hooks/useDashboardStatsFirebase';
 import AddRealStylist from '@/components/AddRealStylist';
 import StylistsOverview from '@/components/StylistsOverview';
 import ImportExistingCreators from '@/components/ImportExistingCreators';
+import FirebaseDiagnostic from '@/components/FirebaseDiagnostic';
 import {
   Users,
   Calendar,
@@ -261,6 +262,19 @@ const Dashboard = () => {
           </Card>
         </div>
       </div>
+
+        {/* Diagnostic Firebase */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center">
+              <Database className="h-5 w-5 mr-2" />
+              Diagnostic Firebase
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <FirebaseDiagnostic />
+          </CardContent>
+        </Card>
 
         {/* Importer les créateurs existants */}
         <Card>

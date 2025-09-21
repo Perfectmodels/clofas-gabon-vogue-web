@@ -3,6 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
+import ClofasButton from '@/components/ui/clofas-button';
+import ClofasBadge from '@/components/ui/clofas-badge';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -257,11 +259,11 @@ const CreatorsManagement = () => {
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm font-medium text-gray-700">Galerie</span>
                     <Badge variant="outline" className="text-xs">
-                      {creator.images.length} image{creator.images.length > 1 ? 's' : ''}
+                      {creator.images?.length || 0} image{(creator.images?.length || 0) > 1 ? 's' : ''}
                     </Badge>
                   </div>
                   <div className="grid grid-cols-3 gap-2">
-                    {creator.images.slice(0, 3).map((image, index) => (
+                    {(creator.images || []).slice(0, 3).map((image, index) => (
                       <div
                         key={index}
                         className="aspect-square bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:opacity-80 transition-opacity"
@@ -274,12 +276,12 @@ const CreatorsManagement = () => {
                         />
                       </div>
                     ))}
-                    {creator.images.length > 3 && (
+                    {(creator.images?.length || 0) > 3 && (
                       <div
                         className="aspect-square bg-gray-100 rounded-lg flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors"
                         onClick={() => handleViewImages(creator)}
                       >
-                        <span className="text-xs text-gray-600">+{creator.images.length - 3}</span>
+                        <span className="text-xs text-gray-600">+{(creator.images?.length || 0) - 3}</span>
                       </div>
                     )}
                   </div>
@@ -381,7 +383,7 @@ const CreatorsManagement = () => {
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="flex items-center space-x-1">
                           <Camera className="h-4 w-4 text-gray-400" />
-                          <span className="text-sm text-gray-900">{creator.images.length}</span>
+                          <span className="text-sm text-gray-900">{creator.images?.length || 0}</span>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
@@ -665,7 +667,7 @@ const CreatorImagesDialog = ({
         </DialogHeader>
         <div className="space-y-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {creator.images.map((image, index) => (
+            {(creator.images || []).map((image, index) => (
               <div
                 key={index}
                 className="aspect-square bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:opacity-80 transition-opacity"
@@ -679,7 +681,7 @@ const CreatorImagesDialog = ({
               </div>
             ))}
           </div>
-          {creator.images.length === 0 && (
+          {(creator.images?.length || 0) === 0 && (
             <div className="text-center py-8 text-gray-500">
               <ImageIcon className="h-12 w-12 mx-auto mb-4 text-gray-300" />
               <p>Aucune image disponible pour ce créateur</p>

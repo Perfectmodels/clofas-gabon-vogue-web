@@ -108,5 +108,11 @@ export const creators2024 = [
     name: "Angelina Creations",
     country: "Gabon",
     images: []
+  },
+  {
+    id: "beitch-faro",
+    name: "Beitch Faro",
+    country: "Gabon",
+    images: []
   }
 ];

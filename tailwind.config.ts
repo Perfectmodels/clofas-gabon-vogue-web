@@ -54,11 +54,17 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				clofas: {
-					coral: "#FE3A4A",
-					gold: "#FEC501",
-					brown: "#8B4513",
-					lavender: "#9B87F5",
-					dark: "#333333",
+					coral: "#FF6B6B",
+					'coral-light': "#FF8E8E",
+					'coral-dark': "#E55A5A",
+					gold: "#FFD93D",
+					'gold-light': "#FFE066",
+					'gold-dark': "#E6C235",
+					blue: "#4ECDC4",
+					'blue-light': "#6ED5CE",
+					'blue-dark': "#45B8B0",
+					dark: "#2C3E50",
+					light: "#F8F9FA",
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

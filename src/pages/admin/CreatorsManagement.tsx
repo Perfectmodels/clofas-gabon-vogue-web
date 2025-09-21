@@ -3,8 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import ClofasButton from '@/components/ui/clofas-button';
-import ClofasBadge from '@/components/ui/clofas-badge';
+// Composants Clofas supprimés - utilisation des composants standard
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -142,7 +141,7 @@ const CreatorsManagement = () => {
     return (
       <div className="flex items-center justify-center h-64">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-clofas-coral mx-auto mb-4"></div>
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mx-auto mb-4"></div>
           <p className="text-gray-600">Chargement des créateurs...</p>
         </div>
       </div>
@@ -165,10 +164,10 @@ const CreatorsManagement = () => {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-clofas-dark">Gestion des Créateurs</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Gestion des Créateurs</h1>
           <p className="text-gray-600">Gérez les créateurs et leurs galeries d'images</p>
         </div>
-        <Button onClick={handleCreateCreator} className="bg-clofas-coral hover:bg-clofas-coral/90">
+        <Button onClick={handleCreateCreator} className="bg-blue-600 hover:bg-blue-700">
           <Plus className="h-4 w-4 mr-2" />
           Nouveau Créateur
         </Button>
@@ -226,7 +225,7 @@ const CreatorsManagement = () => {
               <CardContent className="p-6">
                 <div className="flex items-start justify-between mb-4">
                   <div>
-                    <h3 className="text-lg font-semibold text-clofas-dark">{creator.name}</h3>
+                    <h3 className="text-lg font-semibold text-gray-900">{creator.name}</h3>
                     <p className="text-sm text-gray-600">{creator.country}</p>
                   </div>
                   <div className="flex space-x-1">
@@ -302,7 +301,7 @@ const CreatorsManagement = () => {
                     variant="default"
                     size="sm"
                     onClick={() => handleViewMiniGallery(creator)}
-                    className="flex-1 bg-clofas-coral hover:bg-clofas-coral/90"
+                    className="flex-1 bg-blue-600 hover:bg-blue-700"
                   >
                     <Camera className="h-4 w-4 mr-1" />
                     Mini Galerie

@@ -101,7 +101,7 @@ const SimpleAdminLayout = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="header-clofas px-4 py-3">
+      <header className="bg-white border-b border-gray-200 shadow-sm px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <Button
@@ -142,7 +142,7 @@ const SimpleAdminLayout = () => {
       <div className="flex">
         {/* Sidebar */}
         <aside className={`${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} 
-          sidebar-clofas fixed lg:static inset-y-0 left-0 z-50 
+          w-64 bg-white border-r border-gray-200 shadow-sm fixed lg:static inset-y-0 left-0 z-50 
           transform transition-transform duration-200 ease-in-out lg:translate-x-0`}>
           <div className="p-4">
             <nav className="space-y-2">
@@ -182,7 +182,7 @@ const SimpleAdminLayout = () => {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 p-6">
+        <main className="flex-1 p-6 lg:ml-64">
           <div className="max-w-7xl mx-auto">
             <Outlet />
           </div>

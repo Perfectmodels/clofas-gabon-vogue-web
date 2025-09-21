@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import ImageUpload from '@/components/ui/image-upload';
+import AdvancedImageUpload from '@/components/ui/advanced-image-upload';
 import BulkImageUpload from './BulkImageUpload';
 import { UploadResult } from '@/services/imgbb-service';
 import { CloudUpload, FolderOpen } from 'lucide-react';
@@ -59,21 +60,19 @@ const CreatorUploadSimple = ({ creatorId, creatorName, onUploadComplete }: Creat
             </TabsList>
             
             <TabsContent value="single" className="space-y-6">
-              {/* Upload simple */}
+              {/* Upload simple avec mini-grille */}
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">Sélection des images</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ImageUpload
-                    onUploadComplete={handleUploadComplete}
-                    onUploadError={handleUploadError}
-                    multiple={true}
+                  <AdvancedImageUpload
+                    onUploadComplete={(urls) => {
+                      const results = urls.map(url => ({ success: true, url }));
+                      handleUploadComplete(results);
+                    }}
                     maxFiles={100}
                     maxSize={32}
-                    showPreview={true}
-                    showProgress={true}
-                    unlimited={true}
                     className="border border-gray-300 rounded-lg p-4"
                   />
                 </CardContent>

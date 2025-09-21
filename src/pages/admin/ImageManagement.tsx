@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import ImageUpload from '@/components/ui/image-upload';
+import AdvancedImageUpload from '@/components/ui/advanced-image-upload';
 import { useImagesFirebase } from '@/hooks/useImagesFirebase';
 import { UploadResult } from '@/services/imgbb-service';
 import AutoSaveIndicator from '@/components/ui/auto-save-indicator';
@@ -412,15 +413,13 @@ const ImageManagement = () => {
             </DialogTitle>
           </DialogHeader>
           <div className="py-4">
-            <ImageUpload
-              onUploadComplete={handleUploadComplete}
-              onUploadError={handleUploadError}
-              multiple={true}
+            <AdvancedImageUpload
+              onUploadComplete={(urls) => {
+                const results = urls.map(url => ({ success: true, url }));
+                handleUploadComplete(results);
+              }}
               maxFiles={100}
               maxSize={32}
-              showPreview={true}
-              showProgress={true}
-              unlimited={true}
             />
           </div>
           </DialogContent>

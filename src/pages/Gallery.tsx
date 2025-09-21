@@ -61,14 +61,14 @@ const Gallery = () => {
             <Button
               variant={selectedSection === 'mannequins' ? 'default' : 'ghost'}
               onClick={() => setSelectedSection('mannequins')}
-              className="rounded-sm text-sm"
+              className="rounded-sm text-sm transition-all duration-300 hover:scale-105"
             >
               Casting Mannequins
             </Button>
             <Button
               variant={selectedSection === 'event' ? 'default' : 'ghost'} 
               onClick={() => setSelectedSection('event')}
-              className="rounded-sm text-sm"
+              className="rounded-sm text-sm transition-all duration-300 hover:scale-105"
             >
               Événements
             </Button>

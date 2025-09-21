@@ -1,9 +1,15 @@
 
 import { useState, useEffect } from 'react';
 import { Outlet, NavLink, useNavigate, useLocation } from 'react-router-dom';
-import { Home, Info, Calendar, Users, Image, Handshake, Mail, Menu, X, ChevronUp } from 'lucide-react';
+import { Home, Info, Calendar, Users, Image, Handshake, Mail, Menu, X, ChevronUp, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
+
+// Composants d'authentification simplifiés (sans Clerk)
+const SignedIn = ({ children }: { children: React.ReactNode }) => null;
+const SignedOut = ({ children }: { children: React.ReactNode }) => children;
+const SignInButton = ({ children }: { children: React.ReactNode }) => children;
+const UserButton = () => null;
 
 const Layout = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -49,8 +55,8 @@ const Layout = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <header 
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-sm ${
+          scrolled ? 'bg-white/95 shadow-md py-2' : 'bg-transparent py-4'
         }`}
       >
         <div className="container mx-auto px-4 flex justify-between items-center">
@@ -78,7 +84,7 @@ const Layout = () => {
               </NavLink>
             ))}
 
-            <div className="flex items-center ml-4">
+            <div className="flex items-center ml-4 space-x-4">
               <div className="flex items-center space-x-2">
                 <span className="text-xs">🌞</span>
                 <Switch 
@@ -88,6 +94,50 @@ const Layout = () => {
                 />
                 <span className="text-xs">🌙</span>
               </div>
+              
+                  {/* Authentification et Administration */}
+                  <div className="flex items-center space-x-2">
+                    <SignedOut>
+                      <SignInButton mode="modal">
+                        <Button variant="outline" size="sm" className="text-xs">
+                          Se connecter
+                        </Button>
+                      </SignInButton>
+                    </SignedOut>
+
+                    <SignedIn>
+                      <UserButton
+                        afterSignOutUrl="/"
+                        appearance={{
+                          elements: {
+                            avatarBox: "w-6 h-6"
+                          }
+                        }}
+                      />
+
+                      {/* Lien d'administration (visible seulement aux utilisateurs connectés) */}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => navigate('/admin')}
+                        className="text-xs"
+                      >
+                        <Shield className="h-3 w-3 mr-1" />
+                        Admin
+                      </Button>
+                    </SignedIn>
+
+                    {/* Lien d'administration pour les utilisateurs non connectés */}
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => navigate('/admin-login')}
+                      className="text-xs"
+                    >
+                      <Shield className="h-3 w-3 mr-1" />
+                      Admin
+                    </Button>
+                  </div>
             </div>
           </nav>
 

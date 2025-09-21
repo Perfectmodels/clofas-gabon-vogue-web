@@ -1,6 +1,7 @@
 
 export const creators2024 = [
   {
+    id: "angele-epouta",
     name: "Angèle Epouta",
     country: "Gabon",
     images: [
@@ -25,6 +26,7 @@ export const creators2024 = [
     ]
   },
   {
+    id: "atelier-isee-by-lita",
     name: "Atelier Issée By Lita",
     country: "Gabon",
     images: [
@@ -45,6 +47,7 @@ export const creators2024 = [
     ]
   },
   {
+    id: "desmo",
     name: "Desmo",
     country: "Togo",
     images: [
@@ -77,26 +80,31 @@ export const creators2024 = [
     ]
   },
   {
+    id: "jacques-simon",
     name: "Jacques Simon",
     country: "Gabon",
     images: []
   },
   {
+    id: "koro-dk-style",
     name: "Koro DK Style",
     country: "Burkina Faso",
     images: []
   },
   {
+    id: "nous-fashion",
     name: "Nous Fashion",
     country: "Gabon",
     images: []
   },
   {
+    id: "oj-fashion",
     name: "OJ Fashion",
     country: "Gabon",
     images: []
   },
   {
+    id: "angelina-creations",
     name: "Angelina Creations",
     country: "Gabon",
     images: []

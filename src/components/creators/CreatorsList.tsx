@@ -1,13 +1,15 @@
 
 import React from 'react';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Camera } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Camera, Eye } from 'lucide-react';
 import { toast } from '@/components/ui/use-toast';
 
 type Creator = {
   name: string;
   country: string;
   images: string[];
+  id?: string;
 };
 
 interface CreatorsListProps {
@@ -16,7 +18,8 @@ interface CreatorsListProps {
 }
 
 const CreatorsList = ({ creators, onCreatorClick }: CreatorsListProps) => {
-  const handleCreatorClick = (creator: Creator) => {
+  const handleCreatorClick = (creator: Creator, event: React.MouseEvent) => {
+    event.stopPropagation();
     if (creator.images.length > 0) {
       onCreatorClick(creator);
     } else {
@@ -35,15 +38,15 @@ const CreatorsList = ({ creators, onCreatorClick }: CreatorsListProps) => {
           <TableRow>
             <TableHead>Nom du styliste</TableHead>
             <TableHead>Pays</TableHead>
-            <TableHead className="w-16 text-center">Photos</TableHead>
+            <TableHead className="w-20 text-center">Photos</TableHead>
+            <TableHead className="w-24 text-center">Actions</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
           {creators.map((creator, index) => (
             <TableRow 
               key={index} 
-              className={creator.images.length > 0 ? "cursor-pointer hover:bg-gray-100" : ""}
-              onClick={() => handleCreatorClick(creator)}
+              className="hover:bg-gray-50"
             >
               <TableCell className="font-medium">{creator.name}</TableCell>
               <TableCell>{creator.country}</TableCell>
@@ -53,6 +56,21 @@ const CreatorsList = ({ creators, onCreatorClick }: CreatorsListProps) => {
                     <Camera className="h-5 w-5 text-clofas-coral" />
                     <span className="ml-1 text-xs">{creator.images.length}</span>
                   </div>
+                ) : (
+                  <span className="text-xs text-gray-400">-</span>
+                )}
+              </TableCell>
+              <TableCell className="text-center">
+                {creator.images.length > 0 ? (
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    onClick={(e) => handleCreatorClick(creator, e)}
+                    className="text-xs"
+                  >
+                    <Eye className="h-3 w-3 mr-1" />
+                    Voir
+                  </Button>
                 ) : (
                   <span className="text-xs text-gray-400">-</span>
                 )}

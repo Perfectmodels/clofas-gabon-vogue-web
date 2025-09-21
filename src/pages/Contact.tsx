@@ -2,6 +2,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Calendar, Users, ImageIcon, MapPin, Phone, Mail } from 'lucide-react';
 import { AnimatedButton } from '@/components/AnimatedButton';
+import ImageUpload from '@/components/ui/image-upload';
+import { UploadResult } from '@/services/imgbb-service';
 
 type FormData = {
   name: string;
@@ -10,6 +12,7 @@ type FormData = {
   subject: string;
   message: string;
   interest: string;
+  images?: string[]; // URLs des images uploadées
 };
 
 const Contact = () => {
@@ -20,9 +23,11 @@ const Contact = () => {
     phone: '',
     subject: '',
     message: '',
-    interest: ''
+    interest: '',
+    images: []
   });
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [uploadedImages, setUploadedImages] = useState<string[]>([]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,10 +54,42 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
+  const handleUploadComplete = (results: UploadResult[]) => {
+    const successfulUploads = results.filter(r => r.success && r.url);
+    const imageUrls = successfulUploads.map(r => r.url!);
+    setUploadedImages(prev => [...prev, ...imageUrls]);
+    setFormData(prev => ({ ...prev, images: [...(prev.images || []), ...imageUrls] }));
+  };
+
+  const handleUploadError = (error: string) => {
+    console.error('Erreur d\'upload:', error);
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Format WhatsApp message with form data
-    const message = `Nouveau message CLOFAS 241:\nNom: ${formData.name}\nEmail: ${formData.email}\nTéléphone: ${formData.phone}\nSujet: ${formData.subject}\nIntérêt: ${formData.interest}\nMessage: ${formData.message}`;
+    
+    // Validation des champs requis
+    if (!formData.name.trim() || !formData.email.trim() || !formData.subject.trim() || !formData.message.trim() || !formData.interest) {
+      setSubmitStatus('error');
+      setTimeout(() => setSubmitStatus('idle'), 3000);
+      return;
+    }
+    
+    // Validation email basique
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      setSubmitStatus('error');
+      setTimeout(() => setSubmitStatus('idle'), 3000);
+      return;
+    }
+    
+    // Format WhatsApp message with form data and images
+    let message = `Nouveau message CLOFAS 241:\nNom: ${formData.name}\nEmail: ${formData.email}\nTéléphone: ${formData.phone || 'Non renseigné'}\nSujet: ${formData.subject}\nIntérêt: ${formData.interest}\nMessage: ${formData.message}`;
+    
+    if (uploadedImages.length > 0) {
+      message += `\n\nImages jointes (${uploadedImages.length}):\n${uploadedImages.join('\n')}`;
+    }
+    
     // Open WhatsApp with the message
     window.open(`https://wa.me/24177507950?text=${encodeURIComponent(message)}`, '_blank');
     
@@ -64,8 +101,10 @@ const Contact = () => {
       phone: '',
       subject: '',
       message: '',
-      interest: ''
+      interest: '',
+      images: []
     });
+    setUploadedImages([]);
     // Reset status after 3 seconds
     setTimeout(() => setSubmitStatus('idle'), 3000);
   };
@@ -263,6 +302,27 @@ const Contact = () => {
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-clofas-coral"
                   ></textarea>
                 </div>
+
+                {/* Upload d'images */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-3">
+                    Images (optionnel)
+                  </label>
+                  <ImageUpload
+                    onUploadComplete={handleUploadComplete}
+                    onUploadError={handleUploadError}
+                    multiple={true}
+                    maxFiles={50}
+                    maxSize={32} // 32MB par image
+                    showPreview={true}
+                    showProgress={true}
+                    unlimited={true}
+                    className="border border-gray-300 rounded-lg p-4"
+                  />
+                  <p className="text-xs text-gray-500 mt-2">
+                    Vous pouvez joindre un nombre illimité d'images (max 32MB chacune)
+                  </p>
+                </div>
                 
                 <div>
                   <AnimatedButton 
@@ -279,6 +339,14 @@ const Contact = () => {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
                         Message envoyé !
+                      </>
+                    )}
+                    {submitStatus === 'error' && (
+                      <>
+                        <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                        Erreur de validation
                       </>
                     )}
                   </AnimatedButton>

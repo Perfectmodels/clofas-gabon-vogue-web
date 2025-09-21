@@ -92,13 +92,13 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 animate-slide-up" style={{ animationDelay: '0.6s' }}>
             <Button 
-              className="btn-primary"
+              className="btn-primary hover:scale-105 transition-transform duration-300"
               onClick={() => handleNavigate('/about')}
             >
               Découvrir l'événement
             </Button>
             <Button 
-              className="btn-secondary"
+              className="btn-secondary hover:scale-105 transition-transform duration-300"
               onClick={() => handleNavigate('/contact')}
             >
               S'inscrire
@@ -169,33 +169,33 @@ const Home = () => {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow cursor-pointer" onClick={() => handleNavigate('/program')}>
-              <div className="w-16 h-16 bg-clofas-coral/20 rounded-full flex items-center justify-center mb-6">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group" onClick={() => handleNavigate('/program')}>
+              <div className="w-16 h-16 bg-clofas-coral/20 rounded-full flex items-center justify-center mb-6 group-hover:bg-clofas-coral/30 transition-colors duration-300">
                 <Calendar className="w-8 h-8 text-clofas-coral" />
               </div>
-              <h3 className="font-playfair text-xl font-bold mb-4">Conférence de Presse</h3>
+              <h3 className="font-playfair text-xl font-bold mb-4 group-hover:text-clofas-coral transition-colors duration-300">Conférence de Presse</h3>
               <p className="text-gray-600">
                 Une plateforme de dialogue sur les défis et opportunités du secteur de la mode gabonaise,
                 avec des intervenants de premier plan.
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow cursor-pointer" onClick={() => handleNavigate('/program')}>
-              <div className="w-16 h-16 bg-clofas-gold/20 rounded-full flex items-center justify-center mb-6">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group" onClick={() => handleNavigate('/program')}>
+              <div className="w-16 h-16 bg-clofas-gold/20 rounded-full flex items-center justify-center mb-6 group-hover:bg-clofas-gold/30 transition-colors duration-300">
                 <Users className="w-8 h-8 text-clofas-gold" />
               </div>
-              <h3 className="font-playfair text-xl font-bold mb-4">Ateliers de Dessin</h3>
+              <h3 className="font-playfair text-xl font-bold mb-4 group-hover:text-clofas-gold transition-colors duration-300">Ateliers de Dessin</h3>
               <p className="text-gray-600">
                 Des sessions interactives avec des designers reconnus pour partager leurs techniques
                 et inspirer la prochaine génération de créateurs.
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow cursor-pointer" onClick={() => handleNavigate('/program')}>
-              <div className="w-16 h-16 bg-clofas-lavender/20 rounded-full flex items-center justify-center mb-6">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group" onClick={() => handleNavigate('/program')}>
+              <div className="w-16 h-16 bg-clofas-lavender/20 rounded-full flex items-center justify-center mb-6 group-hover:bg-clofas-lavender/30 transition-colors duration-300">
                 <ImageIcon className="w-8 h-8 text-clofas-lavender" />
               </div>
-              <h3 className="font-playfair text-xl font-bold mb-4">Défilé de Mode</h3>
+              <h3 className="font-playfair text-xl font-bold mb-4 group-hover:text-clofas-lavender transition-colors duration-300">Défilé de Mode</h3>
               <p className="text-gray-600">
                 Le point culminant de l'événement où les créations des stylistes gabonais sont 
                 sublimées sur le podium dans un spectacle visuel éblouissant.

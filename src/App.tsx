@@ -11,8 +11,12 @@ import Creators from "./pages/Creators";
 import Gallery from "./pages/Gallery";
 import Partners from "./pages/Partners";
 import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import AdminLogin from "./pages/AdminLogin";
 import Layout from "./components/Layout";
 import NotFound from "./pages/NotFound";
+import AdminRoutes from "./pages/admin/AdminRoutes";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +36,10 @@ const App = () => (
             <Route path="partners" element={<Partners />} />
             <Route path="contact" element={<Contact />} />
           </Route>
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/admin-login" element={<AdminLogin />} />
+              <Route path="/admin/*" element={<AdminRoutes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -40,36 +40,41 @@ const Partners = () => {
     id: 1,
     name: "Groupes Ceca Gadis",
     description: "Groupe leader dans la distribution au Gabon, partenaire majeur de CLOFAS 241.",
-    logo: "https://via.placeholder.com/200?text=Ceca+Gadis",
-    tier: "platinum"
+    logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3",
+    tier: "platinum",
+    website: "https://cecagadis.ga"
   },
   {
     id: 2,
     name: "Perfect Models Management",
     description: "Agence de mannequins et organisation de référence au Gabon et en Afrique centrale.",
-    logo: "https://via.placeholder.com/200?text=Perfect+Models",
-    tier: "gold"
+    logo: "https://images.unsplash.com/photo-1495385794356-15371f348c31?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3",
+    tier: "gold",
+    website: "https://perfectmodels.ga"
   },
   {
     id: 3,
     name: "Ecole de Mode Nzeng-Ayong",
     description: "Centre de formation de référence pour la mode et le stylisme à Libreville.",
-    logo: "https://via.placeholder.com/200?text=Nzeng-Ayong",
-    tier: "gold"
+    logo: "https://images.unsplash.com/photo-1521791055366-0d553872125f?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3",
+    tier: "gold",
+    website: "https://nzeng-ayong.ga"
   },
   {
     id: 4,
     name: "Hotel Le Cristal",
     description: "Hôtel haut de gamme, hébergement officiel des invités de CLOFAS 241.",
-    logo: "https://via.placeholder.com/200?text=Le+Cristal",
-    tier: "silver"
+    logo: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3",
+    tier: "silver",
+    website: "https://lecristal.ga"
   },
   {
     id: 5,
     name: "Ministère de la Culture et des Arts",
     description: "Institution officielle soutenant le rayonnement culturel et artistique du Gabon.",
-    logo: "https://via.placeholder.com/200?text=Ministère+Culture+Arts",
-    tier: "institutional"
+    logo: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3",
+    tier: "institutional",
+    website: "https://culture.gouv.ga"
   }
 ];
 

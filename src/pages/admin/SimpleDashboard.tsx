@@ -65,32 +65,33 @@ const SimpleDashboard = () => {
     }
   ];
 
+  // Activités récentes basées sur les données réelles
   const recentActivities = [
-    {
-      id: 1,
-      type: 'creator',
-      title: 'Nouveau créateur ajouté',
-      description: 'Beitch Faro a été ajouté à la base de données',
-      time: 'Il y a 2 heures',
-      icon: Award
-    },
-    {
-      id: 2,
+    ...(stats?.recentRegistrations?.slice(0, 2).map((reg: any, index: number) => ({
+      id: `reg-${index}`,
       type: 'registration',
       title: 'Nouvelle inscription',
-      description: '3 nouvelles inscriptions en attente de validation',
-      time: 'Il y a 4 heures',
+      description: `${reg.name} s'est inscrit(e) à ${reg.event}`,
+      time: new Date(reg.createdAt).toLocaleDateString(),
       icon: Users
-    },
-    {
-      id: 3,
+    })) || []),
+    ...(stats?.recentCreators?.slice(0, 1).map((creator: any, index: number) => ({
+      id: `creator-${index}`,
+      type: 'creator',
+      title: 'Créateur ajouté',
+      description: `${creator.name} a été ajouté à la base de données`,
+      time: new Date(creator.createdAt).toLocaleDateString(),
+      icon: Award
+    })) || []),
+    ...(stats?.recentImages?.slice(0, 1).map((image: any, index: number) => ({
+      id: `image-${index}`,
       type: 'image',
       title: 'Images uploadées',
-      description: '15 nouvelles images ajoutées à la galerie',
-      time: 'Il y a 6 heures',
+      description: `${image.name} a été ajoutée à la galerie`,
+      time: new Date(image.createdAt).toLocaleDateString(),
       icon: Image
-    }
-  ];
+    })) || [])
+  ].slice(0, 3); // Limiter à 3 activités
 
   if (loading) {
     return (
@@ -264,27 +265,42 @@ const SimpleDashboard = () => {
           </CardHeader>
           <CardContent>
             <div className="space-y-3">
-              <div className="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
-                <div className="flex items-center space-x-2">
-                  <AlertCircle className="h-4 w-4 text-yellow-600" />
-                  <span className="text-sm font-medium">Inscriptions en attente</span>
+              {stats?.registrationStats?.pending > 0 && (
+                <div className="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+                  <div className="flex items-center space-x-2">
+                    <AlertCircle className="h-4 w-4 text-yellow-600" />
+                    <span className="text-sm font-medium">Inscriptions en attente</span>
+                  </div>
+                  <Badge variant="secondary">{stats.registrationStats.pending}</Badge>
                 </div>
-                <Badge variant="secondary">3</Badge>
-              </div>
-              <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
-                <div className="flex items-center space-x-2">
-                  <CheckCircle className="h-4 w-4 text-blue-600" />
-                  <span className="text-sm font-medium">Nouveau créateur ajouté</span>
+              )}
+              {stats?.totalCreators > 0 && (
+                <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
+                  <div className="flex items-center space-x-2">
+                    <CheckCircle className="h-4 w-4 text-blue-600" />
+                    <span className="text-sm font-medium">Créateurs actifs</span>
+                  </div>
+                  <Badge variant="default">{stats.totalCreators}</Badge>
                 </div>
-                <Badge variant="default">1</Badge>
-              </div>
-              <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
-                <div className="flex items-center space-x-2">
-                  <Image className="h-4 w-4 text-green-600" />
-                  <span className="text-sm font-medium">Images uploadées</span>
+              )}
+              {stats?.totalImages > 0 && (
+                <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
+                  <div className="flex items-center space-x-2">
+                    <Image className="h-4 w-4 text-green-600" />
+                    <span className="text-sm font-medium">Images en galerie</span>
+                  </div>
+                  <Badge variant="secondary">{stats.totalImages}</Badge>
                 </div>
-                <Badge variant="secondary">15</Badge>
-              </div>
+              )}
+              {stats?.totalEvents > 0 && (
+                <div className="flex items-center justify-between p-3 bg-purple-50 rounded-lg">
+                  <div className="flex items-center space-x-2">
+                    <Calendar className="h-4 w-4 text-purple-600" />
+                    <span className="text-sm font-medium">Événements programmés</span>
+                  </div>
+                  <Badge variant="secondary">{stats.totalEvents}</Badge>
+                </div>
+              )}
             </div>
           </CardContent>
         </Card>

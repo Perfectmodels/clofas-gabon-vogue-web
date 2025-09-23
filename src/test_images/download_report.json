@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-09-23T20:09:01.907Z",
+  "totalDownloaded": 0,
+  "totalErrors": 1,
+  "results": [],
+  "errors": [
+    {
+      "filename": "test-logo.png",
+      "url": "https://i.ibb.co/QFPYtZSN/Logo-CLOFAS.png",
+      "error": "Erreur HTTP: 404"
+    }
+  ]
+}

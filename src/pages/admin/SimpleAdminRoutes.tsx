@@ -7,18 +7,12 @@ import EventsManagement from './EventsManagement';
 import ImageManagement from './ImageManagement';
 import ContentManagement from './ContentManagement';
 import SiteSettings from './SiteSettings';
+import ImportStylistImagesPage from './ImportStylistImagesPage';
+import BackgroundManager from '@/components/BackgroundManager';
+import AutoSaveManager from '@/components/admin/AutoSaveManager';
 
-const Messages = () => (
-  <div className="space-y-6">
-    <div>
-      <h1 className="text-2xl font-bold text-gray-900">Messages</h1>
-      <p className="text-gray-600">Communication et notifications</p>
-    </div>
-    <div className="bg-white p-6 rounded-lg border">
-      <p className="text-gray-600">Cette page sera développée pour gérer les messages.</p>
-    </div>
-  </div>
-);
+import MessagesManagement from './MessagesManagement';
+import RealTimeNotifications from '@/components/admin/RealTimeNotifications';
 
 const SimpleAdminRoutes = () => {
   return (
@@ -29,9 +23,13 @@ const SimpleAdminRoutes = () => {
         <Route path="participants" element={<ParticipantsManagement />} />
         <Route path="events" element={<EventsManagement />} />
         <Route path="gallery" element={<ImageManagement />} />
-        <Route path="messages" element={<Messages />} />
+        <Route path="messages" element={<MessagesManagement />} />
         <Route path="content" element={<ContentManagement />} />
         <Route path="settings" element={<SiteSettings />} />
+        <Route path="import-stylist-images" element={<ImportStylistImagesPage />} />
+        <Route path="background" element={<BackgroundManager />} />
+        <Route path="autosave" element={<AutoSaveManager />} />
+        <Route path="notifications" element={<RealTimeNotifications />} />
       </Route>
     </Routes>
   );

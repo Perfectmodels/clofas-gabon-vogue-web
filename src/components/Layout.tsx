@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Outlet, NavLink, useNavigate, useLocation } from 'react-router-dom';
-import { Home, Info, Calendar, Users, Image, Handshake, Mail, Menu, X, ChevronUp, Shield } from 'lucide-react';
+import { Home, Info, Calendar, Users, Image, Handshake, Mail, Menu, X, ChevronUp, Shield, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
 
@@ -40,6 +40,10 @@ const Layout = () => {
       top: 0,
       behavior: 'smooth',
     });
+  };
+
+  const goToAdminLogin = () => {
+    navigate('/admin-login');
   };
 
   const navLinks = [

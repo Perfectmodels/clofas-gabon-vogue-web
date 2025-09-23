@@ -10,6 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Textarea } from '@/components/ui/textarea';
 import CreatorUploadSimple from '@/components/creators/CreatorUploadSimple';
 import CreatorMiniGallery from '@/components/creators/CreatorMiniGallery';
+import ImportStylistImages from '@/components/creators/ImportStylistImages';
 // import { useCreatorImages } from '@/hooks/useFirebase'; // Supprimé car non utilisé
 import { useCreators, Creator } from '@/hooks/useCreators';
 import { useCreatorGallery } from '@/hooks/useCreatorGallery';
@@ -172,6 +173,15 @@ const CreatorsManagement = () => {
           Nouveau Créateur
         </Button>
       </div>
+
+      {/* Onglets pour navigation */}
+      <Tabs defaultValue="creators" className="w-full">
+        <TabsList className="grid w-full grid-cols-2">
+          <TabsTrigger value="creators">Gestion des Créateurs</TabsTrigger>
+          <TabsTrigger value="import">Import Images Stylistes</TabsTrigger>
+        </TabsList>
+        
+        <TabsContent value="creators" className="space-y-6">
 
       {/* Filtres et recherche */}
       <Card>
@@ -464,12 +474,18 @@ const CreatorsManagement = () => {
         />
       )}
 
-      {/* Indicateur de sauvegarde automatique */}
-      <AutoSaveIndicator
-        isSaving={isSaving}
-        lastSaved={lastSaved}
-        error={saveError}
-      />
+          {/* Indicateur de sauvegarde automatique */}
+          <AutoSaveIndicator
+            isSaving={isSaving}
+            lastSaved={lastSaved}
+            error={saveError}
+          />
+        </TabsContent>
+        
+        <TabsContent value="import" className="space-y-6">
+          <ImportStylistImages />
+        </TabsContent>
+      </Tabs>
     </div>
   );
 };

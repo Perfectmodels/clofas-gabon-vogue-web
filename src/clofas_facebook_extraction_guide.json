@@ -1,0 +1,78 @@
+{
+  "title": "Guide d'extraction d'images Facebook CLOFAS 241",
+  "targetPage": "https://www.facebook.com/clofas241/photos",
+  "generatedAt": "2025-09-23T20:14:56.872Z",
+  "methods": [
+    {
+      "name": "API Facebook Graph (Recommandé)",
+      "description": "Méthode officielle et légale",
+      "pros": [
+        "Légale",
+        "Fiable",
+        "Données structurées"
+      ],
+      "cons": [
+        "Nécessite un token d'accès",
+        "Limitations de rate"
+      ],
+      "difficulty": "Moyen",
+      "legal": true
+    },
+    {
+      "name": "Export manuel depuis Facebook",
+      "description": "Téléchargement manuel depuis l'interface Facebook",
+      "pros": [
+        "100% légal",
+        "Simple",
+        "Pas de programmation"
+      ],
+      "cons": [
+        "Manuel",
+        "Limité en quantité"
+      ],
+      "difficulty": "Facile",
+      "legal": true
+    },
+    {
+      "name": "Outil de sauvegarde Facebook",
+      "description": "Utilisation de l'outil officiel de téléchargement de données",
+      "pros": [
+        "Officiel Facebook",
+        "Complet",
+        "Légal"
+      ],
+      "cons": [
+        "Nécessite un compte",
+        "Processus long"
+      ],
+      "difficulty": "Facile",
+      "legal": true
+    },
+    {
+      "name": "Web Scraping (Non recommandé)",
+      "description": "Extraction automatique via scraping",
+      "pros": [
+        "Automatique",
+        "Pas de token nécessaire"
+      ],
+      "cons": [
+        "Violation des ToS",
+        "Instable",
+        "Illégal"
+      ],
+      "difficulty": "Difficile",
+      "legal": false
+    }
+  ],
+  "recommendations": [
+    "Utilisez l'API Facebook Graph pour une extraction automatique",
+    "Utilisez l'export manuel pour un contrôle total",
+    "Respectez toujours les droits d'auteur",
+    "Organisez les images avec des métadonnées"
+  ],
+  "legalNotice": "Ce guide est fourni à des fins éducatives. Respectez toujours les conditions d'utilisation et les droits d'auteur.",
+  "contactInfo": {
+    "page": "https://www.facebook.com/clofas241",
+    "email": "Beitchfaro@yahoo.fr"
+  }
+}

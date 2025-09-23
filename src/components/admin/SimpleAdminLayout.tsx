@@ -15,7 +15,11 @@ import {
   X, 
   Search,
   Bell,
-  LogOut
+  LogOut,
+  Upload,
+  Camera,
+  Palette,
+  Database
 } from 'lucide-react';
 import { useDashboardStatsFirebase } from '@/hooks/useDashboardStatsFirebase';
 
@@ -41,6 +45,14 @@ const SimpleAdminLayout = () => {
       path: '/admin/creators',
       description: 'Gestion des créateurs et leurs galeries',
       badge: stats?.totalCreators?.toString() || '0'
+    },
+    {
+      id: 'import-stylist-images',
+      name: 'Import Images Stylistes',
+      icon: Camera,
+      path: '/admin/import-stylist-images',
+      description: 'Importation d\'images pour stylistes sans photos',
+      badge: '3'
     },
     {
       id: 'participants',
@@ -78,6 +90,28 @@ const SimpleAdminLayout = () => {
       icon: Settings,
       path: '/admin/settings',
       description: 'Configuration du site'
+    },
+    {
+      id: 'background',
+      name: 'Arrière-plan',
+      icon: Palette,
+      path: '/admin/background',
+      description: 'Gestion des arrière-plans du site'
+    },
+    {
+      id: 'autosave',
+      name: 'Sauvegarde Auto',
+      icon: Database,
+      path: '/admin/autosave',
+      description: 'Gestionnaire de sauvegarde automatique'
+    },
+    {
+      id: 'notifications',
+      name: 'Notifications',
+      icon: Bell,
+      path: '/admin/notifications',
+      description: 'Centre de notifications en temps réel',
+      badge: '2'
     }
   ];
 

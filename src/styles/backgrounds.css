@@ -1,0 +1,71 @@
+/* Styles personnalisés pour les arrière-plans dynamiques */
+
+:root {
+  --hero-background: '';
+  --creators-background: '';
+  --about-background: '';
+  --contact-background: '';
+}
+
+/* Section Hero */
+.hero-section {
+  background-image: linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(236, 72, 153, 0.8)), url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Section Créateurs */
+.creators-section {
+  background-image: linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(236, 72, 153, 0.8)), url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Section À Propos */
+.about-section {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Section Contact */
+.contact-section {
+  background-image: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Animation pour les changements d'arrière-plan */
+.section-background {
+  transition: background-image 0.5s ease-in-out;
+}
+
+/* Responsive design pour les arrière-plans */
+@media (max-width: 768px) {
+  .hero-section,
+  .creators-section,
+  .about-section,
+  .contact-section {
+    background-attachment: scroll;
+  }
+}
+
+/* Overlay pour améliorer la lisibilité */
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.background-content {
+  position: relative;
+  z-index: 2;
+}

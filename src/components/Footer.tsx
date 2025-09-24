@@ -153,6 +153,13 @@ const Footer: React.FC = () => {
                     <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                   </a>
                 </li>
+                <li>
+                  <a href="/admin" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
+                    <span className="group-hover:scale-110 transition-transform">⚙️</span>
+                    <span className="group-hover:translate-x-1 transition-transform">Admin</span>
+                    <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                  </a>
+                </li>
               </ul>
             </div>
 

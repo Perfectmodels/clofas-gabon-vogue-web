@@ -1,18 +1,14 @@
 import React from 'react';
+import '@/styles/backgrounds.css';
 
 const Creators: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-indigo-50">
       {/* Hero Section */}
-      <div className="relative overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: 'linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(236, 72, 153, 0.8)), url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80")'
-          }}
-        />
+      <div className="relative overflow-hidden creators-section">
+        <div className="background-overlay"></div>
         
-        <div className="relative z-10 container mx-auto px-4 py-20">
+        <div className="background-content container mx-auto px-4 py-20">
           <div className="text-center text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-purple-100 bg-clip-text text-transparent">
               Nos Créateurs

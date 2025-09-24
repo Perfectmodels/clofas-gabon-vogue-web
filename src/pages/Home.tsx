@@ -14,7 +14,7 @@ const Home: React.FC = () => {
             {/* Logo principal */}
             <div className="mb-8">
               <div className="w-32 h-32 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-6 border-4 border-white/30">
-                <span className="text-6xl">👑</span>
+                <div className="text-6xl font-bold text-white">C</div>
               </div>
             </div>
 
@@ -43,8 +43,7 @@ const Home: React.FC = () => {
                 className="group bg-white text-purple-600 px-10 py-4 rounded-full font-bold text-xl hover:bg-purple-50 transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
                 <span className="flex items-center gap-3">
-                  <span>👑</span>
-                  Découvrir les Créateurs
+                  <span>Découvrir les Créateurs</span>
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
                 </span>
               </Link>
@@ -54,8 +53,7 @@ const Home: React.FC = () => {
                 className="group bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-purple-600 transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
               >
                 <span className="flex items-center gap-3">
-                  <span>✨</span>
-                  Notre Histoire
+                  <span>Notre Histoire</span>
                 </span>
               </Link>
             </div>
@@ -108,7 +106,7 @@ const Home: React.FC = () => {
               <div className="h-64 bg-gradient-to-br from-purple-400 via-pink-400 to-purple-600 relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-8xl opacity-80">👑</span>
+                  <div className="text-8xl opacity-80 font-bold text-white">A</div>
                 </div>
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold text-purple-600">
                   Maître
@@ -135,7 +133,7 @@ const Home: React.FC = () => {
               <div className="h-64 bg-gradient-to-br from-pink-400 via-red-400 to-pink-600 relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-8xl opacity-80">🌟</span>
+                  <div className="text-8xl opacity-80 font-bold text-white">B</div>
                 </div>
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold text-pink-600">
                   Fondatrice
@@ -162,7 +160,7 @@ const Home: React.FC = () => {
               <div className="h-64 bg-gradient-to-br from-indigo-400 via-purple-400 to-indigo-600 relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/20"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-8xl opacity-80">💎</span>
+                  <div className="text-8xl opacity-80 font-bold text-white">A</div>
                 </div>
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold text-indigo-600">
                   Maison
@@ -191,8 +189,7 @@ const Home: React.FC = () => {
               to="/creators"
               className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
-              <span>👑</span>
-              Découvrir tous les créateurs
+              <span>Découvrir tous les créateurs</span>
               <span>→</span>
             </Link>
           </div>
@@ -214,7 +211,7 @@ const Home: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🎯</span>
+                  <div className="text-2xl font-bold text-white">P</div>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Promotion Locale</h3>
                 <p className="opacity-80">Soutenir les créateurs gabonais</p>
@@ -222,7 +219,7 @@ const Home: React.FC = () => {
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">✨</span>
+                  <div className="text-2xl font-bold text-white">I</div>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Innovation</h3>
                 <p className="opacity-80">Allier tradition et modernité</p>
@@ -230,7 +227,7 @@ const Home: React.FC = () => {
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🌍</span>
+                  <div className="text-2xl font-bold text-white">G</div>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Impact Global</h3>
                 <p className="opacity-80">Exporter la mode gabonaise</p>

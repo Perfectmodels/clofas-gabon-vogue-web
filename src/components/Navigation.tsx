@@ -17,13 +17,13 @@ const Navigation: React.FC = () => {
   }, []);
 
   const navigationItems = [
-    { name: 'Accueil', path: '/', icon: '🏠' },
-    { name: 'Créateurs', path: '/creators', icon: '👑' },
-    { name: 'À Propos', path: '/about', icon: '👥' },
-    { name: 'Programme', path: '/program', icon: '📅' },
-    { name: 'Galerie', path: '/gallery', icon: '📸' },
-    { name: 'Partenaires', path: '/partners', icon: '🤝' },
-    { name: 'Contact', path: '/contact', icon: '💬' }
+    { name: 'Accueil', path: '/' },
+    { name: 'Createurs', path: '/creators' },
+    { name: 'A Propos', path: '/about' },
+    { name: 'Programme', path: '/program' },
+    { name: 'Galerie', path: '/gallery' },
+    { name: 'Partenaires', path: '/partners' },
+    { name: 'Contact', path: '/contact' }
   ];
 
   const isActive = (path: string) => {
@@ -43,7 +43,7 @@ const Navigation: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <span className="text-white text-xl font-bold">👑</span>
+              <span className="text-white text-xl font-bold">C</span>
             </div>
             <div className="hidden sm:block">
               <h1 className={`text-xl font-bold transition-colors duration-300 ${
@@ -75,12 +75,7 @@ const Navigation: React.FC = () => {
                     : 'text-white/80 hover:text-white hover:bg-white/10'
                 }`}
               >
-                <span className="flex items-center space-x-2">
-                  <span className="text-sm group-hover:scale-110 transition-transform duration-200">
-                    {item.icon}
-                  </span>
-                  <span>{item.name}</span>
-                </span>
+                <span>{item.name}</span>
                 
                 {/* Indicateur actif */}
                 {isActive(item.path) && (
@@ -102,10 +97,7 @@ const Navigation: React.FC = () => {
                   : 'text-white/80 hover:text-white hover:bg-white/10 border border-white/20'
               }`}
             >
-              <span className="flex items-center space-x-2">
-                <span className="text-sm">⚙️</span>
-                <span>Admin</span>
-              </span>
+              <span>Admin</span>
             </Link>
           </div>
 
@@ -158,7 +150,6 @@ const Navigation: React.FC = () => {
                       : 'text-gray-700 hover:text-purple-600 hover:bg-purple-50'
                   }`}
                 >
-                  <span className="text-lg">{item.icon}</span>
                   <span>{item.name}</span>
                   {isActive(item.path) && (
                     <div className="ml-auto w-2 h-2 bg-purple-500 rounded-full" />
@@ -172,7 +163,6 @@ const Navigation: React.FC = () => {
                   onClick={() => setIsOpen(false)}
                   className="flex items-center space-x-3 px-4 py-3 rounded-lg font-medium text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-colors duration-200"
                 >
-                  <span className="text-lg">⚙️</span>
                   <span>Panel Admin</span>
                 </Link>
               </div>

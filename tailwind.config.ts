@@ -53,6 +53,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+        gabon: {
+          green: '#009E60',
+          yellow: '#FCD116',
+          blue: '#0033A0',
+        },
 				clofas: {
 					coral: "#FF6B6B",
 					'coral-light': "#FF8E8E",

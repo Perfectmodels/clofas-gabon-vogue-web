@@ -1,3 +1,4 @@
+
 {
   "settings": {
     "siteName": "CLOFAS 241",
@@ -10,62 +11,13 @@
       "twitter": "#"
     }
   },
-  "pages": {
-    "home": {
-      "hero": {
-        "title": "CLOFAS 241",
-        "subtitle": "Mode Gabonaise Authentique et Responsable",
-        "backgroundImage": "https://i.ibb.co/QFPYtZSN/Logo-CLOFAS.png",
-        "textColor": "white"
-      },
-      "content": {}
-    },
-    "about": {
-      "hero": {
-        "title": "À Propos de CLOFAS 241",
-        "subtitle": "Découvrez notre mission et notre vision pour la mode gabonaise",
-        "backgroundColor": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-        "textColor": "white"
-      },
-      "content": {}
-    },
-    "creators": {
-      "hero": {
-        "title": "Nos Créateurs",
-        "subtitle": "Découvrez les talents exceptionnels de la mode gabonaise",
-        "backgroundColor": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-        "textColor": "white"
-      },
-      "content": {}
-    }
-  },
   "creators": [
-    {
-      "id": "creator-0",
-      "name": "Lady Riaba",
-      "status": "Créatrice Émergente",
-      "description": "Lady Riaba incarne la nouvelle génération de créateurs gabonais avec une approche révolutionnaire qui redéfinit les codes de la mode contemporaine. Ses créations audacieuses fusionnent l'héritage culturel gabonais avec une esthétique avant-gardiste, créant des pièces uniques qui captivent et inspirent.",
-      "images": []
-    },
-    {
-      "id": "creator-1",
-      "name": "Madame Luc-Abiale",
-      "status": "Designer Innovante",
-      "description": "Madame Luc-Abiale se distingue par son approche visionnaire de la mode gabonaise, où chaque création raconte une histoire profonde. Son talent exceptionnel pour transformer les traditions en innovations contemporaines fait d'elle une figure incontournable de la scène créative locale.",
-      "images": []
-    },
-    {
-      "id": "creator-2",
-      "name": "Belle Soeur",
-      "status": "Artiste Créative",
-      "description": "Belle Soeur apporte une énergie créative unique à la mode gabonaise avec des designs qui célèbrent la féminité et l'élégance. Son approche artistique sophistiquée et son attention aux détails font de ses créations de véritables œuvres d'art portables.",
-      "images": []
-    },
     {
       "id": "creator-3",
       "name": "Angèle Epouta",
-      "status": "Maître Créatrice",
-      "description": "Angèle Epouta est une figure emblématique de la mode gabonaise, reconnue pour son excellence artistique et son savoir-faire artisanal exceptionnel. Ses créations sophistiquées allient tradition et modernité avec une maîtrise technique remarquable qui fait d'elle une référence incontournable dans l'univers de la haute couture locale.",
+      "status": "Styliste Modeliste",
+      "description": "Figure emblématique de la mode gabonaise, reconnue pour son excellence artistique et son savoir-faire artisanal exceptionnel.",
+      "profileLink": "/stylist/angele-epouta",
       "images": [
         "https://i.ibb.co/kV5WmdGZ/73b494d49a32.jpg",
         "https://i.ibb.co/JfKsLJP/01c8f4050da2.jpg",
@@ -78,10 +30,30 @@
       ]
     },
     {
+      "id": "creator-11",
+      "name": "Beitch Faro",
+      "status": "Styliste Modeliste",
+      "description": "Visionnaire et fondatrice du CLOFAS 241, dédiée à la promotion de la mode locale gabonaise.",
+      "profileLink": "/stylist/beitch-faro",
+      "images": [
+        "https://i.ibb.co/ZpGx4QvL/245e81248d61.jpg",
+        "https://i.ibb.co/hRgT3zqh/a23261079d75.jpg",
+        "https://i.ibb.co/9khT9jRR/9c48c28ff676.jpg",
+        "https://i.ibb.co/0VKstWrK/3c80cc4e6574.jpg",
+        "https://i.ibb.co/z9kL58x/3100b475f5c0.jpg",
+        "https://i.ibb.co/N6sspHc7/5213160fe8c8.jpg",
+        "https://i.ibb.co/PvLccjDz/c335da428b09.jpg",
+        "https://i.ibb.co/zVLFVWjP/cc94856c27c1.jpg",
+        "https://i.ibb.co/pB3YNMp3/c247616e8323.jpg",
+        "https://i.ibb.co/sMGghMv/3f91bc3fe18b.jpg"
+      ]
+    },
+    {
       "id": "creator-4",
       "name": "Angelina Creations",
-      "status": "Maison de couture",
+      "status": "Styliste Modeliste",
       "description": "Atelier réputé pour ses pièces uniques mêlant tradition et modernité avec raffinement.",
+      "profileLink": "/stylist/angelina-creations",
       "images": [
         "https://i.ibb.co/ymzt8frZ/1243d99b625e.jpg",
         "https://i.ibb.co/0yD8DL4X/c161792451cb.jpg",
@@ -96,8 +68,9 @@
     {
       "id": "creator-5",
       "name": "L'atelier Issé By Lita",
-      "status": "Créatrice",
+      "status": "Styliste Modeliste",
       "description": "Espace créatif dédié à la haute couture gabonaise avec une touche d'originalité distincte.",
+      "profileLink": "/stylist/atelier-isse-by-lita",
       "images": [
         "https://i.ibb.co/Wpy22mvs/626988750b51.jpg",
         "https://i.ibb.co/RGWFYCnx/bf62f7b17d86.jpg",
@@ -110,36 +83,113 @@
       ]
     },
     {
-      "id": "creator-11",
-      "name": "Beitch Faro",
-      "status": "Promotrice de l'événement",
-      "description": "Visionnaire et fondatrice du CLOFAS 241, dédiée à la promotion de la mode locale gabonaise.",
+      "id": "creator-6",
+      "name": "Desmo",
+      "status": "Styliste Modeliste",
+      "description": "Designer créatif aux idées novatrices, Desmo apporte une vision contemporaine et audacieuse à la mode gabonaise.",
+      "profileLink": "/stylist/desmo",
       "images": [
-        "https://i.ibb.co/ZpGx4QvL/245e81248d61.jpg",
-        "https://i.ibb.co/hRgT3zqh/a23261079d75.jpg",
-        "https://i.ibb.co/9khT9jRR/9c48c28ff676.jpg",
-        "https://i.ibb.co/0VKstWrK/3c80cc4e6574.jpg",
-        "https://i.ibb.co/z9kL58x/3100b475f5c0.jpg",
-        "https://i.ibb.co/N6sspHc7/5213160fe8c8.jpg",
-        "https://i.ibb.co/PvLccjDz/c335da428b09.jpg",
-        "https://i.ibb.co/zVLFVWjP/cc94856c27c1.jpg",
-        "https://i.ibb.co/pB3YNMp3/c247616e8323.jpg",
-        "https://i.ibb.co/sMGghMv/3f91bc3fe18b.jpg",
-        "https://i.ibb.co/SDXRLvjH/37c4ec120848.jpg",
-        "https://i.ibb.co/XP0Ln68/04adf6d042b4.jpg",
-        "https://i.ibb.co/4RTWc6HF/f846610121b9.jpg",
-        "https://i.ibb.co/tyv90Gk/1a808ecffeb6.jpg",
-        "https://i.ibb.co/ymfJ6D1N/7ffc4dd05e42.jpg",
-        "https://i.ibb.co/nM4pHFGY/9b1ded8e7e25.jpg",
-        "https://i.ibb.co/spfmPw0s/a55c687f4339.jpg",
-        "https://i.ibb.co/xKy1qqmx/6c1774b565a7.jpg",
-        "https://i.ibb.co/MkmPYJWX/a58cecc8ba55.jpg",
-        "https://i.ibb.co/KcYQYV8k/40c314434bf5.jpg",
-        "https://i.ibb.co/C3QMs8F5/f2c491608f72.jpg",
-        "https://i.ibb.co/9kfVmRQV/ef341cf7522d.jpg",
-        "https://i.ibb.co/67G0cFKJ/e9b71a73d118.jpg",
-        "https://i.ibb.co/6JB8Gm9s/ce44ee5afa6b.jpg"
+        "https://i.ibb.co/p65BvK4N/a05457383187.jpg",
+        "https://i.ibb.co/ccKJnQbV/f62faa714e7f.jpg",
+        "https://i.ibb.co/fV8wTqNc/2009081a8d31.jpg",
+        "https://i.ibb.co/kVcnwwPn/78af3363aad2.jpg",
+        "https://i.ibb.co/GB5Mt3M/0a1e3b4bf9cd.jpg",
+        "https://i.ibb.co/ZpW6yYdk/73169dd26a20.jpg",
+        "https://i.ibb.co/93W1H0b2/0f0e54c2225c.jpg",
+        "https://i.ibb.co/0pfQk2pC/eae3166e7d14.jpg"
       ]
+    },
+    {
+      "id": "creator-7",
+      "name": "Jacques Simon",
+      "status": "Styliste Modeliste",
+      "description": "Maître couturier reconnu pour son savoir-faire exceptionnel, Jacques Simon excelle dans l'art de la couture traditionnelle gabonaise.",
+      "profileLink": "/stylist/jacques-simon",
+      "images": [
+        "https://i.ibb.co/jPsYvQ0N/56c95b5d36b0.jpg",
+        "https://i.ibb.co/39krqgs6/01fba6223b5c.jpg",
+        "https://i.ibb.co/SpPy9TF/f8b80a29ba0c.jpg",
+        "https://i.ibb.co/d07dSM4q/7e702602a905.jpg",
+        "https://i.ibb.co/PZqdfSW7/a1cdccff62ba.jpg",
+        "https://i.ibb.co/k2HbXZKF/079fcf4038b5.jpg",
+        "https://i.ibb.co/xS1GJkdW/d8d09edd16c7.jpg",
+        "https://i.ibb.co/G385KWvX/94bcd6a01c1a.jpg"
+      ]
+    },
+    {
+      "id": "creator-8",
+      "name": "Koro DK Style",
+      "status": "Styliste Modeliste",
+      "description": "Style innovant qui redéfinit les codes de la mode gabonaise, Koro DK Style apporte une approche contemporaine et audacieuse.",
+      "profileLink": "/stylist/koro-dk-style",
+      "images": [
+        "https://i.ibb.co/L3BBq6W/d19611ccc7d1.jpg",
+        "https://i.ibb.co/k2QRRcQN/635e3f800a0f.jpg",
+        "https://i.ibb.co/ks0LvDDy/afd8289de7d8.jpg",
+        "https://i.ibb.co/XZt8LCpH/a43cfd4967bc.jpg",
+        "https://i.ibb.co/NndJd7Y3/3ca6cd732cac.jpg",
+        "https://i.ibb.co/W17mKtr/0803735be1ed.jpg",
+        "https://i.ibb.co/TBrqRqKB/c3082d14ebd6.jpg",
+        "https://i.ibb.co/W4BvKdwY/979e611c525e.jpg"
+      ]
+    },
+    {
+      "id": "creator-9",
+      "name": "Nous Fashion",
+      "status": "Styliste Modeliste",
+      "description": "Maison de mode qui célèbre l'élégance gabonaise, Nous Fashion crée des pièces raffinées qui allient sophistication et authenticité.",
+      "profileLink": "/stylist/nous-fashion",
+      "images": [
+        "https://i.ibb.co/Q7PBPMwf/a3c3ca5aac4d.jpg",
+        "https://i.ibb.co/RTkX0Cpv/829b6fccf175.jpg",
+        "https://i.ibb.co/fVxvm7mg/1d0c53fcae41.jpg",
+        "https://i.ibb.co/jZ3ZzVkP/8aa40af32123.jpg",
+        "https://i.ibb.co/RGdFcrN6/fc3991781987.jpg",
+        "https://i.ibb.co/Nd5G8Tf9/f3b97300e45e.jpg",
+        "https://i.ibb.co/7NxCgSLX/3f99366e5806.jpg",
+        "https://i.ibb.co/nsxB8Kcy/72ed9dfdbbc0.jpg"
+      ]
+    },
+    {
+      "id": "creator-10",
+      "name": "OJ Fashion",
+      "status": "Styliste Modeliste",
+      "description": "Créateur mode aux inspirations multiples, OJ Fashion explore les frontières entre tradition et modernité avec des créations originales.",
+      "profileLink": "/stylist/oj-fashion",
+      "images": [
+        "https://i.ibb.co/3Y1HBk8C/5d0260a145ae.jpg",
+        "https://i.ibb.co/k6ktJ6xt/4a9a9812d2ea.jpg",
+        "https://i.ibb.co/wrjf7X47/e5c7e7f896bf.jpg",
+        "https://i.ibb.co/SwRfsmfM/de41eba514a8.jpg",
+        "https://i.ibb.co/4bqZpJx/c264e754fc74.jpg",
+        "https://i.ibb.co/mV3RJyNX/e666e9c388ba.jpg",
+        "https://i.ibb.co/VWz15TWj/5df8fed2a3ad.jpg",
+        "https://i.ibb.co/H8YQs0q/be6811255295.jpg"
+      ]
+    },
+    {
+      "id": "creator-0",
+      "name": "Lady Riaba",
+      "status": "Styliste Modeliste",
+      "description": "Lady Riaba incarne la nouvelle génération de créateurs gabonais avec une approche révolutionnaire qui redéfinit les codes de la mode contemporaine.",
+      "profileLink": "/stylist/lady-riaba",
+      "images": []
+    },
+    {
+      "id": "creator-1",
+      "name": "Madame Luc-Abiale",
+      "status": "Styliste Modeliste",
+      "description": "Madame Luc-Abiale se distingue par son approche visionnaire de la mode gabonaise, où chaque création raconte une histoire profonde.",
+      "profileLink": "/stylist/madame-luc-abiale",
+      "images": []
+    },
+    {
+      "id": "creator-2",
+      "name": "Belle Soeur",
+      "status": "Styliste Modeliste",
+      "description": "Belle Soeur apporte une énergie créative unique à la mode gabonaise avec des designs qui célèbrent la féminité et l'élégance.",
+      "profileLink": "/stylist/belle-soeur",
+      "images": []
     }
   ]
 }

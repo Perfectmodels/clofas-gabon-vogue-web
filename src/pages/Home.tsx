@@ -1,279 +1,196 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '@/styles/backgrounds.css';
-import '@/styles/gabonese-theme.css';
-import '@/styles/minimalist-theme.css';
+import Countdown from '../components/Countdown';
 
 const Home: React.FC = () => {
   return (
-    <div className="min-h-screen pt-16">
-      {/* Hero Section - Pleine hauteur */}
-      <section className="relative min-h-screen flex items-center justify-center hero-section section-gabonese">
-        <div className="background-overlay"></div>
-        
-        <div className="background-content text-center text-white z-10 px-4">
-          <div className="max-w-5xl mx-auto">
-            {/* Logo principal avec style gabonais */}
-            <div className="mb-8">
-              <div className="w-32 h-32 bg-gabon-gradient rounded-full flex items-center justify-center mx-auto mb-6 border-4 border-gabon-yellow shadow-2xl animate-african-pulse">
-                <div className="text-6xl font-bold text-white gabonese-font">CLOFAS</div>
-              </div>
-            </div>
-
-            {/* Titre principal avec style africain */}
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight gabonese-font">
-              <span className="block animate-golden-shimmer">
-                CLOFAS 241
-              </span>
-            </h1>
-
-            {/* Sous-titre avec couleurs gabonaises */}
-            <p className="text-2xl md:text-3xl mb-8 opacity-90 font-light modern-font">
-              <span className="text-gabon-green font-semibold">Mode Gabonaise</span> 
-              <span className="text-gabon-yellow mx-2">•</span>
-              <span className="text-gabon-yellow font-semibold">Authentique</span>
-              <span className="text-gabon-yellow mx-2">•</span>
-              <span className="text-gabon-blue font-semibold">Responsable</span>
-            </p>
-
-            {/* Description enrichie */}
-            <p className="text-lg md:text-xl mb-12 opacity-90 max-w-4xl mx-auto leading-relaxed modern-font">
-              <strong>Célébrez l'excellence de la mode gabonaise</strong> à travers nos créateurs d'exception. 
-              Un événement unique qui met en lumière l'authenticité culturelle, l'innovation contemporaine 
-              et le savoir-faire artisanal du Gabon sur la scène internationale.
-            </p>
-
-            {/* Boutons CTA avec style gabonais */}
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Link
-                to="/creators"
-                className="btn-african px-10 py-4 rounded-full font-bold text-xl modern-font"
-              >
-                <span className="flex items-center gap-3">
-                  <span>Découvrir les Créateurs</span>
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </span>
-              </Link>
-              
-              <Link
-                to="/about"
-                className="group bg-transparent border-2 border-gabon-yellow text-gabon-yellow px-10 py-4 rounded-full font-bold text-xl hover:bg-gabon-yellow hover:text-white transition-all duration-300 transform hover:scale-105 backdrop-blur-sm modern-font"
-              >
-                <span className="flex items-center gap-3">
-                  <span>Notre Histoire</span>
-                </span>
-              </Link>
-            </div>
-
-            {/* Statistiques avec style gabonais */}
-            <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
-              <div className="text-center card-gabonese p-6">
-                <div className="text-4xl font-bold mb-2 text-gabon-green">8+</div>
-                <div className="text-lg text-gabon-yellow font-semibold">Créateurs</div>
-                <div className="text-sm text-gray-600">Talents d'exception</div>
-              </div>
-              <div className="text-center card-gabonese p-6">
-                <div className="text-4xl font-bold mb-2 text-gabon-yellow">200+</div>
-                <div className="text-lg text-gabon-yellow font-semibold">Créations</div>
-                <div className="text-sm text-gray-600">Pièces uniques</div>
-              </div>
-              <div className="text-center card-gabonese p-6">
-                <div className="text-4xl font-bold mb-2 text-gabon-blue">2024</div>
-                <div className="text-lg text-gabon-yellow font-semibold">Édition</div>
-                <div className="text-sm text-gray-600">Année exceptionnelle</div>
-              </div>
-            </div>
-          </div>
+    <div className="min-h-screen bg-gray-50">
+      {/* 1. Hero Section */}
+      <section className="relative min-h-screen flex items-center justify-center text-white text-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <video autoPlay loop muted className="w-full h-full object-cover">
+            {/* Remplacez par une URL de vidéo pertinente */}
+            <source src="https://videos.pexels.com/video-files/3254013/3254013-hd_1920_1080_25fps.mp4" type="video/mp4" />
+            Votre navigateur ne supporte pas la lecture de vidéos.
+          </video>
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-          <div className="flex flex-col items-center">
-            <span className="text-sm opacity-70 mb-2">Découvrir</span>
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-          </div>
-        </div>
-      </section>
+        <div className="relative z-10 max-w-4xl mx-auto px-4">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4 tracking-wide">
+            Consommer local, c’est valoriser notre culture
+          </h1>
+          <p className="text-xl md:text-2xl font-light mb-6">
+            16 novembre 2025 – Casino Croisette, Libreville
+          </p>
+          
+          <Countdown />
 
-      {/* Section Créateurs en vedette */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              Créateurs en <span className="bg-gradient-to-r from-gabon-green to-gabon-blue bg-clip-text text-transparent">Vedette</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Rencontrez les talents exceptionnels qui façonnent l'avenir de la mode gabonaise
-            </p>
-          </div>
-
-          {/* Grille des créateurs */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {/* Angèle Epouta */}
-            <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-              <div className="h-64 bg-gradient-to-br from-gabon-green to-gabon-blue relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/20"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-8xl opacity-80 font-bold text-white">A</div>
-                </div>
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold text-gabon-green">
-                  Maître
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Angèle Epouta</h3>
-                <p className="text-gabon-green font-medium mb-3">Maître Créatrice</p>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Figure emblématique de la mode gabonaise, reconnue pour son excellence artistique et son savoir-faire artisanal exceptionnel.
-                </p>
-                <Link
-                  to="/creators"
-                  className="inline-flex items-center gap-2 text-gabon-green font-medium hover:text-gabon-blue transition-colors"
-                >
-                  Voir les créations
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </Link>
-              </div>
-            </div>
-
-            {/* Beitch Faro */}
-            <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-              <div className="h-64 bg-gradient-to-br from-gabon-yellow to-gabon-green relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/20"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-8xl opacity-80 font-bold text-white">B</div>
-                </div>
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold text-gabon-yellow">
-                  Fondatrice
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Beitch Faro</h3>
-                <p className="text-gabon-yellow font-medium mb-3">Promotrice de l'événement</p>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Visionnaire et fondatrice du CLOFAS 241, dédiée à la promotion de la mode locale gabonaise.
-                </p>
-                <Link
-                  to="/creators"
-                  className="inline-flex items-center gap-2 text-gabon-yellow font-medium hover:text-gabon-green transition-colors"
-                >
-                  Voir les créations
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </Link>
-              </div>
-            </div>
-
-            {/* Angelina Creations */}
-            <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-              <div className="h-64 bg-gradient-to-br from-gabon-blue to-gabon-green relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/20"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-8xl opacity-80 font-bold text-white">A</div>
-                </div>
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold text-gabon-blue">
-                  Maison
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Angelina Creations</h3>
-                <p className="text-gabon-blue font-medium mb-3">Maison de couture</p>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Atelier réputé pour ses pièces uniques mêlant tradition et modernité avec raffinement.
-                </p>
-                <Link
-                  to="/creators"
-                  className="inline-flex items-center gap-2 text-gabon-blue font-medium hover:text-gabon-green transition-colors"
-                >
-                  Voir les créations
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Bouton Voir tous */}
-          <div className="text-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/creators"
-              className="inline-flex items-center gap-3 bg-gradient-to-r from-gabon-green to-gabon-blue text-white px-8 py-4 rounded-full font-bold text-lg hover:from-gabon-blue hover:to-gabon-yellow transition-all duration-300 transform hover:scale-105 shadow-lg"
+              to="/tickets"
+              className="px-8 py-3.5 rounded-full font-bold text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transition-all duration-300 shadow-xl transform hover:scale-105"
             >
-              <span>Découvrir tous les créateurs</span>
-              <span>→</span>
+              🎟️ Acheter son ticket
+            </Link>
+            <Link
+              to="/edition"
+              className="px-8 py-3.5 rounded-full font-bold bg-white/20 backdrop-blur-sm border border-white/30 hover:bg-white/30 transition-all duration-300 transform hover:scale-105"
+            >
+              📅 Voir le programme
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Section Mission */}
-      <section className="py-20 bg-gradient-to-r from-gabon-green to-gabon-blue">
+      {/* 2. Présentation de CLOFAS 241 */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4 text-center max-w-3xl">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Qu’est-ce que CLOFAS 241 ?</h2>
+          <p className="text-lg text-gray-600 leading-relaxed mb-8">
+            CLOFAS 241 est le rendez-vous incontournable de la mode au Gabon. Notre mission est de valoriser la richesse de la consommation locale en propulsant les stylistes et créateurs gabonais sur le devant de la scène nationale et internationale. Chaque édition est une célébration de la créativité, de l'authenticité et du savoir-faire artisanal.
+          </p>
+          <Link
+            to="/about"
+            className="inline-flex items-center gap-2 text-purple-600 font-bold hover:text-purple-800 transition-colors duration-300"
+          >
+            Découvrir l’histoire →
+          </Link>
+        </div>
+      </section>
+
+      {/* 3. Édition 2025 – Aperçu */}
+      <section className="py-20 bg-gray-100">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              Notre Mission
-            </h2>
-            <p className="text-xl md:text-2xl leading-relaxed mb-12 opacity-90">
-              Promouvoir la consommation locale dans le secteur de la mode au Gabon en mettant 
-              en lumière les talents exceptionnels qui façonnent l'avenir de la mode gabonaise.
-            </p>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="text-2xl font-bold text-white">P</div>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Promotion Locale</h3>
-                <p className="opacity-80">Soutenir les créateurs gabonais</p>
-              </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-center lg:text-left">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Édition 2025</h2>
+              <p className="text-xl text-gray-600 mb-8">Le thème de cette année met en lumière la fusion entre tradition et innovation.</p>
               
-              <div className="text-center">
-                <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="text-2xl font-bold text-white">I</div>
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 flex-shrink-0 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold text-xl">1</div>
+                  <div>
+                    <h3 className="text-xl font-bold">Tapis Rouge & Accueil</h3>
+                    <p className="text-gray-600">Networking et présentation des partenaires.</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Innovation</h3>
-                <p className="opacity-80">Allier tradition et modernité</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="text-2xl font-bold text-white">G</div>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 flex-shrink-0 rounded-full bg-pink-600 text-white flex items-center justify-center font-bold text-xl">2</div>
+                  <div>
+                    <h3 className="text-xl font-bold">Défilés des Stylistes</h3>
+                    <p className="text-gray-600">Présentation des collections exclusives.</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Impact Global</h3>
-                <p className="opacity-80">Exporter la mode gabonaise</p>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 flex-shrink-0 rounded-full bg-purple-800 text-white flex items-center justify-center font-bold text-xl">3</div>
+                  <div>
+                    <h3 className="text-xl font-bold">Remise des Attestations</h3>
+                    <p className="text-gray-600">Célébration des talents de l'édition.</p>
+                  </div>
+                </div>
               </div>
+
+              <div className="mt-10">
+                 <Link
+                    to="/edition"
+                    className="inline-flex items-center gap-2 bg-gray-800 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-900 transition-all duration-300 shadow-lg"
+                  >
+                    Voir l’édition complète
+                  </Link>
+              </div>
+            </div>
+            <div className="flex justify-center">
+               {/* Remplacez par une image ou un visuel de l'édition */}
+              <img src="https://via.placeholder.com/600x700/E9D5FF/8B5CF6?text=Affiche+2025" alt="Affiche Édition 2025" className="rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section CTA Final */}
-      <section className="py-20 bg-gradient-to-br from-gray-900 to-gabon-blue">
-        <div className="container mx-auto px-4 text-center">
-          <div className="max-w-3xl mx-auto text-white">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Prêt à découvrir la mode gabonaise ?
-            </h2>
-            <p className="text-xl mb-8 opacity-90">
-              Explorez les créations exceptionnelles de nos stylistes et découvrez 
-              l'authenticité de la mode locale.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/creators"
-                className="bg-white text-gabon-green px-8 py-4 rounded-full font-bold text-lg hover:bg-gabon-yellow hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg"
-              >
-                Explorer les Créations
-              </Link>
-              <Link
-                to="/about"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-gabon-blue transition-all duration-300 transform hover:scale-105"
-              >
-                En Savoir Plus
-              </Link>
+      {/* 5. Actualités récentes */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Nos dernières actualités</h2>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">Suivez les dernières nouvelles et annonces de l'équipe CLOFAS 241.</p>
             </div>
+            {/* Placeholder pour les articles - à remplacer par des données dynamiques */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                {/* Article 1 */}
+                 <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden group">
+                   <div className="h-48 bg-cover bg-center" style={{backgroundImage: "url('https://via.placeholder.com/400x250/A78BFA/FFFFFF?text=Coulisses')"}}></div>
+                   <div className="p-6">
+                     <h3 className="text-xl font-bold mb-2">Les coulisses de la préparation</h3>
+                     <p className="text-gray-600 mb-4 text-sm">Découvrez comment notre équipe prépare l'événement de l'année...</p>
+                     <Link to="/news" className="font-bold text-purple-600 hover:underline">Lire plus</Link>
+                   </div>
+                 </div>
+                 {/* Article 2 */}
+                 <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden group">
+                   <div className="h-48 bg-cover bg-center" style={{backgroundImage: "url('https://via.placeholder.com/400x250/F472B6/FFFFFF?text=Interview')"}}></div>
+                   <div className="p-6">
+                     <h3 className="text-xl font-bold mb-2">Interview avec un créateur</h3>
+                     <p className="text-gray-600 mb-4 text-sm">Entretien exclusif avec l'un des talents de l'édition 2025...</p>
+                     <Link to="/news" className="font-bold text-purple-600 hover:underline">Lire plus</Link>
+                   </div>
+                 </div>
+                 {/* Article 3 */}
+                 <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden group">
+                   <div className="h-48 bg-cover bg-center" style={{backgroundImage: "url('https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=Annonce')"}}></div>
+                   <div className="p-6">
+                     <h3 className="text-xl font-bold mb-2">Annonce des partenaires</h3>
+                     <p className="text-gray-600 mb-4 text-sm">Nos partenaires officiels pour l'édition 2025...</p>
+                     <Link to="/news" className="font-bold text-purple-600 hover:underline">Lire plus</Link>
+                   </div>
+                 </div>
+            </div>
+            <div className="text-center mt-16">
+              <Link
+                to="/news"
+                className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                Lire toutes les actualités
+              </Link>
           </div>
+        </div>
+      </section>
+
+      {/* 6. Tickets – Appel à l’action */}
+      <section className="py-20 bg-gradient-to-r from-purple-800 to-pink-700 text-white">
+        <div className="container mx-auto px-4 text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Ne manquez pas l’événement !</h2>
+            <p className="text-xl max-w-2xl mx-auto mb-8">Réservez votre place dès maintenant pour une expérience inoubliable.</p>
+            
+            <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-10">
+              <div className="bg-white/10 backdrop-blur-md p-8 rounded-lg border border-white/20 w-full md:w-80">
+                <h3 className="text-2xl font-bold mb-2">Ticket Standard</h3>
+                <p className="text-4xl font-bold mb-4">50€</p>
+                <ul className="text-left space-y-2 opacity-80">
+                  <li>✓ Accès au défilé</li>
+                  <li>✓ Place assise standard</li>
+                </ul>
+              </div>
+              <div className="bg-white/20 backdrop-blur-md p-8 rounded-lg border-2 border-pink-400 w-full md:w-96 transform scale-105 shadow-2xl">
+                <p className="absolute -top-4 left-1/2 -translate-x-1/2 bg-pink-500 px-4 py-1 rounded-full text-sm font-bold">POPULAIRE</p>
+                <h3 className="text-3xl font-bold mb-2">Ticket VIP</h3>
+                <p className="text-5xl font-bold mb-4">120€</p>
+                <ul className="text-left space-y-2 opacity-90">
+                  <li>✓ Accès au défilé</li>
+                  <li>✓ Place au premier rang</li>
+                  <li>✓ Cocktail & Networking</li>
+                  <li>✓ Sac cadeau exclusif</li>
+                </ul>
+              </div>
+            </div>
+
+            <Link
+              to="/tickets"
+              className="px-10 py-4 rounded-full font-bold text-purple-800 bg-white hover:bg-gray-200 transition-all duration-300 shadow-2xl transform hover:scale-105 text-lg"
+            >
+              Acheter un ticket
+            </Link>
         </div>
       </section>
     </div>

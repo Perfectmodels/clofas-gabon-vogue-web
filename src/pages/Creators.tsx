@@ -3,7 +3,7 @@ import '@/styles/backgrounds.css';
 
 const Creators: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-indigo-50">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-indigo-50 pt-16">
       {/* Hero Section */}
       <div className="relative overflow-hidden creators-section">
         <div className="background-overlay"></div>

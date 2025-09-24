@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import BackgroundManager from '@/components/admin/BackgroundManager';
+import BackgroundManager from '../components/admin/BackgroundManager';
+import SiteSettings from '../components/admin/SiteSettings';
 
 const Admin: React.FC = () => {
   const [currentView, setCurrentView] = useState('dashboard');
@@ -106,7 +107,17 @@ const Admin: React.FC = () => {
                   : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
               }`}
             >
-              🖼️ Gestion des arrière-plans
+              Arrière-plans
+            </button>
+            <button
+              onClick={() => setCurrentView('settings')}
+              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                currentView === 'settings'
+                  ? 'border-purple-500 text-purple-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              Paramètres
             </button>
           </nav>
         </div>
@@ -167,7 +178,10 @@ const Admin: React.FC = () => {
                     </div>
                   </button>
                   
-                  <button className="p-4 bg-white border-2 border-gray-200 rounded-lg hover:border-gray-300 transition-colors text-left">
+                  <button
+                    onClick={() => setCurrentView('settings')}
+                    className="p-4 bg-white border-2 border-gray-200 rounded-lg hover:border-gray-300 transition-colors text-left"
+                  >
                     <div className="flex items-center">
                       <span className="text-2xl mr-3">⚙️</span>
                       <div>
@@ -183,6 +197,8 @@ const Admin: React.FC = () => {
         )}
 
         {currentView === 'backgrounds' && <BackgroundManager />}
+        
+        {currentView === 'settings' && <SiteSettings />}
       </div>
     </div>
   );

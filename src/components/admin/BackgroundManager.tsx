@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ImageSelector from './ImageSelector';
+import { useAutoSave } from '../../hooks/useAutoSave';
 
 interface BackgroundSettings {
   heroBackground: string;
@@ -9,11 +10,28 @@ interface BackgroundSettings {
 }
 
 const BackgroundManager: React.FC = () => {
-  const [backgrounds, setBackgrounds] = useState<BackgroundSettings>({
+  const initialBackgrounds: BackgroundSettings = {
     heroBackground: '',
     creatorsBackground: '',
     aboutBackground: '',
     contactBackground: ''
+  };
+
+  // Utiliser le hook auto-save pour Firebase
+  const {
+    data: backgrounds,
+    updateData: setBackgrounds,
+    isSaving,
+    lastSaved,
+    error: saveError
+  } = useAutoSave('site/backgrounds', initialBackgrounds, {
+    debounceMs: 500,
+    onSave: () => {
+      console.log('✅ Arrière-plans sauvegardés dans Firebase');
+    },
+    onError: (error) => {
+      console.error('❌ Erreur de sauvegarde:', error);
+    }
   });
   
   const [allImages, setAllImages] = useState<string[]>([]);
@@ -35,12 +53,6 @@ const BackgroundManager: React.FC = () => {
         });
         
         setAllImages(images);
-        
-        // Charger les paramètres sauvegardés
-        const savedBackgrounds = localStorage.getItem('clofas-backgrounds');
-        if (savedBackgrounds) {
-          setBackgrounds(JSON.parse(savedBackgrounds));
-        }
       } catch (error) {
         console.error('Erreur lors du chargement des images:', error);
       }
@@ -49,14 +61,12 @@ const BackgroundManager: React.FC = () => {
     loadImages();
   }, []);
 
-  // Sauvegarder les paramètres
-  const saveBackgrounds = (newBackgrounds: BackgroundSettings) => {
-    setBackgrounds(newBackgrounds);
-    localStorage.setItem('clofas-backgrounds', JSON.stringify(newBackgrounds));
-    
-    // Appliquer les styles CSS
-    applyBackgroundStyles(newBackgrounds);
-  };
+  // Appliquer les styles CSS quand les données changent
+  useEffect(() => {
+    if (backgrounds) {
+      applyBackgroundStyles(backgrounds);
+    }
+  }, [backgrounds]);
 
   // Appliquer les styles CSS
   const applyBackgroundStyles = (bgSettings: BackgroundSettings) => {
@@ -73,7 +83,7 @@ const BackgroundManager: React.FC = () => {
       ...backgrounds,
       [`${activeSection}Background`]: imageUrl
     };
-    saveBackgrounds(newBackgrounds);
+    setBackgrounds(newBackgrounds);
   };
 
   const clearBackground = () => {
@@ -81,7 +91,7 @@ const BackgroundManager: React.FC = () => {
       ...backgrounds,
       [`${activeSection}Background`]: ''
     };
-    saveBackgrounds(newBackgrounds);
+    setBackgrounds(newBackgrounds);
   };
 
   const sections = [
@@ -95,12 +105,38 @@ const BackgroundManager: React.FC = () => {
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">
-            Gestionnaire d'Arrière-plans
-          </h1>
-          <p className="text-gray-600">
-            Sélectionnez et appliquez des images comme arrière-plans pour différentes sections du site
-          </p>
+          <div className="flex justify-between items-start">
+            <div>
+              <h1 className="text-3xl font-bold text-gray-800 mb-2">
+                Gestionnaire d'Arrière-plans
+              </h1>
+              <p className="text-gray-600">
+                Sélectionnez et appliquez des images comme arrière-plans pour différentes sections du site
+              </p>
+            </div>
+            
+            {/* Indicateur de sauvegarde */}
+            <div className="text-right">
+              {isSaving && (
+                <div className="flex items-center gap-2 text-blue-600">
+                  <div className="w-4 h-4 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+                  <span className="text-sm">Sauvegarde...</span>
+                </div>
+              )}
+              
+              {lastSaved && !isSaving && (
+                <div className="text-sm text-green-600">
+                  ✅ Sauvegardé
+                </div>
+              )}
+              
+              {saveError && (
+                <div className="text-sm text-red-600">
+                  ❌ Erreur: {saveError}
+                </div>
+              )}
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

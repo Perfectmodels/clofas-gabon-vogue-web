@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import BackgroundManager from '../components/admin/BackgroundManager';
 import SiteSettings from '../components/admin/SiteSettings';
+import AdminDashboard from '../components/admin/AdminDashboard';
+import EmailManager from '../components/admin/EmailManager';
+import StylistManager from '../components/admin/StylistManager';
+import EditionManager from '../components/admin/EditionManager';
+import ColorCustomizer from '../components/admin/ColorCustomizer';
+import '@/styles/minimalist-theme.css';
 
 const Admin: React.FC = () => {
   const [currentView, setCurrentView] = useState('dashboard');
@@ -88,22 +94,52 @@ const Admin: React.FC = () => {
       {/* Navigation */}
       <div className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex space-x-8">
+          <nav className="flex space-x-6 overflow-x-auto">
             <button
               onClick={() => setCurrentView('dashboard')}
-              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+              className={`py-3 px-2 border-b-2 font-medium text-sm transition-colors whitespace-nowrap ${
                 currentView === 'dashboard'
-                  ? 'border-purple-500 text-purple-600'
+                  ? 'border-green-500 text-green-600'
                   : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
               }`}
             >
-              📊 Tableau de bord
+              Tableau de bord
+            </button>
+            <button
+              onClick={() => setCurrentView('stylists')}
+              className={`py-3 px-2 border-b-2 font-medium text-sm transition-colors whitespace-nowrap ${
+                currentView === 'stylists'
+                  ? 'border-green-500 text-green-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              Stylistes
+            </button>
+            <button
+              onClick={() => setCurrentView('emails')}
+              className={`py-3 px-2 border-b-2 font-medium text-sm transition-colors whitespace-nowrap ${
+                currentView === 'emails'
+                  ? 'border-green-500 text-green-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              Emails
+            </button>
+            <button
+              onClick={() => setCurrentView('editions')}
+              className={`py-3 px-2 border-b-2 font-medium text-sm transition-colors whitespace-nowrap ${
+                currentView === 'editions'
+                  ? 'border-green-500 text-green-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              Éditions
             </button>
             <button
               onClick={() => setCurrentView('backgrounds')}
-              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+              className={`py-3 px-2 border-b-2 font-medium text-sm transition-colors whitespace-nowrap ${
                 currentView === 'backgrounds'
-                  ? 'border-purple-500 text-purple-600'
+                  ? 'border-green-500 text-green-600'
                   : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
               }`}
             >
@@ -111,9 +147,9 @@ const Admin: React.FC = () => {
             </button>
             <button
               onClick={() => setCurrentView('settings')}
-              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+              className={`py-3 px-2 border-b-2 font-medium text-sm transition-colors whitespace-nowrap ${
                 currentView === 'settings'
-                  ? 'border-purple-500 text-purple-600'
+                  ? 'border-green-500 text-green-600'
                   : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
               }`}
             >
@@ -124,82 +160,17 @@ const Admin: React.FC = () => {
       </div>
 
       {/* Contenu */}
-      <div className="max-w-7xl mx-auto">
-        {currentView === 'dashboard' && (
-          <div className="p-6">
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">Tableau de bord</h2>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg p-6 text-white">
-                  <div className="flex items-center">
-                    <span className="text-3xl mr-3">👥</span>
-                    <div>
-                      <p className="text-purple-100">Créateurs</p>
-                      <p className="text-2xl font-bold">8</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg p-6 text-white">
-                  <div className="flex items-center">
-                    <span className="text-3xl mr-3">📸</span>
-                    <div>
-                      <p className="text-blue-100">Images</p>
-                      <p className="text-2xl font-bold">48</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-gradient-to-br from-green-500 to-teal-500 rounded-lg p-6 text-white">
-                  <div className="flex items-center">
-                    <span className="text-3xl mr-3">🎨</span>
-                    <div>
-                      <p className="text-green-100">Arrière-plans</p>
-                      <p className="text-2xl font-bold">4</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">Actions rapides</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <button
-                    onClick={() => setCurrentView('backgrounds')}
-                    className="p-4 bg-white border-2 border-purple-200 rounded-lg hover:border-purple-300 transition-colors text-left"
-                  >
-                    <div className="flex items-center">
-                      <span className="text-2xl mr-3">🖼️</span>
-                      <div>
-                        <h4 className="font-medium text-gray-800">Gérer les arrière-plans</h4>
-                        <p className="text-sm text-gray-600">Choisir des images pour les sections</p>
-                      </div>
-                    </div>
-                  </button>
-                  
-                  <button
-                    onClick={() => setCurrentView('settings')}
-                    className="p-4 bg-white border-2 border-gray-200 rounded-lg hover:border-gray-300 transition-colors text-left"
-                  >
-                    <div className="flex items-center">
-                      <span className="text-2xl mr-3">⚙️</span>
-                      <div>
-                        <h4 className="font-medium text-gray-800">Paramètres</h4>
-                        <p className="text-sm text-gray-600">Configuration du site</p>
-                      </div>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-
+      <div className="max-w-7xl mx-auto p-4">
+        {currentView === 'dashboard' && <AdminDashboard />}
+        {currentView === 'stylists' && <StylistManager />}
+        {currentView === 'emails' && <EmailManager />}
+        {currentView === 'editions' && <EditionManager />}
         {currentView === 'backgrounds' && <BackgroundManager />}
-        
         {currentView === 'settings' && <SiteSettings />}
       </div>
+
+      {/* Personnalisateur de couleurs */}
+      <ColorCustomizer />
     </div>
   );
 };

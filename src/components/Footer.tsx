@@ -119,44 +119,37 @@ const Footer: React.FC = () => {
                   </a>
                 </li>
                 <li>
+                  <a href="/edition" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
+                    <span className="group-hover:scale-110 transition-transform">📅</span>
+                    <span className="group-hover:translate-x-1 transition-transform">Édition 2025</span>
+                    <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                  </a>
+                </li>
+                <li>
                   <a href="/creators" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
                     <span className="group-hover:scale-110 transition-transform">👑</span>
-                    <span className="group-hover:translate-x-1 transition-transform">Créateurs</span>
+                    <span className="group-hover:translate-x-1 transition-transform">Stylistes & Créateurs</span>
                     <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                   </a>
                 </li>
                 <li>
-                  <a href="/program" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
-                    <span className="group-hover:scale-110 transition-transform">📅</span>
-                    <span className="group-hover:translate-x-1 transition-transform">Programme</span>
+                  <a href="/news" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
+                    <span className="group-hover:scale-110 transition-transform">📰</span>
+                    <span className="group-hover:translate-x-1 transition-transform">Actualités</span>
                     <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                   </a>
                 </li>
                 <li>
-                  <a href="/gallery" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
-                    <span className="group-hover:scale-110 transition-transform">📸</span>
-                    <span className="group-hover:translate-x-1 transition-transform">Galerie</span>
-                    <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/partners" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
-                    <span className="group-hover:scale-110 transition-transform">🤝</span>
-                    <span className="group-hover:translate-x-1 transition-transform">Partenaires</span>
+                  <a href="/tickets" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
+                    <span className="group-hover:scale-110 transition-transform">🎫</span>
+                    <span className="group-hover:translate-x-1 transition-transform">Tickets & Inscription</span>
                     <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                   </a>
                 </li>
                 <li>
                   <a href="/contact" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
-                    <span className="group-hover:scale-110 transition-transform">💬</span>
+                    <span className="group-hover:scale-110 transition-transform">📞</span>
                     <span className="group-hover:translate-x-1 transition-transform">Contact</span>
-                    <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/admin" className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors group">
-                    <span className="group-hover:scale-110 transition-transform">⚙️</span>
-                    <span className="group-hover:translate-x-1 transition-transform">Admin</span>
                     <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                   </a>
                 </li>

@@ -18,11 +18,11 @@ const Navigation: React.FC = () => {
 
   const navigationItems = [
     { name: 'Accueil', path: '/' },
-    { name: 'Createurs', path: '/creators' },
-    { name: 'A Propos', path: '/about' },
-    { name: 'Programme', path: '/program' },
-    { name: 'Galerie', path: '/gallery' },
-    { name: 'Partenaires', path: '/partners' },
+    { name: 'À Propos', path: '/about' },
+    { name: 'Édition 2025', path: '/edition' },
+    { name: 'Stylistes & Créateurs', path: '/creators' },
+    { name: 'Actualités', path: '/news' },
+    { name: 'Tickets & Inscription', path: '/tickets' },
     { name: 'Contact', path: '/contact' }
   ];
 

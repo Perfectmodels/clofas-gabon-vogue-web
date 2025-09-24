@@ -1,0 +1,192 @@
+/* Thème Gabonais Authentique pour CLOFAS 241 */
+
+:root {
+  /* Couleurs du drapeau gabonais uniquement */
+  --gabon-green: #00A651;
+  --gabon-yellow: #FFD700;
+  --gabon-blue: #0066CC;
+  
+  /* Couleurs neutres */
+  --warm-white: #FEFEFE;
+  --soft-gray: #F5F5F5;
+  --charcoal: #2C2C2C;
+}
+
+/* Typographie inspirée de l'Afrique */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+.gabonese-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.modern-font {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Patterns gabonais simples */
+.african-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, var(--gabon-green) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, var(--gabon-yellow) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+.geometric-pattern {
+  background-image: 
+    linear-gradient(45deg, var(--gabon-green) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--gabon-yellow) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--gabon-blue) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px;
+}
+
+/* Animations inspirées de la danse africaine */
+@keyframes african-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes gentle-sway {
+  0%, 100% { transform: rotate(-1deg); }
+  50% { transform: rotate(1deg); }
+}
+
+@keyframes golden-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Classes utilitaires pour le thème gabonais */
+.bg-gabon-gradient {
+  background: linear-gradient(135deg, var(--gabon-green), var(--gabon-blue), var(--gabon-yellow));
+}
+
+.text-gabon-green {
+  color: var(--gabon-green);
+}
+
+.text-gabon-yellow {
+  color: var(--gabon-yellow);
+}
+
+.text-gabon-blue {
+  color: var(--gabon-blue);
+}
+
+/* Boutons avec style gabonais */
+.btn-african {
+  background: linear-gradient(45deg, var(--gabon-green), var(--gabon-yellow));
+  border: 2px solid var(--gabon-yellow);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-african::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: left 0.5s;
+}
+
+.btn-african:hover::before {
+  left: 100%;
+}
+
+.btn-african:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 166, 81, 0.3);
+}
+
+/* Cards avec style gabonais */
+.card-gabonese {
+  background: var(--warm-white);
+  border: 1px solid var(--gabon-yellow);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-gabonese::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gabon-green), var(--gabon-yellow), var(--gabon-blue));
+}
+
+.card-gabonese:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 166, 81, 0.2);
+}
+
+/* Effets de texte gabonais */
+.text-gabon-glow {
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.text-gabon-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 166, 81, 0.3);
+}
+
+/* Animations pour les éléments */
+.animate-african-pulse {
+  animation: african-pulse 2s ease-in-out infinite;
+}
+
+.animate-gentle-sway {
+  animation: gentle-sway 3s ease-in-out infinite;
+}
+
+.animate-golden-shimmer {
+  background: linear-gradient(90deg, var(--gabon-yellow), var(--gabon-green), var(--gabon-yellow));
+  background-size: 200% 100%;
+  animation: golden-shimmer 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Responsive design pour mobile */
+@media (max-width: 768px) {
+  .african-pattern,
+  .geometric-pattern {
+    background-size: 20px 20px;
+  }
+  
+  .btn-african {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
+
+/* Styles pour les sections */
+.section-gabonese {
+  background: linear-gradient(135deg, var(--soft-gray) 0%, var(--warm-white) 100%);
+  position: relative;
+}
+
+.section-gabonese::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300A651' fill-opacity='0.05'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0.3;
+  pointer-events: none;
+}

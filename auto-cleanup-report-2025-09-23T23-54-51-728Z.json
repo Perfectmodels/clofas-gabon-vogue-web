@@ -1,0 +1,14 @@
+{
+  "cleanupDate": "2025-09-23T23:54:51.729Z",
+  "statistics": {
+    "filesDeleted": 95,
+    "spaceFreed": 1194410109,
+    "errors": 0
+  },
+  "summary": {
+    "filesDeleted": 95,
+    "spaceFreed": 1194410109,
+    "spaceFreedMB": "1139.08",
+    "errors": 0
+  }
+}

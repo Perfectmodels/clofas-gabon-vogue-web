@@ -1,0 +1,400 @@
+{
+  "testDate": "2025-09-23T23:52:51.880Z",
+  "results": {
+    "totalImages": 48,
+    "accessibleImages": 48,
+    "failedImages": 0
+  },
+  "detailedResults": [
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/kV5WmdGZ/73b494d49a32.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "12156092"
+    },
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/JfKsLJP/01c8f4050da2.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "13052945"
+    },
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/vvCT2NV9/290f203a0fb8.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "12965077"
+    },
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/0VDmmp32/0e2ee56e1ae3.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "10267373"
+    },
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/fY4s0ZHB/c8afc6ad9f06.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "16329284"
+    },
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/yc1Kdq34/8dfdf7e9a8f9.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "11876554"
+    },
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/yc8bG1Tb/52e3ee600fbc.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "12743403"
+    },
+    {
+      "creator": "Angèle Epouta",
+      "url": "https://i.ibb.co/FqdpRkXY/1ee4d51f68c4.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "10850802"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/ymzt8frZ/1243d99b625e.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "18116699"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/0yD8DL4X/c161792451cb.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "13332795"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/3V0Qttw/064c1430c7db.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "20673244"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/Qs1MVBf/3da1bac85e6b.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "14698932"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/7J30PT4H/ea5023c3ac65.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "11407264"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/xSDxG5Rh/c240a82dfe89.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "9952238"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/jvNZfmhF/bd143a318d50.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "10260063"
+    },
+    {
+      "creator": "Angelina Creations",
+      "url": "https://i.ibb.co/nqNpbqHJ/d3018f0663e6.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "11070532"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/Wpy22mvs/626988750b51.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "11837885"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/RGWFYCnx/bf62f7b17d86.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "12145145"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/GQR5GrqM/c0b200863467.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "15705787"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/HDcN4DLz/9edaad8588c2.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "16725833"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/pvsDfzGQ/2ef8a415c6bd.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "9440226"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/Q3K1sfR7/cf51536b5800.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "17396287"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/GQgwLrzD/6e2267df4b1d.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "12600288"
+    },
+    {
+      "creator": "L'atelier Issé By Lita",
+      "url": "https://i.ibb.co/xqQqzzdQ/cc17a41d83af.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "16818442"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/ZpGx4QvL/245e81248d61.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "8914889"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/hRgT3zqh/a23261079d75.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "11377567"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/9khT9jRR/9c48c28ff676.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "13285035"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/0VKstWrK/3c80cc4e6574.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "16370487"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/z9kL58x/3100b475f5c0.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "9843601"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/N6sspHc7/5213160fe8c8.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "13834944"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/PvLccjDz/c335da428b09.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "15891232"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/zVLFVWjP/cc94856c27c1.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "17368288"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/pB3YNMp3/c247616e8323.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "15387817"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/sMGghMv/3f91bc3fe18b.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "12579744"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/SDXRLvjH/37c4ec120848.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "13357744"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/XP0Ln68/04adf6d042b4.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "11698285"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/4RTWc6HF/f846610121b9.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "14166294"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/tyv90Gk/1a808ecffeb6.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "14142029"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/ymfJ6D1N/7ffc4dd05e42.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "10724593"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/nM4pHFGY/9b1ded8e7e25.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "9132336"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/spfmPw0s/a55c687f4339.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "16569873"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/xKy1qqmx/6c1774b565a7.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "10688736"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/MkmPYJWX/a58cecc8ba55.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "11598350"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/KcYQYV8k/40c314434bf5.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "10124792"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/C3QMs8F5/f2c491608f72.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "12090987"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/9kfVmRQV/ef341cf7522d.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "13090018"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/67G0cFKJ/e9b71a73d118.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "9129191"
+    },
+    {
+      "creator": "Beitch Faro",
+      "url": "https://i.ibb.co/6JB8Gm9s/ce44ee5afa6b.jpg",
+      "accessible": true,
+      "status": 200,
+      "contentType": "image/jpeg",
+      "size": "8412781"
+    }
+  ],
+  "summary": {
+    "totalImages": 48,
+    "accessibleImages": 48,
+    "failedImages": 0,
+    "successRate": "100.0%"
+  }
+}

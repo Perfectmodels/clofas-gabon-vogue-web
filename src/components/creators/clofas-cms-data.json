@@ -37,33 +37,6 @@
         "textColor": "white"
       },
       "content": {}
-    },
-    "events": {
-      "hero": {
-        "title": "Événements",
-        "subtitle": "Participez à nos défilés et événements mode",
-        "backgroundColor": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-        "textColor": "white"
-      },
-      "content": {}
-    },
-    "responsible": {
-      "hero": {
-        "title": "Mode Responsable",
-        "subtitle": "Notre engagement pour une mode éthique et durable",
-        "backgroundColor": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-        "textColor": "white"
-      },
-      "content": {}
-    },
-    "contact": {
-      "hero": {
-        "title": "Contactez-nous",
-        "subtitle": "Une question ? Un projet ? Nous sommes là pour vous accompagner",
-        "backgroundColor": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-        "textColor": "white"
-      },
-      "content": {}
     }
   },
   "creators": [
@@ -94,24 +67,14 @@
       "status": "Maître Créatrice",
       "description": "Angèle Epouta est une figure emblématique de la mode gabonaise, reconnue pour son excellence artistique et son savoir-faire artisanal exceptionnel. Ses créations sophistiquées allient tradition et modernité avec une maîtrise technique remarquable qui fait d'elle une référence incontournable dans l'univers de la haute couture locale.",
       "images": [
-        "/creators/angele-epouta/Angele Epouta Creations (1).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (2).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (3).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (4).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (5).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (6).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (7).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (8).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (9).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (10).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (11).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (12).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (13).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (14).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (15).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (16).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (17).jpg",
-        "/creators/angele-epouta/Angele Epouta Creations (18).jpg"
+        "https://i.ibb.co/kV5WmdGZ/73b494d49a32.jpg",
+        "https://i.ibb.co/JfKsLJP/01c8f4050da2.jpg",
+        "https://i.ibb.co/vvCT2NV9/290f203a0fb8.jpg",
+        "https://i.ibb.co/0VDmmp32/0e2ee56e1ae3.jpg",
+        "https://i.ibb.co/fY4s0ZHB/c8afc6ad9f06.jpg",
+        "https://i.ibb.co/yc1Kdq34/8dfdf7e9a8f9.jpg",
+        "https://i.ibb.co/yc8bG1Tb/52e3ee600fbc.jpg",
+        "https://i.ibb.co/FqdpRkXY/1ee4d51f68c4.jpg"
       ]
     },
     {
@@ -120,26 +83,14 @@
       "status": "Maison de couture",
       "description": "Atelier réputé pour ses pièces uniques mêlant tradition et modernité avec raffinement.",
       "images": [
-        "/creators/angelina-creations/Angelina Créations (1).jpg",
-        "/creators/angelina-creations/Angelina Créations (2).jpg",
-        "/creators/angelina-creations/Angelina Créations (3).jpg",
-        "/creators/angelina-creations/Angelina Créations (4).jpg",
-        "/creators/angelina-creations/Angelina Créations (5).jpg",
-        "/creators/angelina-creations/Angelina Créations (6).jpg",
-        "/creators/angelina-creations/Angelina Créations (7).jpg",
-        "/creators/angelina-creations/Angelina Créations (8).jpg",
-        "/creators/angelina-creations/Angelina Créations (9).jpg",
-        "/creators/angelina-creations/Angelina Créations (10).jpg",
-        "/creators/angelina-creations/Angelina Créations (11).jpg",
-        "/creators/angelina-creations/Angelina Créations (12).jpg",
-        "/creators/angelina-creations/Angelina Créations (13).jpg",
-        "/creators/angelina-creations/Angelina Créations (14).jpg",
-        "/creators/angelina-creations/Angelina Créations (15).jpg",
-        "/creators/angelina-creations/Angelina Créations (16).jpg",
-        "/creators/angelina-creations/Angelina Créations (17).jpg",
-        "/creators/angelina-creations/Angelina Créations (18).jpg",
-        "/creators/angelina-creations/Angelina Créations (19).jpg",
-        "/creators/angelina-creations/Angelina Créations (20).jpg"
+        "https://i.ibb.co/ymzt8frZ/1243d99b625e.jpg",
+        "https://i.ibb.co/0yD8DL4X/c161792451cb.jpg",
+        "https://i.ibb.co/3V0Qttw/064c1430c7db.jpg",
+        "https://i.ibb.co/Qs1MVBf/3da1bac85e6b.jpg",
+        "https://i.ibb.co/7J30PT4H/ea5023c3ac65.jpg",
+        "https://i.ibb.co/xSDxG5Rh/c240a82dfe89.jpg",
+        "https://i.ibb.co/jvNZfmhF/bd143a318d50.jpg",
+        "https://i.ibb.co/nqNpbqHJ/d3018f0663e6.jpg"
       ]
     },
     {
@@ -148,193 +99,14 @@
       "status": "Créatrice",
       "description": "Espace créatif dédié à la haute couture gabonaise avec une touche d'originalité distincte.",
       "images": [
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (1).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (2).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (3).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (4).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (5).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (6).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (7).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (8).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (9).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (10).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (11).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (12).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (13).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (14).jpg",
-        "/creators/atelier-isse-by-lita/Atelier Issé By Lita (15).jpg"
-      ]
-    },
-    {
-      "id": "creator-6",
-      "name": "Desmo",
-      "status": "Créateur (Togo)",
-      "description": "Designer togolais apportant une touche panafricaine avec ses créations audacieuses et colorées.",
-      "images": [
-        "/creators/desmo/Desmo (1).jpg",
-        "/creators/desmo/Desmo (2).jpg",
-        "/creators/desmo/Desmo (3).jpg",
-        "/creators/desmo/Desmo (4).jpg",
-        "/creators/desmo/Desmo (5).jpg",
-        "/creators/desmo/Desmo (6).jpg",
-        "/creators/desmo/Desmo (7).jpg",
-        "/creators/desmo/Desmo (8).jpg",
-        "/creators/desmo/Desmo (9).jpg",
-        "/creators/desmo/Desmo (10).jpg",
-        "/creators/desmo/Desmo (11).jpg",
-        "/creators/desmo/Desmo (12).jpg",
-        "/creators/desmo/Desmo (13).jpg",
-        "/creators/desmo/Desmo (14).jpg",
-        "/creators/desmo/Desmo (15).jpg",
-        "/creators/desmo/Desmo (16).jpg",
-        "/creators/desmo/Desmo (17).jpg",
-        "/creators/desmo/Desmo (18).jpg",
-        "/creators/desmo/Desmo (19).jpg",
-        "/creators/desmo/Desmo (20).jpg",
-        "/creators/desmo/Desmo (21).jpg",
-        "/creators/desmo/Desmo (22).jpg",
-        "/creators/desmo/Desmo (23).jpg",
-        "/creators/desmo/Desmo (24).jpg",
-        "/creators/desmo/Desmo (25).jpg",
-        "/creators/desmo/Desmo (26).jpg"
-      ]
-    },
-    {
-      "id": "creator-7",
-      "name": "Jacques Simon",
-      "status": "Créateur",
-      "description": "Styliste modéliste gabonais.",
-      "images": [
-        "/creators/jacques-simon/Jacques Simon  (1).jpg",
-        "/creators/jacques-simon/Jacques Simon  (2).jpg",
-        "/creators/jacques-simon/Jacques Simon  (3).jpg",
-        "/creators/jacques-simon/Jacques Simon  (4).jpg",
-        "/creators/jacques-simon/Jacques Simon  (5).jpg",
-        "/creators/jacques-simon/Jacques Simon  (6).jpg",
-        "/creators/jacques-simon/Jacques Simon  (7).jpg",
-        "/creators/jacques-simon/Jacques Simon  (8).jpg",
-        "/creators/jacques-simon/Jacques Simon  (9).jpg",
-        "/creators/jacques-simon/Jacques Simon  (10).jpg",
-        "/creators/jacques-simon/Jacques Simon  (11).jpg",
-        "/creators/jacques-simon/Jacques Simon  (12).jpg",
-        "/creators/jacques-simon/Jacques Simon  (13).jpg",
-        "/creators/jacques-simon/Jacques Simon  (14).jpg",
-        "/creators/jacques-simon/Jacques Simon  (15).jpg",
-        "/creators/jacques-simon/Jacques Simon  (16).jpg",
-        "/creators/jacques-simon/Jacques Simon  (17).jpg",
-        "/creators/jacques-simon/Jacques Simon  (18).jpg",
-        "/creators/jacques-simon/Jacques Simon  (19).jpg",
-        "/creators/jacques-simon/Jacques Simon  (20).jpg",
-        "/creators/jacques-simon/Jacques Simon  (21).jpg",
-        "/creators/jacques-simon/Jacques Simon  (22).jpg",
-        "/creators/jacques-simon/Jacques Simon  (23).jpg"
-      ]
-    },
-    {
-      "id": "creator-8",
-      "name": "Koro DK Style",
-      "status": "Créatrice (Burkina Faso)",
-      "description": "Créatrice burkinabé fusionnant motifs traditionnels et designs contemporains avec brio.",
-      "images": [
-        "/creators/koro-dk/Koro DK Style (1).jpg",
-        "/creators/koro-dk/Koro DK Style (2).jpg",
-        "/creators/koro-dk/Koro DK Style (3).jpg",
-        "/creators/koro-dk/Koro DK Style (4).jpg",
-        "/creators/koro-dk/Koro DK Style (5).jpg",
-        "/creators/koro-dk/Koro DK Style (6).jpg",
-        "/creators/koro-dk/Koro DK Style (7).jpg",
-        "/creators/koro-dk/Koro DK Style (8).jpg",
-        "/creators/koro-dk/Koro DK Style (9).jpg",
-        "/creators/koro-dk/Koro DK Style (10).jpg",
-        "/creators/koro-dk/Koro DK Style (11).jpg",
-        "/creators/koro-dk/Koro DK Style (12).jpg",
-        "/creators/koro-dk/Koro DK Style (13).jpg",
-        "/creators/koro-dk/Koro DK Style (14).jpg",
-        "/creators/koro-dk/Koro DK Style (15).jpg",
-        "/creators/koro-dk/Koro DK Style (16).jpg",
-        "/creators/koro-dk/Koro DK Style (17).jpg",
-        "/creators/koro-dk/Koro DK Style (18).jpg",
-        "/creators/koro-dk/Koro DK Style (19).jpg",
-        "/creators/koro-dk/Koro DK Style (20).jpg",
-        "/creators/koro-dk/Koro DK Style (21).jpg",
-        "/creators/koro-dk/Koro DK Style (22).jpg",
-        "/creators/koro-dk/Koro DK Style (23).jpg",
-        "/creators/koro-dk/Koro DK Style (24).jpg",
-        "/creators/koro-dk/Koro DK Style (25).jpg",
-        "/creators/koro-dk/Koro DK Style (26).jpg",
-        "/creators/koro-dk/Koro DK Style (27).jpg",
-        "/creators/koro-dk/Koro DK Style (28).jpg",
-        "/creators/koro-dk/Koro DK Style (29).jpg",
-        "/creators/koro-dk/Koro DK Style (30).jpg"
-      ]
-    },
-    {
-      "id": "creator-9",
-      "name": "Nous Fashion",
-      "status": "Créateur",
-      "description": "Marque innovante redéfinissant les standards de la mode gabonaise avec créativité et originalité.",
-      "images": [
-        "/creators/nous-fashion/Nous Fashion (1).jpg",
-        "/creators/nous-fashion/Nous Fashion (2).jpg",
-        "/creators/nous-fashion/Nous Fashion (3).jpg",
-        "/creators/nous-fashion/Nous Fashion (4).jpg",
-        "/creators/nous-fashion/Nous Fashion (5).jpg",
-        "/creators/nous-fashion/Nous Fashion (6).jpg",
-        "/creators/nous-fashion/Nous Fashion (7).jpg",
-        "/creators/nous-fashion/Nous Fashion (8).jpg",
-        "/creators/nous-fashion/Nous Fashion (9).jpg",
-        "/creators/nous-fashion/Nous Fashion (10).jpg",
-        "/creators/nous-fashion/Nous Fashion (11).jpg",
-        "/creators/nous-fashion/Nous Fashion (12).jpg",
-        "/creators/nous-fashion/Nous Fashion (13).jpg",
-        "/creators/nous-fashion/Nous Fashion (14).jpg",
-        "/creators/nous-fashion/Nous Fashion (15).jpg",
-        "/creators/nous-fashion/Nous Fashion (16).jpg",
-        "/creators/nous-fashion/Nous Fashion (17).jpg",
-        "/creators/nous-fashion/Nous Fashion (18).jpg",
-        "/creators/nous-fashion/Nous Fashion (19).jpg",
-        "/creators/nous-fashion/Nous Fashion (20).jpg",
-        "/creators/nous-fashion/Nous Fashion (21).jpg",
-        "/creators/nous-fashion/Nous Fashion (22).jpg",
-        "/creators/nous-fashion/Nous Fashion (23).jpg"
-      ]
-    },
-    {
-      "id": "creator-10",
-      "name": "OJ Fashion",
-      "status": "Créateur",
-      "description": "Marque innovante redéfinissant les standards de la mode gabonaise.",
-      "images": [
-        "/creators/oj-fashion/OJ Fashion (1).jpg",
-        "/creators/oj-fashion/OJ Fashion (2).jpg",
-        "/creators/oj-fashion/OJ Fashion (3).jpg",
-        "/creators/oj-fashion/OJ Fashion (4).jpg",
-        "/creators/oj-fashion/OJ Fashion (5).jpg",
-        "/creators/oj-fashion/OJ Fashion (6).jpg",
-        "/creators/oj-fashion/OJ Fashion (7).jpg",
-        "/creators/oj-fashion/OJ Fashion (8).jpg",
-        "/creators/oj-fashion/OJ Fashion (9).jpg",
-        "/creators/oj-fashion/OJ Fashion (10).jpg",
-        "/creators/oj-fashion/OJ Fashion (11).jpg",
-        "/creators/oj-fashion/OJ Fashion (12).jpg",
-        "/creators/oj-fashion/OJ Fashion (13).jpg",
-        "/creators/oj-fashion/OJ Fashion (14).jpg",
-        "/creators/oj-fashion/OJ Fashion (15).jpg",
-        "/creators/oj-fashion/OJ Fashion (16).jpg",
-        "/creators/oj-fashion/OJ Fashion (17).jpg",
-        "/creators/oj-fashion/OJ Fashion (18).jpg",
-        "/creators/oj-fashion/OJ Fashion (19).jpg",
-        "/creators/oj-fashion/OJ Fashion (20).jpg",
-        "/creators/oj-fashion/OJ Fashion (21).jpg",
-        "/creators/oj-fashion/OJ Fashion (22).jpg",
-        "/creators/oj-fashion/OJ Fashion (23).jpg",
-        "/creators/oj-fashion/OJ Fashion (24).jpg",
-        "/creators/oj-fashion/OJ Fashion (25).jpg",
-        "/creators/oj-fashion/OJ Fashion (26).jpg",
-        "/creators/oj-fashion/OJ Fashion (27).jpg",
-        "/creators/oj-fashion/OJ Fashion (28).jpg",
-        "/creators/oj-fashion/OJ Fashion (29).jpg",
-        "/creators/oj-fashion/OJ Fashion (30).jpg"
+        "https://i.ibb.co/Wpy22mvs/626988750b51.jpg",
+        "https://i.ibb.co/RGWFYCnx/bf62f7b17d86.jpg",
+        "https://i.ibb.co/GQR5GrqM/c0b200863467.jpg",
+        "https://i.ibb.co/HDcN4DLz/9edaad8588c2.jpg",
+        "https://i.ibb.co/pvsDfzGQ/2ef8a415c6bd.jpg",
+        "https://i.ibb.co/Q3K1sfR7/cf51536b5800.jpg",
+        "https://i.ibb.co/GQgwLrzD/6e2267df4b1d.jpg",
+        "https://i.ibb.co/xqQqzzdQ/cc17a41d83af.jpg"
       ]
     },
     {
@@ -343,198 +115,31 @@
       "status": "Promotrice de l'événement",
       "description": "Visionnaire et fondatrice du CLOFAS 241, dédiée à la promotion de la mode locale gabonaise.",
       "images": [
-        "/creators/beitch-faro/Beitch Faro (1).jpg",
-        "/creators/beitch-faro/Beitch Faro (2).jpg",
-        "/creators/beitch-faro/Beitch Faro (3).jpg",
-        "/creators/beitch-faro/Beitch Faro (4).jpg",
-        "/creators/beitch-faro/Beitch Faro (5).jpg",
-        "/creators/beitch-faro/Beitch Faro (6).jpg",
-        "/creators/beitch-faro/Beitch Faro (7).jpg",
-        "/creators/beitch-faro/Beitch Faro (8).jpg",
-        "/creators/beitch-faro/Beitch Faro (9).jpg",
-        "/creators/beitch-faro/Beitch Faro (10).jpg",
-        "/creators/beitch-faro/Beitch Faro (11).jpg",
-        "/creators/beitch-faro/Beitch Faro (12).jpg",
-        "/creators/beitch-faro/Beitch Faro (13).jpg",
-        "/creators/beitch-faro/Beitch Faro (14).jpg",
-        "/creators/beitch-faro/Beitch Faro (15).jpg",
-        "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (1).jpg",
-        "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (2).jpg",
-        "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (3).jpg",
-        "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (4).jpg",
-        "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (5).jpg"
+        "https://i.ibb.co/ZpGx4QvL/245e81248d61.jpg",
+        "https://i.ibb.co/hRgT3zqh/a23261079d75.jpg",
+        "https://i.ibb.co/9khT9jRR/9c48c28ff676.jpg",
+        "https://i.ibb.co/0VKstWrK/3c80cc4e6574.jpg",
+        "https://i.ibb.co/z9kL58x/3100b475f5c0.jpg",
+        "https://i.ibb.co/N6sspHc7/5213160fe8c8.jpg",
+        "https://i.ibb.co/PvLccjDz/c335da428b09.jpg",
+        "https://i.ibb.co/zVLFVWjP/cc94856c27c1.jpg",
+        "https://i.ibb.co/pB3YNMp3/c247616e8323.jpg",
+        "https://i.ibb.co/sMGghMv/3f91bc3fe18b.jpg",
+        "https://i.ibb.co/SDXRLvjH/37c4ec120848.jpg",
+        "https://i.ibb.co/XP0Ln68/04adf6d042b4.jpg",
+        "https://i.ibb.co/4RTWc6HF/f846610121b9.jpg",
+        "https://i.ibb.co/tyv90Gk/1a808ecffeb6.jpg",
+        "https://i.ibb.co/ymfJ6D1N/7ffc4dd05e42.jpg",
+        "https://i.ibb.co/nM4pHFGY/9b1ded8e7e25.jpg",
+        "https://i.ibb.co/spfmPw0s/a55c687f4339.jpg",
+        "https://i.ibb.co/xKy1qqmx/6c1774b565a7.jpg",
+        "https://i.ibb.co/MkmPYJWX/a58cecc8ba55.jpg",
+        "https://i.ibb.co/KcYQYV8k/40c314434bf5.jpg",
+        "https://i.ibb.co/C3QMs8F5/f2c491608f72.jpg",
+        "https://i.ibb.co/9kfVmRQV/ef341cf7522d.jpg",
+        "https://i.ibb.co/67G0cFKJ/e9b71a73d118.jpg",
+        "https://i.ibb.co/6JB8Gm9s/ce44ee5afa6b.jpg"
       ]
     }
-  ],
-  "events": [
-    {
-      "id": "event-0",
-      "title": "Grande Édition CLOFAS 241 - Mode Gabonaise d'Excellence",
-      "date": "13-16 Décembre 2024",
-      "description": "Vivez une expérience exceptionnelle avec notre conférence de presse exclusive, des ateliers de création artistique, une exposition-vente de collections premium et un défilé de mode spectaculaire suivi d'un cocktail de gala. Un événement qui marquera l'histoire de la mode gabonaise.",
-      "location": "Libreville, Gabon"
-    }
-  ],
-  "siteContent": {
-    "features": [
-      {
-        "icon": "Users",
-        "title": "Créateurs d'Exception",
-        "description": "Plongez dans l'univers fascinant de la mode gabonaise à travers nos créateurs talentueux qui transforment chaque pièce en œuvre d'art. Découvrez des collections uniques qui célèbrent notre patrimoine culturel tout en embrassant l'innovation contemporaine."
-      },
-      {
-        "icon": "Calendar",
-        "title": "Événements Prestigieux",
-        "description": "Vivez des expériences inoubliables lors de nos défilés spectaculaires, ateliers créatifs et rencontres exclusives. Chaque événement CLOFAS 241 est une célébration de l'excellence, de la créativité et de l'engagement pour une mode éthique et durable."
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Mode Consciente & Durable",
-        "description": "Rejoignez le mouvement révolutionnaire d'une consommation responsable qui valorise l'artisanat local authentique. Ensemble, nous façonnons l'avenir de la mode gabonaise en privilégiant la qualité, l'éthique et l'impact positif sur notre communauté et notre environnement."
-      }
-    ],
-    "upcomingEvents": [
-      {
-        "title": "Grande Édition CLOFAS 241 - Mode Gabonaise d'Excellence",
-        "date": "13-16 Décembre 2024",
-        "description": "Vivez une expérience exceptionnelle avec notre conférence de presse exclusive, des ateliers de création artistique, une exposition-vente de collections premium et un défilé de mode spectaculaire suivi d'un cocktail de gala. Un événement qui marquera l'histoire de la mode gabonaise.",
-        "location": "Libreville, Gabon"
-      }
-    ],
-    "aboutPageValues": [
-      {
-        "title": "Authenticité Culturelle",
-        "description": "Nous célébrons avec fierté la richesse de notre patrimoine culturel gabonais, en mettant en valeur les traditions ancestrales et les savoir-faire uniques qui font la singularité de notre mode. Chaque création raconte une histoire, chaque motif porte un symbole, chaque pièce honore nos racines."
-      },
-      {
-        "title": "Durabilité & Éthique",
-        "description": "Nous nous engageons résolument pour une mode responsable qui respecte notre environnement et valorise les pratiques éthiques. Notre approche privilégie les matériaux durables, les techniques artisanales respectueuses et un impact positif sur les communautés locales."
-      },
-      {
-        "title": "Innovation & Modernité",
-        "description": "Nous fusionnons harmonieusement la tradition et l'innovation pour créer des pièces contemporaines qui résonnent avec notre époque. Notre vision audacieuse transforme les codes classiques en créations avant-gardistes qui positionnent la mode gabonaise sur la scène internationale."
-      },
-      {
-        "title": "Communauté & Solidarité",
-        "description": "Nous construisons ensemble un écosystème solidaire qui soutient et valorise nos créateurs locaux. Notre mission est de créer des opportunités, de favoriser l'épanouissement artistique et de bâtir une communauté forte qui propulse la mode gabonaise vers l'excellence."
-      }
-    ],
-    "launchEvents": [
-      {
-        "date": "13 Décembre",
-        "title": "Conférence de presse",
-        "description": "Lancement officiel de l'événement et présentation des enjeux de la mode locale."
-      },
-      {
-        "date": "14 Décembre",
-        "title": "Atelier de dessin",
-        "description": "Formation et perfectionnement pour les jeunes créateurs."
-      },
-      {
-        "date": "15 Décembre",
-        "title": "Exposition-vente",
-        "description": "Découverte et acquisition de pièces uniques auprès des artisans locaux."
-      },
-      {
-        "date": "16 Décembre",
-        "title": "Défilé de mode et cocktail",
-        "description": "Célébration de la créativité gabonaise avec un défilé suivi d'un cocktail de clôture."
-      }
-    ],
-    "responsiblePagePillars": [
-      {
-        "title": "Priorité à l'achat local",
-        "content": "Invitons nos concitoyens à choisir des vêtements et accessoires fabriqués au Gabon. En soutenant nos créateurs locaux, nous renforçons notre économie et valorisons notre identité culturelle. Ensemble, faisons du \"Made in Gabon\" un symbole de fierté et de prospérité."
-      },
-      {
-        "title": "Ancrer la mode africaine dans nos habitudes",
-        "content": "Intégrons la mode africaine dans notre quotidien pour affirmer notre fierté nationale. En portant des créations locales, nous célébrons notre culture tout en soutenant une économie durable. Ensemble, faisons de la mode Gabonaise un choix quotidien et un symbole d'unité."
-      },
-      {
-        "title": "Briser le complexe de l'importé",
-        "content": "Rompons avec la culture de la consommation de produits étrangers, valorisons notre savoir-faire local."
-      }
-    ],
-    "responsiblePageSocialImpact": [
-      {
-        "title": "Autonomisation",
-        "description": "Accompagnons les populations vulnérables comme les jeunes filles mères et les sourds-muets dans leur insertion socio-professionnelle."
-      },
-      {
-        "title": "Formation",
-        "description": "Dispensons des formations qualifiantes pour développer les compétences techniques et entrepreneuriales."
-      },
-      {
-        "title": "Emplois Durables",
-        "description": "Créons des emplois pérennes dans les secteurs de la mode et de l'artisanat gabonais en particulier et africain en general."
-      }
-    ],
-    "beitchFaroProfile": {
-      "name": "Beitch’Faro – ROKOMBENI Bernadette",
-      "specialty": "Styliste gabonaise, Superviseur général à l'école de mode de Nzeng-Ayong",
-      "description": "Avec une carrière couvrant plus de deux décennies, Beitch'Faro continue de marquer de son empreinte l'industrie de la mode, affirmant fièrement l’excellence africaine à travers des œuvres uniques et engagées.",
-      "artisticVision": "Beitch’Faro se distingue par des créations qui marient tradition africaine et modernité occidentale. Elle utilise des matériaux locaux comme le raphia et des éléments innovants tels que des écailles de poissons et des algues marines, offrant ainsi une véritable « festivité marine ». Ses œuvres allient élégance, sensualité et un style épuré.",
-      "careerHighlights": [
-        "Lauréate du Prix UNESCO du concours de jeune créateur au FIMA (2003)",
-        "Participation à la Caravane d'Alphadi (2001, 2002)",
-        "Défilés au SIRA Vision (Dakar) et à l'African Fashion New-York (2004, 2008)",
-        "Présente au FIMA, festival renommé de mode en Afrique (2022)"
-      ],
-      "socialEngagements": "Elle a participé à des défilés caritatifs pour soutenir la lutte contre le paludisme et la drépanocytose. Sa mission est de promouvoir la mode africaine et gabonaise sur les scènes internationales."
-    },
-    "aboutPageHistory": [
-      {
-        "year": "2024",
-        "title": "Naissance de CLOFAS 241",
-        "description": "Lancement de la première édition de CLOFAS 241 avec une conférence de presse qui a réuni les acteurs majeurs du secteur de la mode gabonaise."
-      },
-      {
-        "year": "2024",
-        "title": "Expansion & Reconnaissance",
-        "description": "CLOFAS 241 s'agrandit avec l'ajout des ateliers de dessin et le premier défilé qui a connu un succès retentissant, attirant l'attention des médias nationaux."
-      },
-      {
-        "year": "2024",
-        "title": "Partenariats Internationaux",
-        "description": "Établissement de partenariats stratégiques avec l'ecole de mode de Nzeng-Ayong et des designers internationaux, apportant une dimension globale à notre événement local."
-      },
-      {
-        "year": "2025",
-        "title": "Edition Actuelle",
-        "description": "CLOFAS 241 2025 s'annonce comme l'édition la plus ambitieuse à ce jour, avec un programme enrichi et une portée élargie pour célébrer l'excellence de la mode gabonaise."
-      }
-    ],
-    "aboutPageValuesNew": [
-      {
-        "title": "Excellence Créative",
-        "description": "Nous valorisons l'innovation, l'originalité et la qualité dans chaque création, poussant les limites de l'expression artistique dans la mode."
-      },
-      {
-        "title": "Identité Culturelle",
-        "description": "Nous célébrons et préservons le patrimoine culturel gabonais à travers la mode, en intégrant nos traditions dans une vision contemporaine et globale."
-      },
-      {
-        "title": "Économie Locale",
-        "description": "Nous soutenons activement le développement économique du Gabon en promouvant la consommation locale et en créant des opportunités pour les entrepreneurs du secteur."
-      }
-    ],
-    "faqQuestions": [
-      {
-        "question": "Comment participer aux événements ?",
-        "answer": "Consultez notre page Événements pour voir les prochaines dates et vous inscrire directement en ligne."
-      },
-      {
-        "question": "Peut-on acheter directement auprès des créateurs ?",
-        "answer": "Oui ! Chaque créateur a ses propres canaux de vente. Contactez-les via leurs profils sur notre site."
-      },
-      {
-        "question": "Comment devenir partenaire ?",
-        "answer": "Si vous partagez nos valeurs et souhaitez soutenir la mode locale, contactez-nous pour discuter d'un partenariat."
-      },
-      {
-        "question": "Où se déroulent vos événements ?",
-        "answer": "Principalement à Libreville, dans différents lieux culturels de la capitale gabonaise."
-      }
-    ]
-  }
+  ]
 }

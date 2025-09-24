@@ -1,0 +1,2686 @@
+{
+  "analysisDate": "2025-09-23T21:13:43.404Z",
+  "summary": {
+    "totalReferences": 205,
+    "existingImages": 205,
+    "missingImages": 0,
+    "creators": {
+      "creator-0": {
+        "name": "Lady Riaba",
+        "id": "creator-0",
+        "imageCount": 0,
+        "images": [],
+        "existingImages": 0,
+        "missingImages": 0
+      },
+      "creator-1": {
+        "name": "Madame Luc-Abiale",
+        "id": "creator-1",
+        "imageCount": 0,
+        "images": [],
+        "existingImages": 0,
+        "missingImages": 0
+      },
+      "creator-2": {
+        "name": "Belle Soeur",
+        "id": "creator-2",
+        "imageCount": 0,
+        "images": [],
+        "existingImages": 0,
+        "missingImages": 0
+      },
+      "creator-3": {
+        "name": "Angèle Epouta",
+        "id": "creator-3",
+        "imageCount": 18,
+        "images": [
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (1).jpg",
+            "exists": true,
+            "size": 12156092
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (2).jpg",
+            "exists": true,
+            "size": 16329284
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (3).jpg",
+            "exists": true,
+            "size": 11876554
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (4).jpg",
+            "exists": true,
+            "size": 13434150
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (5).jpg",
+            "exists": true,
+            "size": 13992182
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (6).jpg",
+            "exists": true,
+            "size": 8835732
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (7).jpg",
+            "exists": true,
+            "size": 13358489
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (8).jpg",
+            "exists": true,
+            "size": 12743403
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (9).jpg",
+            "exists": true,
+            "size": 10850802
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (10).jpg",
+            "exists": true,
+            "size": 14873297
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (11).jpg",
+            "exists": true,
+            "size": 11000540
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (12).jpg",
+            "exists": true,
+            "size": 13052945
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (13).jpg",
+            "exists": true,
+            "size": 9053135
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (14).jpg",
+            "exists": true,
+            "size": 12100484
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (15).jpg",
+            "exists": true,
+            "size": 12965077
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (16).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (16).jpg",
+            "exists": true,
+            "size": 10267373
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (17).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (17).jpg",
+            "exists": true,
+            "size": 12514668
+          },
+          {
+            "path": "/creators/angele-epouta/Angele Epouta Creations (18).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (18).jpg",
+            "exists": true,
+            "size": 12051956
+          }
+        ],
+        "existingImages": 18,
+        "missingImages": 0
+      },
+      "creator-4": {
+        "name": "Angelina Creations",
+        "id": "creator-4",
+        "imageCount": 20,
+        "images": [
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (1).jpg",
+            "exists": true,
+            "size": 18116699
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (2).jpg",
+            "exists": true,
+            "size": 11407264
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (3).jpg",
+            "exists": true,
+            "size": 13284667
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (4).jpg",
+            "exists": true,
+            "size": 16285240
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (5).jpg",
+            "exists": true,
+            "size": 17458350
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (6).jpg",
+            "exists": true,
+            "size": 9952238
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (7).jpg",
+            "exists": true,
+            "size": 13758405
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (8).jpg",
+            "exists": true,
+            "size": 10260063
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (9).jpg",
+            "exists": true,
+            "size": 11070532
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (10).jpg",
+            "exists": true,
+            "size": 14337115
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (11).jpg",
+            "exists": true,
+            "size": 13332795
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (12).jpg",
+            "exists": true,
+            "size": 16154348
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (13).jpg",
+            "exists": true,
+            "size": 14992193
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (14).jpg",
+            "exists": true,
+            "size": 17937290
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (15).jpg",
+            "exists": true,
+            "size": 20673244
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (16).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (16).jpg",
+            "exists": true,
+            "size": 14698932
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (17).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (17).jpg",
+            "exists": true,
+            "size": 18762866
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (18).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (18).jpg",
+            "exists": true,
+            "size": 18529420
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (19).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (19).jpg",
+            "exists": true,
+            "size": 18629837
+          },
+          {
+            "path": "/creators/angelina-creations/Angelina Créations (20).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (20).jpg",
+            "exists": true,
+            "size": 18027255
+          }
+        ],
+        "existingImages": 20,
+        "missingImages": 0
+      },
+      "creator-5": {
+        "name": "L'atelier Issé By Lita",
+        "id": "creator-5",
+        "imageCount": 15,
+        "images": [
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (1).jpg",
+            "exists": true,
+            "size": 11837885
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (2).jpg",
+            "exists": true,
+            "size": 9440226
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (3).jpg",
+            "exists": true,
+            "size": 13714149
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (4).jpg",
+            "exists": true,
+            "size": 17396287
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (5).jpg",
+            "exists": true,
+            "size": 12600288
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (6).jpg",
+            "exists": true,
+            "size": 15645651
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (7).jpg",
+            "exists": true,
+            "size": 13497944
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (8).jpg",
+            "exists": true,
+            "size": 16818442
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (9).jpg",
+            "exists": true,
+            "size": 19678106
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (10).jpg",
+            "exists": true,
+            "size": 12145145
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (11).jpg",
+            "exists": true,
+            "size": 15565013
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (12).jpg",
+            "exists": true,
+            "size": 15705787
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (13).jpg",
+            "exists": true,
+            "size": 17321684
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (14).jpg",
+            "exists": true,
+            "size": 16725833
+          },
+          {
+            "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (15).jpg",
+            "exists": true,
+            "size": 14663375
+          }
+        ],
+        "existingImages": 15,
+        "missingImages": 0
+      },
+      "creator-6": {
+        "name": "Desmo",
+        "id": "creator-6",
+        "imageCount": 26,
+        "images": [
+          {
+            "path": "/creators/desmo/Desmo (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (1).jpg",
+            "exists": true,
+            "size": 13035475
+          },
+          {
+            "path": "/creators/desmo/Desmo (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (2).jpg",
+            "exists": true,
+            "size": 7845219
+          },
+          {
+            "path": "/creators/desmo/Desmo (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (3).jpg",
+            "exists": true,
+            "size": 11664584
+          },
+          {
+            "path": "/creators/desmo/Desmo (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (4).jpg",
+            "exists": true,
+            "size": 13870869
+          },
+          {
+            "path": "/creators/desmo/Desmo (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (5).jpg",
+            "exists": true,
+            "size": 11145898
+          },
+          {
+            "path": "/creators/desmo/Desmo (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (6).jpg",
+            "exists": true,
+            "size": 12850762
+          },
+          {
+            "path": "/creators/desmo/Desmo (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (7).jpg",
+            "exists": true,
+            "size": 15597252
+          },
+          {
+            "path": "/creators/desmo/Desmo (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (8).jpg",
+            "exists": true,
+            "size": 16708892
+          },
+          {
+            "path": "/creators/desmo/Desmo (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (9).jpg",
+            "exists": true,
+            "size": 9110079
+          },
+          {
+            "path": "/creators/desmo/Desmo (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (10).jpg",
+            "exists": true,
+            "size": 13236267
+          },
+          {
+            "path": "/creators/desmo/Desmo (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (11).jpg",
+            "exists": true,
+            "size": 14685778
+          },
+          {
+            "path": "/creators/desmo/Desmo (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (12).jpg",
+            "exists": true,
+            "size": 9382971
+          },
+          {
+            "path": "/creators/desmo/Desmo (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (13).jpg",
+            "exists": true,
+            "size": 9526453
+          },
+          {
+            "path": "/creators/desmo/Desmo (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (14).jpg",
+            "exists": true,
+            "size": 9507550
+          },
+          {
+            "path": "/creators/desmo/Desmo (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (15).jpg",
+            "exists": true,
+            "size": 10052883
+          },
+          {
+            "path": "/creators/desmo/Desmo (16).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (16).jpg",
+            "exists": true,
+            "size": 15871325
+          },
+          {
+            "path": "/creators/desmo/Desmo (17).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (17).jpg",
+            "exists": true,
+            "size": 9098853
+          },
+          {
+            "path": "/creators/desmo/Desmo (18).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (18).jpg",
+            "exists": true,
+            "size": 8657082
+          },
+          {
+            "path": "/creators/desmo/Desmo (19).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (19).jpg",
+            "exists": true,
+            "size": 13234612
+          },
+          {
+            "path": "/creators/desmo/Desmo (20).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (20).jpg",
+            "exists": true,
+            "size": 12095758
+          },
+          {
+            "path": "/creators/desmo/Desmo (21).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (21).jpg",
+            "exists": true,
+            "size": 11835671
+          },
+          {
+            "path": "/creators/desmo/Desmo (22).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (22).jpg",
+            "exists": true,
+            "size": 13692700
+          },
+          {
+            "path": "/creators/desmo/Desmo (23).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (23).jpg",
+            "exists": true,
+            "size": 10448897
+          },
+          {
+            "path": "/creators/desmo/Desmo (24).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (24).jpg",
+            "exists": true,
+            "size": 13510920
+          },
+          {
+            "path": "/creators/desmo/Desmo (25).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (25).jpg",
+            "exists": true,
+            "size": 13731657
+          },
+          {
+            "path": "/creators/desmo/Desmo (26).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (26).jpg",
+            "exists": true,
+            "size": 11512469
+          }
+        ],
+        "existingImages": 26,
+        "missingImages": 0
+      },
+      "creator-7": {
+        "name": "Jacques Simon",
+        "id": "creator-7",
+        "imageCount": 23,
+        "images": [
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (1).jpg",
+            "exists": true,
+            "size": 17431697
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (2).jpg",
+            "exists": true,
+            "size": 18686949
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (3).jpg",
+            "exists": true,
+            "size": 10808240
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (4).jpg",
+            "exists": true,
+            "size": 14474474
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (5).jpg",
+            "exists": true,
+            "size": 9746723
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (6).jpg",
+            "exists": true,
+            "size": 11311420
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (7).jpg",
+            "exists": true,
+            "size": 14930268
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (8).jpg",
+            "exists": true,
+            "size": 8266333
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (9).jpg",
+            "exists": true,
+            "size": 11498937
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (10).jpg",
+            "exists": true,
+            "size": 15023868
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (11).jpg",
+            "exists": true,
+            "size": 8389876
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (12).jpg",
+            "exists": true,
+            "size": 14044644
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (13).jpg",
+            "exists": true,
+            "size": 15290569
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (14).jpg",
+            "exists": true,
+            "size": 8174398
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (15).jpg",
+            "exists": true,
+            "size": 10997382
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (16).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (16).jpg",
+            "exists": true,
+            "size": 11812241
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (17).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (17).jpg",
+            "exists": true,
+            "size": 15358719
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (18).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (18).jpg",
+            "exists": true,
+            "size": 10498149
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (19).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (19).jpg",
+            "exists": true,
+            "size": 12383140
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (20).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (20).jpg",
+            "exists": true,
+            "size": 10071503
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (21).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (21).jpg",
+            "exists": true,
+            "size": 10771602
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (22).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (22).jpg",
+            "exists": true,
+            "size": 15956571
+          },
+          {
+            "path": "/creators/jacques-simon/Jacques Simon  (23).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (23).jpg",
+            "exists": true,
+            "size": 11404743
+          }
+        ],
+        "existingImages": 23,
+        "missingImages": 0
+      },
+      "creator-8": {
+        "name": "Koro DK Style",
+        "id": "creator-8",
+        "imageCount": 30,
+        "images": [
+          {
+            "path": "/creators/koro-dk/Koro DK Style (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (1).jpg",
+            "exists": true,
+            "size": 18387824
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (2).jpg",
+            "exists": true,
+            "size": 10903399
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (3).jpg",
+            "exists": true,
+            "size": 10652644
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (4).jpg",
+            "exists": true,
+            "size": 10871310
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (5).jpg",
+            "exists": true,
+            "size": 9956613
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (6).jpg",
+            "exists": true,
+            "size": 13088666
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (7).jpg",
+            "exists": true,
+            "size": 15049303
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (8).jpg",
+            "exists": true,
+            "size": 12274193
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (9).jpg",
+            "exists": true,
+            "size": 15005092
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (10).jpg",
+            "exists": true,
+            "size": 16056585
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (11).jpg",
+            "exists": true,
+            "size": 12567735
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (12).jpg",
+            "exists": true,
+            "size": 15857600
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (13).jpg",
+            "exists": true,
+            "size": 17026529
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (14).jpg",
+            "exists": true,
+            "size": 13286508
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (15).jpg",
+            "exists": true,
+            "size": 15325604
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (16).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (16).jpg",
+            "exists": true,
+            "size": 15730399
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (17).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (17).jpg",
+            "exists": true,
+            "size": 12098263
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (18).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (18).jpg",
+            "exists": true,
+            "size": 14039469
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (19).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (19).jpg",
+            "exists": true,
+            "size": 14778989
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (20).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (20).jpg",
+            "exists": true,
+            "size": 13940762
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (21).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (21).jpg",
+            "exists": true,
+            "size": 15935493
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (22).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (22).jpg",
+            "exists": true,
+            "size": 15621826
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (23).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (23).jpg",
+            "exists": true,
+            "size": 11822839
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (24).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (24).jpg",
+            "exists": true,
+            "size": 11002409
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (25).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (25).jpg",
+            "exists": true,
+            "size": 11006501
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (26).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (26).jpg",
+            "exists": true,
+            "size": 18589945
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (27).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (27).jpg",
+            "exists": true,
+            "size": 18259112
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (28).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (28).jpg",
+            "exists": true,
+            "size": 17679799
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (29).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (29).jpg",
+            "exists": true,
+            "size": 18516773
+          },
+          {
+            "path": "/creators/koro-dk/Koro DK Style (30).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (30).jpg",
+            "exists": true,
+            "size": 18880775
+          }
+        ],
+        "existingImages": 30,
+        "missingImages": 0
+      },
+      "creator-9": {
+        "name": "Nous Fashion",
+        "id": "creator-9",
+        "imageCount": 23,
+        "images": [
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (1).jpg",
+            "exists": true,
+            "size": 14800773
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (2).jpg",
+            "exists": true,
+            "size": 9162723
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (3).jpg",
+            "exists": true,
+            "size": 12748333
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (4).jpg",
+            "exists": true,
+            "size": 10229517
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (5).jpg",
+            "exists": true,
+            "size": 9746759
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (6).jpg",
+            "exists": true,
+            "size": 16282260
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (7).jpg",
+            "exists": true,
+            "size": 8188570
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (8).jpg",
+            "exists": true,
+            "size": 10407737
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (9).jpg",
+            "exists": true,
+            "size": 13794210
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (10).jpg",
+            "exists": true,
+            "size": 9740144
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (11).jpg",
+            "exists": true,
+            "size": 11638428
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (12).jpg",
+            "exists": true,
+            "size": 17591047
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (13).jpg",
+            "exists": true,
+            "size": 10478598
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (14).jpg",
+            "exists": true,
+            "size": 11491365
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (15).jpg",
+            "exists": true,
+            "size": 17934977
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (16).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (16).jpg",
+            "exists": true,
+            "size": 12065874
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (17).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (17).jpg",
+            "exists": true,
+            "size": 9556633
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (18).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (18).jpg",
+            "exists": true,
+            "size": 11136874
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (19).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (19).jpg",
+            "exists": true,
+            "size": 11193517
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (20).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (20).jpg",
+            "exists": true,
+            "size": 10371733
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (21).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (21).jpg",
+            "exists": true,
+            "size": 13898335
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (22).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (22).jpg",
+            "exists": true,
+            "size": 10989802
+          },
+          {
+            "path": "/creators/nous-fashion/Nous Fashion (23).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (23).jpg",
+            "exists": true,
+            "size": 15643977
+          }
+        ],
+        "existingImages": 23,
+        "missingImages": 0
+      },
+      "creator-10": {
+        "name": "OJ Fashion",
+        "id": "creator-10",
+        "imageCount": 30,
+        "images": [
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (1).jpg",
+            "exists": true,
+            "size": 11396928
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (2).jpg",
+            "exists": true,
+            "size": 15110348
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (3).jpg",
+            "exists": true,
+            "size": 18665039
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (4).jpg",
+            "exists": true,
+            "size": 18761886
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (5).jpg",
+            "exists": true,
+            "size": 17337786
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (6).jpg",
+            "exists": true,
+            "size": 14705978
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (7).jpg",
+            "exists": true,
+            "size": 11342977
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (8).jpg",
+            "exists": true,
+            "size": 11051992
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (9).jpg",
+            "exists": true,
+            "size": 10518716
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (10).jpg",
+            "exists": true,
+            "size": 12559800
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (11).jpg",
+            "exists": true,
+            "size": 12222791
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (12).jpg",
+            "exists": true,
+            "size": 11694017
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (13).jpg",
+            "exists": true,
+            "size": 10854144
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (14).jpg",
+            "exists": true,
+            "size": 13707673
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (15).jpg",
+            "exists": true,
+            "size": 14288038
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (16).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (16).jpg",
+            "exists": true,
+            "size": 11205627
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (17).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (17).jpg",
+            "exists": true,
+            "size": 12649716
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (18).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (18).jpg",
+            "exists": true,
+            "size": 15000737
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (19).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (19).jpg",
+            "exists": true,
+            "size": 11586239
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (20).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (20).jpg",
+            "exists": true,
+            "size": 13483667
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (21).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (21).jpg",
+            "exists": true,
+            "size": 17243653
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (22).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (22).jpg",
+            "exists": true,
+            "size": 12051621
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (23).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (23).jpg",
+            "exists": true,
+            "size": 13957928
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (24).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (24).jpg",
+            "exists": true,
+            "size": 15765443
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (25).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (25).jpg",
+            "exists": true,
+            "size": 9431238
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (26).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (26).jpg",
+            "exists": true,
+            "size": 13838311
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (27).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (27).jpg",
+            "exists": true,
+            "size": 13690228
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (28).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (28).jpg",
+            "exists": true,
+            "size": 13302701
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (29).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (29).jpg",
+            "exists": true,
+            "size": 15514089
+          },
+          {
+            "path": "/creators/oj-fashion/OJ Fashion (30).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (30).jpg",
+            "exists": true,
+            "size": 15930442
+          }
+        ],
+        "existingImages": 30,
+        "missingImages": 0
+      },
+      "creator-11": {
+        "name": "Beitch Faro",
+        "id": "creator-11",
+        "imageCount": 20,
+        "images": [
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (1).jpg",
+            "exists": true,
+            "size": 18085947
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (2).jpg",
+            "exists": true,
+            "size": 16370487
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (3).jpg",
+            "exists": true,
+            "size": 17368288
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (4).jpg",
+            "exists": true,
+            "size": 17788158
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (5).jpg",
+            "exists": true,
+            "size": 18309225
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (6).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (6).jpg",
+            "exists": true,
+            "size": 15632380
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (7).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (7).jpg",
+            "exists": true,
+            "size": 10174413
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (8).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (8).jpg",
+            "exists": true,
+            "size": 11598350
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (9).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (9).jpg",
+            "exists": true,
+            "size": 10124792
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (10).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (10).jpg",
+            "exists": true,
+            "size": 18164882
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (11).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (11).jpg",
+            "exists": true,
+            "size": 8914889
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (12).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (12).jpg",
+            "exists": true,
+            "size": 10527554
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (13).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (13).jpg",
+            "exists": true,
+            "size": 18608522
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (14).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (14).jpg",
+            "exists": true,
+            "size": 11377567
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro (15).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (15).jpg",
+            "exists": true,
+            "size": 12735059
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (1).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (1).jpg",
+            "exists": true,
+            "size": 13313117
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (2).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (2).jpg",
+            "exists": true,
+            "size": 8580846
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (3).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (3).jpg",
+            "exists": true,
+            "size": 9129191
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (4).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (4).jpg",
+            "exists": true,
+            "size": 8412781
+          },
+          {
+            "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (5).jpg",
+            "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (5).jpg",
+            "exists": true,
+            "size": 16269058
+          }
+        ],
+        "existingImages": 20,
+        "missingImages": 0
+      }
+    }
+  },
+  "creators": {
+    "creator-0": {
+      "name": "Lady Riaba",
+      "id": "creator-0",
+      "imageCount": 0,
+      "images": [],
+      "existingImages": 0,
+      "missingImages": 0
+    },
+    "creator-1": {
+      "name": "Madame Luc-Abiale",
+      "id": "creator-1",
+      "imageCount": 0,
+      "images": [],
+      "existingImages": 0,
+      "missingImages": 0
+    },
+    "creator-2": {
+      "name": "Belle Soeur",
+      "id": "creator-2",
+      "imageCount": 0,
+      "images": [],
+      "existingImages": 0,
+      "missingImages": 0
+    },
+    "creator-3": {
+      "name": "Angèle Epouta",
+      "id": "creator-3",
+      "imageCount": 18,
+      "images": [
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (1).jpg",
+          "exists": true,
+          "size": 12156092
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (2).jpg",
+          "exists": true,
+          "size": 16329284
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (3).jpg",
+          "exists": true,
+          "size": 11876554
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (4).jpg",
+          "exists": true,
+          "size": 13434150
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (5).jpg",
+          "exists": true,
+          "size": 13992182
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (6).jpg",
+          "exists": true,
+          "size": 8835732
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (7).jpg",
+          "exists": true,
+          "size": 13358489
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (8).jpg",
+          "exists": true,
+          "size": 12743403
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (9).jpg",
+          "exists": true,
+          "size": 10850802
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (10).jpg",
+          "exists": true,
+          "size": 14873297
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (11).jpg",
+          "exists": true,
+          "size": 11000540
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (12).jpg",
+          "exists": true,
+          "size": 13052945
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (13).jpg",
+          "exists": true,
+          "size": 9053135
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (14).jpg",
+          "exists": true,
+          "size": 12100484
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (15).jpg",
+          "exists": true,
+          "size": 12965077
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (16).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (16).jpg",
+          "exists": true,
+          "size": 10267373
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (17).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (17).jpg",
+          "exists": true,
+          "size": 12514668
+        },
+        {
+          "path": "/creators/angele-epouta/Angele Epouta Creations (18).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angele-epouta\\Angele Epouta Creations (18).jpg",
+          "exists": true,
+          "size": 12051956
+        }
+      ],
+      "existingImages": 18,
+      "missingImages": 0
+    },
+    "creator-4": {
+      "name": "Angelina Creations",
+      "id": "creator-4",
+      "imageCount": 20,
+      "images": [
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (1).jpg",
+          "exists": true,
+          "size": 18116699
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (2).jpg",
+          "exists": true,
+          "size": 11407264
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (3).jpg",
+          "exists": true,
+          "size": 13284667
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (4).jpg",
+          "exists": true,
+          "size": 16285240
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (5).jpg",
+          "exists": true,
+          "size": 17458350
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (6).jpg",
+          "exists": true,
+          "size": 9952238
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (7).jpg",
+          "exists": true,
+          "size": 13758405
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (8).jpg",
+          "exists": true,
+          "size": 10260063
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (9).jpg",
+          "exists": true,
+          "size": 11070532
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (10).jpg",
+          "exists": true,
+          "size": 14337115
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (11).jpg",
+          "exists": true,
+          "size": 13332795
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (12).jpg",
+          "exists": true,
+          "size": 16154348
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (13).jpg",
+          "exists": true,
+          "size": 14992193
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (14).jpg",
+          "exists": true,
+          "size": 17937290
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (15).jpg",
+          "exists": true,
+          "size": 20673244
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (16).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (16).jpg",
+          "exists": true,
+          "size": 14698932
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (17).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (17).jpg",
+          "exists": true,
+          "size": 18762866
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (18).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (18).jpg",
+          "exists": true,
+          "size": 18529420
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (19).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (19).jpg",
+          "exists": true,
+          "size": 18629837
+        },
+        {
+          "path": "/creators/angelina-creations/Angelina Créations (20).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\angelina-creations\\Angelina Créations (20).jpg",
+          "exists": true,
+          "size": 18027255
+        }
+      ],
+      "existingImages": 20,
+      "missingImages": 0
+    },
+    "creator-5": {
+      "name": "L'atelier Issé By Lita",
+      "id": "creator-5",
+      "imageCount": 15,
+      "images": [
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (1).jpg",
+          "exists": true,
+          "size": 11837885
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (2).jpg",
+          "exists": true,
+          "size": 9440226
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (3).jpg",
+          "exists": true,
+          "size": 13714149
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (4).jpg",
+          "exists": true,
+          "size": 17396287
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (5).jpg",
+          "exists": true,
+          "size": 12600288
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (6).jpg",
+          "exists": true,
+          "size": 15645651
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (7).jpg",
+          "exists": true,
+          "size": 13497944
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (8).jpg",
+          "exists": true,
+          "size": 16818442
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (9).jpg",
+          "exists": true,
+          "size": 19678106
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (10).jpg",
+          "exists": true,
+          "size": 12145145
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (11).jpg",
+          "exists": true,
+          "size": 15565013
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (12).jpg",
+          "exists": true,
+          "size": 15705787
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (13).jpg",
+          "exists": true,
+          "size": 17321684
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (14).jpg",
+          "exists": true,
+          "size": 16725833
+        },
+        {
+          "path": "/creators/atelier-isse-by-lita/Atelier Issé By Lita (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\atelier-isse-by-lita\\Atelier Issé By Lita (15).jpg",
+          "exists": true,
+          "size": 14663375
+        }
+      ],
+      "existingImages": 15,
+      "missingImages": 0
+    },
+    "creator-6": {
+      "name": "Desmo",
+      "id": "creator-6",
+      "imageCount": 26,
+      "images": [
+        {
+          "path": "/creators/desmo/Desmo (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (1).jpg",
+          "exists": true,
+          "size": 13035475
+        },
+        {
+          "path": "/creators/desmo/Desmo (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (2).jpg",
+          "exists": true,
+          "size": 7845219
+        },
+        {
+          "path": "/creators/desmo/Desmo (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (3).jpg",
+          "exists": true,
+          "size": 11664584
+        },
+        {
+          "path": "/creators/desmo/Desmo (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (4).jpg",
+          "exists": true,
+          "size": 13870869
+        },
+        {
+          "path": "/creators/desmo/Desmo (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (5).jpg",
+          "exists": true,
+          "size": 11145898
+        },
+        {
+          "path": "/creators/desmo/Desmo (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (6).jpg",
+          "exists": true,
+          "size": 12850762
+        },
+        {
+          "path": "/creators/desmo/Desmo (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (7).jpg",
+          "exists": true,
+          "size": 15597252
+        },
+        {
+          "path": "/creators/desmo/Desmo (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (8).jpg",
+          "exists": true,
+          "size": 16708892
+        },
+        {
+          "path": "/creators/desmo/Desmo (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (9).jpg",
+          "exists": true,
+          "size": 9110079
+        },
+        {
+          "path": "/creators/desmo/Desmo (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (10).jpg",
+          "exists": true,
+          "size": 13236267
+        },
+        {
+          "path": "/creators/desmo/Desmo (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (11).jpg",
+          "exists": true,
+          "size": 14685778
+        },
+        {
+          "path": "/creators/desmo/Desmo (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (12).jpg",
+          "exists": true,
+          "size": 9382971
+        },
+        {
+          "path": "/creators/desmo/Desmo (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (13).jpg",
+          "exists": true,
+          "size": 9526453
+        },
+        {
+          "path": "/creators/desmo/Desmo (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (14).jpg",
+          "exists": true,
+          "size": 9507550
+        },
+        {
+          "path": "/creators/desmo/Desmo (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (15).jpg",
+          "exists": true,
+          "size": 10052883
+        },
+        {
+          "path": "/creators/desmo/Desmo (16).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (16).jpg",
+          "exists": true,
+          "size": 15871325
+        },
+        {
+          "path": "/creators/desmo/Desmo (17).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (17).jpg",
+          "exists": true,
+          "size": 9098853
+        },
+        {
+          "path": "/creators/desmo/Desmo (18).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (18).jpg",
+          "exists": true,
+          "size": 8657082
+        },
+        {
+          "path": "/creators/desmo/Desmo (19).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (19).jpg",
+          "exists": true,
+          "size": 13234612
+        },
+        {
+          "path": "/creators/desmo/Desmo (20).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (20).jpg",
+          "exists": true,
+          "size": 12095758
+        },
+        {
+          "path": "/creators/desmo/Desmo (21).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (21).jpg",
+          "exists": true,
+          "size": 11835671
+        },
+        {
+          "path": "/creators/desmo/Desmo (22).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (22).jpg",
+          "exists": true,
+          "size": 13692700
+        },
+        {
+          "path": "/creators/desmo/Desmo (23).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (23).jpg",
+          "exists": true,
+          "size": 10448897
+        },
+        {
+          "path": "/creators/desmo/Desmo (24).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (24).jpg",
+          "exists": true,
+          "size": 13510920
+        },
+        {
+          "path": "/creators/desmo/Desmo (25).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (25).jpg",
+          "exists": true,
+          "size": 13731657
+        },
+        {
+          "path": "/creators/desmo/Desmo (26).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\desmo\\Desmo (26).jpg",
+          "exists": true,
+          "size": 11512469
+        }
+      ],
+      "existingImages": 26,
+      "missingImages": 0
+    },
+    "creator-7": {
+      "name": "Jacques Simon",
+      "id": "creator-7",
+      "imageCount": 23,
+      "images": [
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (1).jpg",
+          "exists": true,
+          "size": 17431697
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (2).jpg",
+          "exists": true,
+          "size": 18686949
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (3).jpg",
+          "exists": true,
+          "size": 10808240
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (4).jpg",
+          "exists": true,
+          "size": 14474474
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (5).jpg",
+          "exists": true,
+          "size": 9746723
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (6).jpg",
+          "exists": true,
+          "size": 11311420
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (7).jpg",
+          "exists": true,
+          "size": 14930268
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (8).jpg",
+          "exists": true,
+          "size": 8266333
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (9).jpg",
+          "exists": true,
+          "size": 11498937
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (10).jpg",
+          "exists": true,
+          "size": 15023868
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (11).jpg",
+          "exists": true,
+          "size": 8389876
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (12).jpg",
+          "exists": true,
+          "size": 14044644
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (13).jpg",
+          "exists": true,
+          "size": 15290569
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (14).jpg",
+          "exists": true,
+          "size": 8174398
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (15).jpg",
+          "exists": true,
+          "size": 10997382
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (16).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (16).jpg",
+          "exists": true,
+          "size": 11812241
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (17).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (17).jpg",
+          "exists": true,
+          "size": 15358719
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (18).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (18).jpg",
+          "exists": true,
+          "size": 10498149
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (19).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (19).jpg",
+          "exists": true,
+          "size": 12383140
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (20).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (20).jpg",
+          "exists": true,
+          "size": 10071503
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (21).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (21).jpg",
+          "exists": true,
+          "size": 10771602
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (22).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (22).jpg",
+          "exists": true,
+          "size": 15956571
+        },
+        {
+          "path": "/creators/jacques-simon/Jacques Simon  (23).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\jacques-simon\\Jacques Simon  (23).jpg",
+          "exists": true,
+          "size": 11404743
+        }
+      ],
+      "existingImages": 23,
+      "missingImages": 0
+    },
+    "creator-8": {
+      "name": "Koro DK Style",
+      "id": "creator-8",
+      "imageCount": 30,
+      "images": [
+        {
+          "path": "/creators/koro-dk/Koro DK Style (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (1).jpg",
+          "exists": true,
+          "size": 18387824
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (2).jpg",
+          "exists": true,
+          "size": 10903399
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (3).jpg",
+          "exists": true,
+          "size": 10652644
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (4).jpg",
+          "exists": true,
+          "size": 10871310
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (5).jpg",
+          "exists": true,
+          "size": 9956613
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (6).jpg",
+          "exists": true,
+          "size": 13088666
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (7).jpg",
+          "exists": true,
+          "size": 15049303
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (8).jpg",
+          "exists": true,
+          "size": 12274193
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (9).jpg",
+          "exists": true,
+          "size": 15005092
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (10).jpg",
+          "exists": true,
+          "size": 16056585
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (11).jpg",
+          "exists": true,
+          "size": 12567735
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (12).jpg",
+          "exists": true,
+          "size": 15857600
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (13).jpg",
+          "exists": true,
+          "size": 17026529
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (14).jpg",
+          "exists": true,
+          "size": 13286508
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (15).jpg",
+          "exists": true,
+          "size": 15325604
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (16).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (16).jpg",
+          "exists": true,
+          "size": 15730399
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (17).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (17).jpg",
+          "exists": true,
+          "size": 12098263
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (18).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (18).jpg",
+          "exists": true,
+          "size": 14039469
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (19).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (19).jpg",
+          "exists": true,
+          "size": 14778989
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (20).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (20).jpg",
+          "exists": true,
+          "size": 13940762
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (21).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (21).jpg",
+          "exists": true,
+          "size": 15935493
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (22).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (22).jpg",
+          "exists": true,
+          "size": 15621826
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (23).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (23).jpg",
+          "exists": true,
+          "size": 11822839
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (24).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (24).jpg",
+          "exists": true,
+          "size": 11002409
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (25).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (25).jpg",
+          "exists": true,
+          "size": 11006501
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (26).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (26).jpg",
+          "exists": true,
+          "size": 18589945
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (27).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (27).jpg",
+          "exists": true,
+          "size": 18259112
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (28).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (28).jpg",
+          "exists": true,
+          "size": 17679799
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (29).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (29).jpg",
+          "exists": true,
+          "size": 18516773
+        },
+        {
+          "path": "/creators/koro-dk/Koro DK Style (30).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\koro-dk\\Koro DK Style (30).jpg",
+          "exists": true,
+          "size": 18880775
+        }
+      ],
+      "existingImages": 30,
+      "missingImages": 0
+    },
+    "creator-9": {
+      "name": "Nous Fashion",
+      "id": "creator-9",
+      "imageCount": 23,
+      "images": [
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (1).jpg",
+          "exists": true,
+          "size": 14800773
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (2).jpg",
+          "exists": true,
+          "size": 9162723
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (3).jpg",
+          "exists": true,
+          "size": 12748333
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (4).jpg",
+          "exists": true,
+          "size": 10229517
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (5).jpg",
+          "exists": true,
+          "size": 9746759
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (6).jpg",
+          "exists": true,
+          "size": 16282260
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (7).jpg",
+          "exists": true,
+          "size": 8188570
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (8).jpg",
+          "exists": true,
+          "size": 10407737
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (9).jpg",
+          "exists": true,
+          "size": 13794210
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (10).jpg",
+          "exists": true,
+          "size": 9740144
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (11).jpg",
+          "exists": true,
+          "size": 11638428
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (12).jpg",
+          "exists": true,
+          "size": 17591047
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (13).jpg",
+          "exists": true,
+          "size": 10478598
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (14).jpg",
+          "exists": true,
+          "size": 11491365
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (15).jpg",
+          "exists": true,
+          "size": 17934977
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (16).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (16).jpg",
+          "exists": true,
+          "size": 12065874
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (17).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (17).jpg",
+          "exists": true,
+          "size": 9556633
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (18).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (18).jpg",
+          "exists": true,
+          "size": 11136874
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (19).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (19).jpg",
+          "exists": true,
+          "size": 11193517
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (20).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (20).jpg",
+          "exists": true,
+          "size": 10371733
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (21).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (21).jpg",
+          "exists": true,
+          "size": 13898335
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (22).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (22).jpg",
+          "exists": true,
+          "size": 10989802
+        },
+        {
+          "path": "/creators/nous-fashion/Nous Fashion (23).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\nous-fashion\\Nous Fashion (23).jpg",
+          "exists": true,
+          "size": 15643977
+        }
+      ],
+      "existingImages": 23,
+      "missingImages": 0
+    },
+    "creator-10": {
+      "name": "OJ Fashion",
+      "id": "creator-10",
+      "imageCount": 30,
+      "images": [
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (1).jpg",
+          "exists": true,
+          "size": 11396928
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (2).jpg",
+          "exists": true,
+          "size": 15110348
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (3).jpg",
+          "exists": true,
+          "size": 18665039
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (4).jpg",
+          "exists": true,
+          "size": 18761886
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (5).jpg",
+          "exists": true,
+          "size": 17337786
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (6).jpg",
+          "exists": true,
+          "size": 14705978
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (7).jpg",
+          "exists": true,
+          "size": 11342977
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (8).jpg",
+          "exists": true,
+          "size": 11051992
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (9).jpg",
+          "exists": true,
+          "size": 10518716
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (10).jpg",
+          "exists": true,
+          "size": 12559800
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (11).jpg",
+          "exists": true,
+          "size": 12222791
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (12).jpg",
+          "exists": true,
+          "size": 11694017
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (13).jpg",
+          "exists": true,
+          "size": 10854144
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (14).jpg",
+          "exists": true,
+          "size": 13707673
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (15).jpg",
+          "exists": true,
+          "size": 14288038
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (16).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (16).jpg",
+          "exists": true,
+          "size": 11205627
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (17).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (17).jpg",
+          "exists": true,
+          "size": 12649716
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (18).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (18).jpg",
+          "exists": true,
+          "size": 15000737
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (19).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (19).jpg",
+          "exists": true,
+          "size": 11586239
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (20).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (20).jpg",
+          "exists": true,
+          "size": 13483667
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (21).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (21).jpg",
+          "exists": true,
+          "size": 17243653
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (22).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (22).jpg",
+          "exists": true,
+          "size": 12051621
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (23).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (23).jpg",
+          "exists": true,
+          "size": 13957928
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (24).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (24).jpg",
+          "exists": true,
+          "size": 15765443
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (25).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (25).jpg",
+          "exists": true,
+          "size": 9431238
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (26).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (26).jpg",
+          "exists": true,
+          "size": 13838311
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (27).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (27).jpg",
+          "exists": true,
+          "size": 13690228
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (28).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (28).jpg",
+          "exists": true,
+          "size": 13302701
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (29).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (29).jpg",
+          "exists": true,
+          "size": 15514089
+        },
+        {
+          "path": "/creators/oj-fashion/OJ Fashion (30).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\oj-fashion\\OJ Fashion (30).jpg",
+          "exists": true,
+          "size": 15930442
+        }
+      ],
+      "existingImages": 30,
+      "missingImages": 0
+    },
+    "creator-11": {
+      "name": "Beitch Faro",
+      "id": "creator-11",
+      "imageCount": 20,
+      "images": [
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (1).jpg",
+          "exists": true,
+          "size": 18085947
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (2).jpg",
+          "exists": true,
+          "size": 16370487
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (3).jpg",
+          "exists": true,
+          "size": 17368288
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (4).jpg",
+          "exists": true,
+          "size": 17788158
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (5).jpg",
+          "exists": true,
+          "size": 18309225
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (6).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (6).jpg",
+          "exists": true,
+          "size": 15632380
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (7).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (7).jpg",
+          "exists": true,
+          "size": 10174413
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (8).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (8).jpg",
+          "exists": true,
+          "size": 11598350
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (9).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (9).jpg",
+          "exists": true,
+          "size": 10124792
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (10).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (10).jpg",
+          "exists": true,
+          "size": 18164882
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (11).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (11).jpg",
+          "exists": true,
+          "size": 8914889
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (12).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (12).jpg",
+          "exists": true,
+          "size": 10527554
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (13).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (13).jpg",
+          "exists": true,
+          "size": 18608522
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (14).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (14).jpg",
+          "exists": true,
+          "size": 11377567
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro (15).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro (15).jpg",
+          "exists": true,
+          "size": 12735059
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (1).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (1).jpg",
+          "exists": true,
+          "size": 13313117
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (2).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (2).jpg",
+          "exists": true,
+          "size": 8580846
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (3).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (3).jpg",
+          "exists": true,
+          "size": 9129191
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (4).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (4).jpg",
+          "exists": true,
+          "size": 8412781
+        },
+        {
+          "path": "/creators/beitch-faro/Beitch Faro - Collection Miss Mousse (5).jpg",
+          "fullPath": "G:\\clofas-gabon-vogue-web\\public\\creators\\beitch-faro\\Beitch Faro - Collection Miss Mousse (5).jpg",
+          "exists": true,
+          "size": 16269058
+        }
+      ],
+      "existingImages": 20,
+      "missingImages": 0
+    }
+  },
+  "recommendations": [
+    "Procéder à la migration vers ImgBB",
+    "Tester la migration avec un échantillon"
+  ]
+}
